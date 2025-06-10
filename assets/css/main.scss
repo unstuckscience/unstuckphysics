@@ -1,9 +1,48 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
----
+// assets/css/main.scss
 
-@charset "utf-8";
-
+// First, import the base theme styles
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes"; // theme partials
+
+/* --- PASTE ALL OF YOUR CUSTOM CSS HERE --- */
+/* --- FROM YOUR OLD styles.css FILE --- */
+
+:root {
+    --font-family: 'Lexend', sans-serif;
+    // Note: The theme uses SCSS variables like $background-color,
+    // but we can override them with our CSS variables for the theme switcher.
+    --bg-color: #F8F9FA;
+    --text-color: #343A40;
+    // ... etc ...
+}
+
+body {
+    // ... all your body styles ...
+}
+
+// ... paste EVERYTHING from your original styles.css file below this line ...
+// For example:
+.navbar {
+    // ...
+}
+.hero {
+    // ...
+}
+/* ... etc ... */
+
+/* --- Styling for TpT Integration --- */
+.navbar ul li:last-child a { /* A simple way to target the last nav item (TpT store) */
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem !important; /* May need !important to override theme defaults */
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navbar ul li:last-child a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+}
+/* ... paste all your other custom styles ... */
