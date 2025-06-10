@@ -243,6 +243,9 @@ pagination:
   # enabled: true
   debug: false
   collections:
+  topics:
+    output: true
+    permalink: /topics/:path/
   problems:
     output: true
     permalink: /problems/:name/
