@@ -1,0 +1,59 @@
+// _sass/components/animators/_animators_index.scss
+// This file acts as an index to import all specific animator SCSS partials.
+// It should contain no CSS rules itself, only @import statements.
+
+// Import common animator partials
+// These paths now correctly go up ONE level from 'animators/' to 'components/'
+@import "../animator_colors";
+@import "../animator_buttons";
+
+
+//-----------------------------------------------------------------------------
+// Intro Animators
+//-----------------------------------------------------------------------------
+@import 'intro/physics-symbols-interactive-match';
+@import 'intro/si-units-interactive-match';
+@import 'intro/accuracy-precision-animator';
+@import 'intro/accuracy-precision-interactive-match';
+@import 'intro/dimensional-analysis';
+@import 'intro/dimensional-analysis-interactive-match';
+@import 'intro/graphing-data-interactive-match';
+@import 'intro/sig-fig-rules-animator';
+@import 'intro/sig-fig-rules-interactive-match';
+
+
+//-----------------------------------------------------------------------------
+// Motion 1D Animators
+//-----------------------------------------------------------------------------
+// @import 'motion-1d/distance_displacement_animator';
+@import 'motion-1d/distance-displacement-interactive-match';
+@import 'motion-1d/position-time-graphs-interactive-match';
+@import 'motion-1d/speed-velocity-interactive-match';
+@import 'motion-1d/acceleration-interactive-match';
+// @import 'motion-1d/kinematics-decoder';
+@import 'motion-1d/kinematics-interactive-match';
+// @import 'motion-1d/free-fall-animator';
+@import 'motion-1d/free-fall-interactive-match';
+@import 'motion-1d/velocity-time-graphs-interactive-match';
+@import 'motion-1d//speed-velocity-animator';
+
+
+//-----------------------------------------------------------------------------
+// Motion 2D Animators
+//-----------------------------------------------------------------------------
+// @import 'motion-2d/projectile_motion_animator';
+// @import 'motion-2d/relative_velocity_animator';
+// @import 'motion-2d/uniform_circular_motion_animator';
+// @import 'motion-2d/vector_addition_subtraction_animator';
+// @import 'motion-2d/vectors_scalars_animator';
+@import 'motion-2d/vectors-scalars-interactive-match';
+@import 'motion-2d/vector-addition-subtraction-interactive-match';
+@import 'motion-2d/projectile-motion-interactive-match';
+@import 'motion-2d/relative-velocity-interactive-match';
+@import 'motion-2d/uniform-circular-motion-interactive-match';
+
+
+//-----------------------------------------------------------------------------
+// Forces Animators
+//-----------------------------------------------------------------------------
+// (The commented out lines are fine as they are not causing the current error)

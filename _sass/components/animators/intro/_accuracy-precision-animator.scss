@@ -1,0 +1,157 @@
+// _sass/components/animators/intro/_accuracy-precision-animator.scss
+// Styles for the Accuracy vs. Precision interactive.
+
+@import '../../_animator_colors';
+
+// Define variables directly within this file (previously from _animator_variables.scss)
+$animator-border-radius: 8px;
+$box-shadow-light: 0 2px 4px rgba(0,0,0,0.1);
+$box-shadow-hover: 0 4px 8px rgba(0,0,0,0.2);
+$button-padding: 0.6rem 1rem;
+$button-margin: 0 5px 5px 5px;
+$button-min-width: 150px;
+
+// Specific colors for THIS animator's darts and buttons
+$color-dart-accurate-precise: $color-success; // Reusing global success green
+$color-dart-precise-not-accurate: $color-primary; // Reusing global primary blue
+$color-dart-accurate-not-precise: $color-warning; // Reusing global warning yellow
+$color-dart-neither: $color-error; // Reusing global error red
+
+// Button background colors (reusing global colors directly or defining specific shades)
+$color-btn-accurate-precise: $color-success;
+$color-btn-precise-not-accurate: $color-primary;
+$color-btn-accurate-not-precise: $color-warning;
+$color-btn-neither: $color-error;
+$color-btn-reset: $color-secondary; // Reusing global secondary gray
+
+
+// Styles for the main interactive container
+.animator-wrapper {
+    background-color: $color-background-light;
+    border: 1px solid $color-border-dark;
+    border-radius: $animator-border-radius;
+    box-shadow: $box-shadow-light;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+// Styles for the SVG elements
+#accuracyPrecisionSVG {
+    display: block;
+    margin: 0 auto;
+}
+
+// Dart colors based on scenario classes
+.dart.accurate-precise {
+    fill: $color-dart-accurate-precise;
+}
+
+.dart.precise-not-accurate {
+    fill: $color-dart-precise-not-accurate;
+}
+
+.dart.accurate-not-precise {
+    fill: $color-dart-accurate-not-precise;
+}
+
+.dart.neither {
+    fill: $color-dart-neither;
+}
+
+// Base button styles (previously from _animator_buttons.scss)
+.animator-button {
+    padding: $button-padding;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: $button-margin;
+    min-width: $button-min-width;
+    box-shadow: $box-shadow-light;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.95em;
+    color: $color-white;
+
+    &:hover {
+        box-shadow: $box-shadow-hover;
+    }
+}
+
+// Specific button colors
+.btn-accurate-precise {
+    background-color: $color-btn-accurate-precise;
+    &:hover {
+        background-color: darken($color-btn-accurate-precise, 10%);
+    }
+}
+
+.btn-precise-not-accurate {
+    background-color: $color-btn-precise-not-accurate;
+    &:hover {
+        background-color: darken($color-btn-precise-not-accurate, 10%);
+    }
+}
+
+.btn-accurate-not-precise {
+    background-color: $color-btn-accurate-not-precise;
+    color: $color-text-dark; // Darker text for light background button
+    &:hover {
+        background-color: darken($color-btn-accurate-not-precise, 10%);
+    }
+}
+
+.btn-neither {
+    background-color: $color-btn-neither;
+    &:hover {
+        background-color: darken($color-btn-neither, 10%);
+    }
+}
+
+.btn-reset {
+    background-color: $color-btn-reset;
+    color: $color-white;
+    &:hover {
+        background-color: darken($color-btn-reset, 10%);
+    }
+}
+
+// General default button style (if needed for other buttons not explicitly colored)
+.btn-default {
+    background-color: $color-background-light;
+    color: $color-text-dark;
+    border-color: $color-border-dark;
+    &:hover {
+        background-color: darken($color-background-light, 5%);
+        border-color: darken($color-border-dark, 10%);
+    }
+}
+
+// Ensure the explanation text is styled
+.animator-explanation {
+    font-style: italic;
+    margin-top: 1rem;
+    color: $color-text-dark;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .animator-button {
+        min-width: unset;
+        width: 100%;
+        margin: 5px 0;
+    }
+    .button-controls {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+// REMOVED TEMPORARY DEBUGGING RULE:
+// .animator-wrapper #dartsGroup .dart {
+//     opacity: 1 !important;
+//     fill: blue !important;
+// }

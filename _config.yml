@@ -1,0 +1,134 @@
+# --------------------------------------
+# Site Basics
+# --------------------------------------
+
+title: "Unstuck Physics"
+subtitle: "Accessible. Visual. Concise."
+description: >-
+  Physics learning made barrier-free through Universal Design for Learning (UDL). Problem-solving strategies, short videos, and flexible lessons for all learners.
+locale: "en-US"
+url: "http://www.unstuckphysics.com"
+baseurl: ""
+repository: "unstuckscience/unstuckphysics"
+
+github_username: "unstuckscience"
+
+# --------------------------------------
+# Theme Settings
+# --------------------------------------
+
+navigation:
+  main: main
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "contrast"
+logo: "/assets/images/logo.png"
+masthead_title: ""
+
+breadcrumbs: false
+words_per_minute: 200
+enable_copy_code_button: true
+
+mathjax: true
+
+# --------------------------------------
+# Build Settings
+# --------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+excerpt_separator: "\n\n"
+timezone: "America/New_York"
+
+sass:
+  style: compressed
+
+permalink: /:categories/:title/
+
+collections:
+  concepts:
+    output: true
+    permalink: /concepts/:name/
+  skills:
+    output: true
+    permalink: /skills/:name/
+  problems:
+    output: true
+    permalink: /problems/:name/
+  legal:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: skills
+    values:
+      layout: single
+      mathjax: true
+  - scope:
+      path: ""
+      type: concepts
+    values:
+      layout: single
+      mathjax: true
+  - scope:
+      path: ""
+      type: problems
+    values:
+      layout: single
+      mathjax: true
+
+# --------------------------------------
+# Search
+# --------------------------------------
+
+search: true
+search_provider: lunr
+search_full_content: true
+lunr:
+  search_within_pages: true
+
+# --------------------------------------
+# Plugins
+# --------------------------------------
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
+
+# --------------------------------------
+# Archives
+# --------------------------------------
+
+category_archive:
+  type: liquid
+  path: /categories/
+
+# --------------------------------------
+# HTML Compression
+# --------------------------------------
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# --------------------------------------
+# Markdown Processor
+# --------------------------------------
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo

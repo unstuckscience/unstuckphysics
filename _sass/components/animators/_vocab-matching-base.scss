@@ -1,0 +1,184 @@
+// _sass/components/animators/_vocab-matching-base.scss
+// Base styles for all Vocabulary Matching interactives.
+
+@import '../_animator_colors'; // Import color variables
+
+// Common variables for styling
+$animator-border-radius: 8px;
+$box-shadow-light: 0 1px 3px rgba(0,0,0,0.08);
+$box-shadow-hover: 0 2px 6px rgba(0,0,0,0.15);
+$button-padding: 0.4rem 0.7rem;
+$button-margin: 0 4px 4px 4px;
+$button-min-width: 100px;
+
+// Base wrapper styles for all vocab matching interactives
+.vocab-matching-interactive-wrapper {
+    background-color: $color-background-light;
+    border: 1px solid $color-border-dark;
+    border-radius: $animator-border-radius;
+    box-shadow: $box-shadow-light;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    max-width: 700px;
+    text-align: center;
+}
+
+// Explanation text within the interactive
+.vocab-matching-interactive-wrapper .animator-explanation {
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: $color-text-dark;
+}
+
+// Container for terms and definitions
+.vocab-matching-interactive-wrapper .vocab-matching-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    background-color: $color-background-light;
+    border: 1px solid $color-border-dark;
+    border-radius: $animator-border-radius;
+    box-shadow: $box-shadow-light;
+    text-align: center;
+    margin: 0 auto;
+}
+
+// Grid layout for terms and definitions
+.vocab-matching-interactive-wrapper .vocab-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+
+// Individual vocabulary cards (terms and definitions)
+.vocab-matching-interactive-wrapper .vocab-card {
+    background-color: $color-white;
+    border: 1px solid $color-border-light;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: $color-text-dark;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    font-size: 0.9em;
+}
+
+// Hover state for cards
+.vocab-matching-interactive-wrapper .vocab-card:hover {
+    background-color: lighten($color-primary-accent, 45%);
+    border-color: $color-primary-accent;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+// Selected state for cards
+.vocab-matching-interactive-wrapper .vocab-card.selected {
+    background-color: $color-highlight-selection;
+    border-color: darken($color-highlight-selection, 10%);
+    box-shadow: 0 0 0 2px $color-primary-accent;
+}
+
+// Matched state for cards (correct match)
+.vocab-matching-interactive-wrapper .vocab-card.matched {
+    background-color: $color-success;
+    color: $color-white;
+    border-color: darken($color-success, 10%);
+    cursor: default;
+    box-shadow: none;
+}
+
+// Incorrect state for cards (wrong match)
+.vocab-matching-interactive-wrapper .vocab-card.incorrect {
+    background-color: $color-error;
+    color: $color-white;
+    border-color: darken($color-error, 10%);
+    animation: shake 0.3s;
+}
+
+// Shake animation for incorrect matches
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-5px); }
+    40%, 80% { transform: translateX(5px); }
+}
+
+// Feedback message styling
+.vocab-matching-interactive-wrapper .vocab-feedback {
+    min-height: 18px;
+    font-weight: bold;
+    margin-top: 3px;
+    color: $color-text-dark;
+    font-size: 0.85em;
+}
+
+// Correct feedback message color
+.vocab-matching-interactive-wrapper .vocab-feedback.correct {
+    color: $color-success;
+}
+
+// Incorrect feedback message color
+.vocab-matching-interactive-wrapper .vocab-feedback.incorrect {
+    color: $color-error;
+}
+
+// Button controls container
+.vocab-matching-interactive-wrapper .button-controls {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+// Base button styles
+.vocab-matching-interactive-wrapper .animator-button {
+    padding: $button-padding;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: $button-margin;
+    min-width: $button-min-width;
+    box-shadow: $box-shadow-light;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.85em;
+    color: $color-text-light;
+
+    &:hover {
+        box-shadow: $box-shadow-hover;
+    }
+}
+
+// Default button style (for reset, etc.)
+.vocab-matching-interactive-wrapper .btn-default {
+    background-color: $color-background-light;
+    color: $color-text-dark;
+    border-color: $color-border-dark;
+    &:hover {
+        background-color: darken($color-background-light, 5%);
+        border-color: darken($color-border-dark, 10%);
+    }
+}
+
+// Responsive adjustments for smaller screens
+@media (max-width: 600px) {
+    .vocab-matching-interactive-wrapper .vocab-grid {
+        grid-template-columns: 1fr;
+    }
+    .vocab-matching-interactive-wrapper .vocab-card {
+        min-height: 40px;
+        font-size: 0.8em;
+    }
+    .vocab-matching-interactive-wrapper .animator-button {
+        font-size: 0.75em;
+        min-width: 90px;
+    }
+    .vocab-matching-interactive-wrapper {
+        margin: 0.4rem auto;
+    }
+}

@@ -1,0 +1,184 @@
+// _sass/components/animators/intro/_sig-fig-rules-animator.scss
+// Styles for the Significant Figures Rules interactive.
+
+@import '../../_animator_colors'; // Import the global color palette
+
+// Local variables for this specific animator
+$sig-fig-border-radius: 8px;
+$sig-fig-padding: 20px;
+$sig-fig-margin: 20px 0;
+
+// Specific color for "missed significant" state, not in global palette
+$color-missed-significant: #ff9800; // Orange
+
+/* --- Interactive Specific CSS --- */
+
+.sig-fig-interactive-wrapper {
+    background-color: $color-background-light; // #f9f9f9 -> $color-background-light
+    border: 1px solid $color-border-light;     // #ddd -> $color-border-light
+    border-radius: $sig-fig-border-radius;
+    padding: $sig-fig-padding;
+    margin: $sig-fig-margin;
+    text-align: center;
+}
+
+.input-controls label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-controls select {
+    padding: 8px 12px;
+    border: 1px solid $color-border-light; // #ccc -> $color-border-light
+    border-radius: 4px;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.number-display-area {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.number-display-digits {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: flex-start;
+}
+
+.digit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4px;
+    padding: 5px 0;
+    min-height: 80px;
+    justify-content: flex-start;
+}
+
+.digit-char {
+    font-size: 3em;
+    font-weight: bold;
+    color: $color-text-dark; // #333 -> $color-text-dark
+    line-height: 1;
+    margin-bottom: 5px;
+    transition: color 0.2s ease, font-weight 0.2s ease;
+}
+
+.decimal-container .digit-char {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.selection-box {
+    width: 40px;
+    height: 40px;
+    border: 2px solid $color-border-light; // #ccc -> $color-border-light
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: lighten($color-background-light, 2%); // #f0f0f0 -> lighten($color-background-light, 2%)
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.selection-box:hover {
+    background-color: lighten($color-info, 20%); // #e0f7fa -> lighten($color-info, 20%)
+    border-color: $color-info;                   // #00bcd4 -> $color-info
+}
+
+.selection-box.selected {
+    background-color: $color-warning;             // #ffc107 -> $color-warning
+    border-color: darken($color-warning, 10%);    // #e6a700 -> darken($color-warning, 10%)
+}
+
+.digit-char.selected-digit-char {
+    color: $color-primary; // #007bff -> $color-primary
+    font-weight: bold;
+}
+
+.selection-box.correct {
+    background-color: $color-success;             // #28a745 -> $color-success
+    border-color: darken($color-success, 10%);    // #1a7a35 -> darken($color-success, 10%)
+    box-shadow: 0 0 8px rgba(40,167,69,0.5);
+}
+
+.digit-char.correct-digit-char {
+    color: $color-success; // #28a745 -> $color-success
+    font-weight: bold;
+}
+
+.selection-box.incorrect {
+    background-color: $color-error;               // #dc3545 -> $color-error
+    border-color: darken($color-error, 10%);      // #b02a37 -> darken($color-error, 10%)
+    box-shadow: 0 0 8px rgba(220,53,69,0.5);
+}
+
+.digit-char.incorrect-digit-char {
+    color: $color-error; // #dc3545 -> $color-error
+    font-weight: bold;
+}
+
+.selection-box.missed-significant {
+    background-color: $color-missed-significant; // #ff9800 -> $color-missed-significant
+    border-color: darken($color-missed-significant, 10%); // #e68900 -> darken($color-missed-significant, 10%)
+    box-shadow: 0 0 8px rgba(255,152,0,0.5);
+}
+
+.digit-char.missed-digit-char {
+    color: $color-missed-significant; // #ff9800 -> $color-missed-significant
+    font-weight: bold;
+}
+
+/* Buttons */
+.button-controls {
+    margin-top: 15px;
+}
+
+.animator-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.animator-button.btn-green {
+    background-color: $color-success; // #28a745 -> $color-success
+    color: $color-text-light;         // white -> $color-text-light
+}
+
+.animator-button.btn-green:hover {
+    background-color: darken($color-success, 10%); // #218838 -> darken($color-success, 10%)
+}
+
+.animator-button.btn-red {
+    background-color: $color-error;   // #dc3545 -> $color-error
+    color: $color-text-light;         // white -> $color-text-light
+}
+
+.animator-button.btn-red:hover {
+    background-color: darken($color-error, 10%); // #c82333 -> darken($color-error, 10%)
+}
+
+/* Feedback message styling */
+.feedback-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+    min-height: 1.8em;
+}
+
+.feedback-message.correct {
+    color: $color-success; // #28a745 -> $color-success
+}
+
+.feedback-message.incorrect {
+    color: $color-error;   // #dc3545 -> $color-error
+}

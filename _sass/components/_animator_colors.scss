@@ -1,0 +1,28 @@
+// _sass/components/_animator_colors.scss
+// This file defines the core color palette variables used across the site and by animators.
+
+// Basic neutrals
+$color-white: #fff;
+$color-black: #000;
+$color-background-light: #f8f8f8; // Light background for general use
+$color-background-dark: #333;    // Dark background for specific sections/elements
+$color-border-dark: #b8c2cc;     // Darker border color
+$color-border-light: #e0e0e0;    // Lighter border color
+
+// Text colors
+$color-text-body: #555;          // General body text color
+$color-text-dark: #333;          // Dark text for light backgrounds
+$color-text-medium: #888;        // Medium gray text
+$color-text-light: #fff;         // Light text for dark backgrounds
+
+// Core Semantic Colors (used widely)
+$color-primary: #007bff;         // Primary blue for main interactive elements, links etc.
+$color-secondary: #6c757d;       // Secondary gray for less prominent elements (e.g., reset buttons)
+$color-success: #28a745;         // Green for success/correct states
+$color-error: #dc3545;           // Red for errors/incorrect states
+$color-warning: #ffc107;         // Yellow/Orange for warnings
+$color-info: #17a2b8;            // Teal/Cyan for informational messages
+
+// Additional Accent/UI Colors
+$color-primary-accent: #6610f2;  // A purple accent, distinct from primary
+$color-highlight-selection: #87ceeb; // A light sky blue for selected states (e.g., vocab matching)

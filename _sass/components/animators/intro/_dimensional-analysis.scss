@@ -1,0 +1,98 @@
+// _sass/components/animators/intro/_dimensional-analysis.scss
+//
+// Specific styles for the Dimensional Analysis interactive's internal elements.
+
+// Import necessary reusable partials for variables
+// _animator_colors.scss is two directories up from this file.
+@import '../../_animator_colors';
+
+/* Styles for the div elements inside foreignObject for the dimensional analysis interactive */
+.page__content foreignObject > div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Hide anything that still overflows */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;
+    padding: 0.1em; /* Small padding inside the foreignObject div */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+/* Specific styles for the MathJax output divs */
+#equationDisplay,
+#leftDimDisplay,
+#rightDimDisplay {
+    font-size: 1.1em;
+    line-height: 1.1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width: 100%;
+    display: inline-block;
+    white-space: normal;
+    color: $color-text-dark; // Using variable from your palette
+}
+
+/* Adjust font size for consistency message */
+#consistencyMessage {
+    font-size: 1.2em; /* Shrunk font size */
+    font-weight: bold;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+    #equationDisplay,
+    #leftDimDisplay,
+    #rightDimDisplay {
+        font-size: 0.9em;
+    }
+    #consistencyMessage {
+        font-size: 1.1em;
+    }
+}
+
+/* New styles for the 'Choose Equation' part to make it stand out */
+.input-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Shrunk gap */
+    margin-bottom: 0.8rem; /* Shrunk margin */
+    padding: 0.6em 1em; /* Shrunk padding */
+    background-color: $color-background-light; /* Light background */
+    border: 1px solid $color-border-dark; /* Clear border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Subtle shadow */
+    font-family: 'Inter', sans-serif;
+    color: $color-text-dark;
+}
+
+.input-controls label {
+    font-weight: bold;
+    margin-right: 5px;
+    color: $color-text-dark; /* Ensure label color is consistent */
+}
+
+.input-controls select {
+    padding: 0.4rem 0.6rem; /* Shrunk padding */
+    border: 2px solid $color-primary-accent; /* Prominent border using accent color */
+    border-radius: 6px; /* Slightly more rounded than default */
+    background-color: $color-white; /* White background for the select box */
+    color: $color-text-dark; /* Dark text for readability */
+    font-size: 1em;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input-controls select:hover {
+    border-color: darken($color-primary-accent, 10%);
+    box-shadow: 0 0 0 2px rgba($color-primary-accent, 0.3); /* Subtle glow on hover */
+}
+
+.input-controls select:focus-visible {
+    outline: none;
+    border-color: darken($color-primary-accent, 15%);
+    box-shadow: 0 0 0 3px rgba($color-primary-accent, 0.5); /* Stronger glow on focus */
+}

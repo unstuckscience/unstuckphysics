@@ -1,0 +1,34 @@
+<!-- _includes/quick-concept-question.html -->
+<div class="quick-concept-question-container" style="background-color: #f0f8ff; border: 1px solid #cceeff; border-left: 5px solid #007bff; border-radius: 8px; padding: 1em; margin: 2em 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <h3 style="margin-top: 0; color: #007bff; font-size: 1.2em;">💡 Quick Concept Check:</h3>
+  <p style="font-weight: bold; margin-bottom: 1em;">{{ include.question }}</p>
+  <details>
+    <summary style="cursor: pointer; color: #007bff; font-weight: bold;">
+      Click to Reveal Answer
+      <i class="fas fa-chevron-down" style="margin-left: 0.5em;"></i> <!-- Font Awesome icon -->
+    </summary>
+    <div class="answer-content" style="margin-top: 1em; padding-top: 1em; border-top: 1px dashed #cceeff;">
+      {{ include.answer }}
+    </div>
+  </details>
+</div>
+
+<script>
+  // Add a simple script to toggle the Font Awesome icon on expand/collapse
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.quick-concept-question-container details').forEach(detail => {
+      detail.addEventListener('toggle', function() {
+        const icon = this.querySelector('summary i.fas');
+        if (icon) {
+          if (this.open) {
+            icon.classList.remove('fa-chevron-down');
+            icon.classList.add('fa-chevron-up');
+          } else {
+            icon.classList.remove('fa-chevron-up');
+            icon.classList.add('fa-chevron-down');
+          }
+        }
+      });
+    });
+  });
+</script>

@@ -1,0 +1,152 @@
+// _sass/components/_animator_buttons.scss
+
+// 1. Import your color variables file
+@import "animator_colors"; // Correct path as verified in previous steps
+
+// 2. Define general animator button styles
+.animator-button {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem; // Rounded corners
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 0.5rem; /* Added spacing between buttons */
+  margin-bottom: 0.5rem; /* Added spacing for stacked buttons */
+
+  &:hover {
+    filter: brightness(1.1); // Slightly brighten on hover
+  }
+
+  &:active, &:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25); // Example focus ring for accessibility
+    outline: none; // Remove default outline if not desired
+  }
+
+  &.active {
+    filter: brightness(0.9); // Slightly darken active state
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2); // Subtle inset shadow for active
+  }
+}
+
+// 3. Define specific color classes using your imported variables
+.animator-button.btn-blue {
+  color: $color-text-light; /* White text for contrast */
+  background-color: $color-primary; /* Your defined primary blue */
+  border-color: $color-primary;
+  &:hover {
+    background-color: darken($color-primary, 10%); /* Darker blue on hover */
+    border-color: darken($color-primary, 10%);
+  }
+}
+
+.animator-button.btn-green {
+  color: $color-text-light;
+  background-color: $color-success; // Your defined success green
+  border-color: $color-success;
+  &:hover {
+    background-color: darken($color-success, 10%);
+    border-color: darken($color-success, 10%);
+  }
+}
+
+.animator-button.btn-orange {
+  color: $color-text-light;
+  background-color: #e67e22; // A strong, accessible orange-red for contrast
+  border-color: #e67e22;
+  &:hover {
+    background-color: darken(#e67e22, 10%);
+    border-color: darken(#e67e22, 10%);
+  }
+}
+
+.animator-button.btn-purple {
+  color: $color-text-light;
+  background-color: $color-primary-accent; // Your defined purple accent
+  border-color: $color-primary-accent;
+  &:hover {
+    background-color: darken($color-primary-accent, 10%);
+    border-color: darken($color-primary-accent, 10%);
+  }
+}
+
+.animator-button.btn-red {
+  color: $color-text-light;
+  background-color: $color-error; /* Your defined error red */
+  border-color: $color-error;
+  &:hover {
+    background-color: darken($color-error, 10%);
+    border-color: darken($color-error, 10%);
+  }
+}
+
+.animator-button.btn-default { // For general reset/secondary buttons
+  color: $color-text-dark; /* Dark text for a lighter default button */
+  background-color: $color-background-light;
+  border-color: $color-border-light;
+  &:hover {
+    background-color: darken($color-background-light, 5%);
+    border-color: darken($color-border-light, 5%);
+  }
+}
+
+// Styles for the results display area
+.results-display-area {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid $color-border-light; // Use a defined border color
+    background-color: $color-background-light;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+    p {
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+        color: $color-text-dark;
+    }
+    strong {
+        color: $color-primary; // Highlight labels
+    }
+    span {
+        font-weight: bold;
+        color: $color-success; // Green for values
+    }
+}
+
+.control-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: $color-text-dark;
+}
+
+.animator-select {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid $color-border-light;
+  background-color: $color-background-light;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  appearance: none;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2C197.9L159.2%2C62.6c-4.8-4.8-12.5-4.8-17.3%2C0L5.4%2C197.9c-7.2%2C7.2-2.1%2C19.3%2C8.7%2C19.3h273.7C289.1%2C217.2%2C294.2%2C205.1%2C287%2C197.9z%22%2F%3E%3C%2Fsvg%3E'); /* Custom dropdown arrow */
+  background-repeat: no-repeat;
+  background-position: right 0.7em top 50%, 0 0;
+  background-size: 0.65em auto, 100%;
+
+  &:hover {
+    border-color: darken($color-border-light, 10%);
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+  }
+}

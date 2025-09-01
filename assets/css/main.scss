@@ -1,0 +1,15 @@
+---
+# Minimal Mistakes Jekyll Theme
+# https://mmistakes.github.io/minimal-mistakes/
+# This is a custom SCSS file to override the theme's default styles.
+# It is compiled by Jekyll from assets/css/main.scss.
+---
+
+// Base theme import
+@import "minimal-mistakes";
+
+// Custom Component Imports
+// These partials should contain styles for distinct UI elements or sections.
+@import "components/homepage_custom"; // Styles specific to the homepage layout and topic cards
+@import "components/animators/animators_index"; // Correctly import the animator index
+// @import "components/page_utilities"; // Import the new partial for video and question boxes

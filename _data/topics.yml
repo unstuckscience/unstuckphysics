@@ -1,0 +1,47 @@
+- slug: intro
+  title: Introduction to Physics
+  icon: "📐"
+
+- slug: motion-1d
+  title: Motion in One Dimension
+  icon: "🛣️"
+
+- slug: motion-2d
+  title: Motion in Two Dimensions
+  icon: "🎯"
+
+- slug: forces
+  title: Forces & Newton’s Laws
+  icon: "💪"
+
+- slug: gravitation
+  title: Gravitation
+  icon: "🌎"
+
+- slug: work-energy
+  title: Work & Energy
+  icon: "⚙️"
+
+- slug: momentum-collisions
+  title: Momentum & Collisions
+  icon: "💥"
+
+- slug: rotational-motion-torque
+  title: Rotational Motion & Torque
+  icon: "🧭"
+
+- slug: waves-sound
+  title: Waves & Sound
+  icon: "🌊"
+
+- slug: light-optics
+  title: Light & Optics
+  icon: "💡"
+
+- slug: electricity
+  title: Electricity
+  icon: "⚡"
+
+- slug: magnetism
+  title: Magnetism
+  icon: "🧲"
