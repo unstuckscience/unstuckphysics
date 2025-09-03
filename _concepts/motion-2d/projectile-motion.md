@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Projectile motion** describes the curved, **parabolic path** an object takes when launched into the air. It's analyzed by treating the motion as two independent components: a constant horizontal velocity and a vertical motion subject only to the acceleration of gravity.
+</p>
 
 ---
 

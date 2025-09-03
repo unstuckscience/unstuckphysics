@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Relative velocity** is the velocity of an object as perceived from a specific **frame of reference**. It is a fundamental concept in kinematics, often calculated by using **vector addition** to combine the velocities of the objects involved.
+</p>
 
 ---
 

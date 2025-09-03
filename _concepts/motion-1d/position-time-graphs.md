@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+A **position-time graph** is a powerful tool that shows an object's location over time, allowing you to quickly determine its velocity and direction of motion.
+</p>
 
 ---
 

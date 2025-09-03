@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Acceleration** is the **rate at which an object's velocity changes**. If you are speeding up, slowing down, or changing direction, you are accelerating. It is the "how quickly?" question for velocity.
+</p>
 
 ---
 

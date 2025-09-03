@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+A **scalar** quantity is a measurement that only has magnitude (a size or amount), while a **vector** quantity has both magnitude and a specific direction.
+</p>
 
 ---
 

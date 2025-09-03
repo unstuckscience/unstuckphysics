@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+Vector addition combines two or more vectors to find a single **resultant vector**, often using the graphical **head-to-tail method**. Vector subtraction is a special case of addition where you add the negative of the second vector.
+</p>
 
 ---
 

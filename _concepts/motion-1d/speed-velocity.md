@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Speed** tells you how fast something is going (a **scalar** quantity), while **velocity** tells you how fast and in what **direction** (a **vector** quantity).
+</p>
 
 ---
 

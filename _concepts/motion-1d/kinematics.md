@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Kinematics** is the study of how objects move, focusing on their **position, velocity, and acceleration** without considering the forces that cause the motion.
+</p>
 
 ---
 

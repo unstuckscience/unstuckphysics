@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+A **velocity-time graph** shows an object's velocity over time. The **slope** of the line represents its acceleration, and the **area under the curve** represents its displacement.
+</p>
 
 ---
 

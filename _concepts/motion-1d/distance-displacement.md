@@ -18,7 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
-
+**Distance** is the **total path traveled**, a scalar quantity. **Displacement** is the **change in position from start to end**, a vector quantity.
+</p>
 ---
 
 ## **What is Distance?**

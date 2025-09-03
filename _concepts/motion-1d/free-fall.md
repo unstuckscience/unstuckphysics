@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+**Free fall** is the motion of an object when **gravity is the only force acting on it**. In free fall, the object's acceleration is constant and always directed downwards.
+</p>
 
 ---
 

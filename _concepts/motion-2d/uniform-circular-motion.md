@@ -18,6 +18,8 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+Uniform circular motion (UCM) describes an object moving in a circular path at a constant speed. Due to its continuously changing direction, the object's velocity is also constantly changing, resulting in **centripetal acceleration** that points towards the center of the circle.
+</p>
 
 ---
 
