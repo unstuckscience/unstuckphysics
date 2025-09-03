@@ -6,7 +6,7 @@ collection: concepts
 permalink: /concepts/intro/sig-fig-mult-divide/
 topic: intro
 tags: [sig figs, math operations]
-order: 7
+order: 8
 sidebar:
   nav: intro-concepts
 mathjax: true

@@ -6,7 +6,7 @@ collection: concepts
 permalink: /concepts/intro/sig-fig-add-subtract/
 topic: intro
 tags: [sig figs, math operations]
-order: 6
+order: 7
 sidebar:
   nav: intro-concepts
 mathjax: true

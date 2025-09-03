@@ -42,6 +42,8 @@ intro-concepts:
         url: /concepts/intro/si-units/
       - title: Dimensional Analysis
         url: /concepts/intro/dimensional-analysis/
+      - title: Uncertainty
+        url: /concepts/intro/uncertainty/
       - title: Accuracy vs. Precision
         url: /concepts/intro/accuracy-vs-precision/
       - title: Significant Figures Rules

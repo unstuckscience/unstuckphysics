@@ -6,7 +6,7 @@ layout: single
 collection: concepts
 topic: intro
 tags: [measurement, accuracy, precision, data, error]
-order: 4
+order: 5
 sidebar:
   nav: intro-concepts
 mathjax: true

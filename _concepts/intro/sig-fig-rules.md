@@ -7,7 +7,7 @@ permalink: /concepts/intro/sig-fig-rules/
 topic: intro
 tags: [measurement, precision, accuracy, calculations]
 difficulty: beginner
-order: 5
+order: 6
 sidebar:
   nav: intro-concepts
 mathjax: true

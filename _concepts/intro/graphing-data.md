@@ -6,7 +6,7 @@ collection: concepts
 permalink: /concepts/intro/graphing-data/
 topic: intro
 tags: [graphs, data, relationships, visualization, independent variable, dependent variable, linear, quadratic, inverse]
-order: 8
+order: 9
 sidebar:
   nav: intro-concepts
 mathjax: true
