@@ -1,0 +1,39 @@
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #005a9e; // base color
+  color: #ffffff;             // text color
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 2000;              // stays above footer
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  // Normal and visited state
+  &:link,
+  &:visited {
+    color: #ffffff;           // white text
+    background-color: #005a9e; 
+  }
+
+  // Hover and focus
+  &:hover,
+  &:focus {
+    background-color: #003f70; // darker blue
+    color: #ffffff;             // maintain white text
+    box-shadow: 0 0 0 3px #ffd700; // focus outline
+    outline: none;
+  }
+
+  // Active (clicked) state
+  &:active {
+    background-color: #003f70; // same as hover/focus
+    color: #ffffff;
+  }
+}
+
+body {
+  padding-bottom: 6rem; // space for button so it won't overlap footer
+}

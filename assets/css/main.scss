@@ -11,5 +11,6 @@
 // Custom Component Imports
 // These partials should contain styles for distinct UI elements or sections.
 @import "components/homepage_custom"; // Styles specific to the homepage layout and topic cards
-@import "components/animators/animators_index"; // Correctly import the animator index
+@import "components/animators/animators_index";
+@import "components/back-to-top";
 // @import "components/page_utilities"; // Import the new partial for video and question boxes
