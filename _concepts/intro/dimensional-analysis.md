@@ -200,7 +200,7 @@ Test your conceptual understanding with these problems:
 
 <ul>
     {%- assign current_concept_permalink = page.permalink -%}
-    {%- assign related_problems = site.problems | where: "topic", page.topic | where: "related_concept", current_concept_permalink | sort: "title" -%}
+    {%- assign related_problems = site.problems | where: "topic", page.topic | where: "related_concept", current_concept_permalink | sort: "order" -%}
     {%- if related_problems.size > 0 -%}
         {%- for problem in related_problems -%}
             <li><a href="{{- problem.url | relative_url -}}"><strong>{{- problem.title -}}</strong></a></li>
