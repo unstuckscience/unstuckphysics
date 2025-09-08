@@ -46,7 +46,7 @@ Let's see the difference between distance and displacement with a simple animati
 <div class="animator-container">
     <div style="margin-bottom: 0.8rem;">
         <button id="moveRight" class="animator-button btn-blue" aria-label="Move right">Move Right</button>
-        <button id="moveLeft" class="animator-button btn-yellow-orange" aria-label="Move left">Move Left</button>
+        <button id="moveLeft" class="animator-button btn-blue" aria-label="Move left">Move Left</button>
         <button id="resetPosition" class="animator-button btn-red" aria-label="Reset animation">Reset</button>
     </div>
 
