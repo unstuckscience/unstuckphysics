@@ -56,26 +56,26 @@ Here are the main rules to determine which digits in a number are significant:
 Click on the boxes below the digits you think are significant. Then, click "Check Answer" to see how you did!
 
 <div class="sig-fig-interactive-wrapper">
-    <div class="input-controls">
-        <label for="numberSelect">Choose Number:</label>
-        <select id="numberSelect">
-            <option value="123.45">123.45</option>
-            <option value="1005">1005</option>
-            <option value="0.0025">0.0025</option>
-            <option value="1200.">1200.</option>
-            <option value="1200_no_decimal">1200 (no decimal)</option>
-            <option value="2.00">2.00</option>
-        </select>
+  <div class="input-controls">
+    <label for="numberSelect">Choose Number:</label>
+    <select id="numberSelect">
+      <option value="123.45">123.45</option>
+      <option value="1005">1005</option>
+      <option value="0.0025">0.0025</option>
+      <option value="1200.">1200.</option>
+      <option value="1200_no_decimal">1200 (no decimal)</option>
+      <option value="2.00">2.00</option>
+    </select>
+  </div>
+  <div class="number-display-area">
+    <div id="numberDisplay" class="number-display-digits">
     </div>
-    <div class="number-display-area">
-        <div id="numberDisplay" class="number-display-digits">
-            </div>
-    </div>
-    <div class="button-controls">
-        <button id="checkAnswerBtn" class="animator-button btn-green" aria-label="Check my significant figures selection">Check Answer</button>
-        <button id="resetBtn" class="animator-button btn-red" aria-label="Reset the interactive">Reset</button>
-    </div>
-    <div id="feedbackMessage" class="feedback-message"></div>
+  </div>
+  <div class="button-controls">
+    <button id="checkAnswerBtn" class="animator-button btn-green" aria-label="Check my significant figures selection">Check Answer</button>
+    <button id="resetBtn" class="animator-button btn-red" aria-label="Reset the interactive">Reset</button>
+  </div>
+  <div id="feedbackMessage" class="feedback-message"></div>
 </div>
 
 <script src="/assets/js/intro/sig-fig-rules-animator.js"></script>
@@ -87,26 +87,26 @@ Click on the boxes below the digits you think are significant. Then, click "Chec
 Test your understanding of the key terms and rules for significant figures.
 
 <div class="vocab-matching-interactive-wrapper sig-fig-rules">
-    <div class="animator-explanation">
-        <p>Click a term and then its matching meaning. Match all pairs to complete!</p>
-    </div>
+  <div class="animator-explanation">
+    <p>Click a term and then its matching meaning. Match all pairs to complete!</p>
+  </div>
 
-    <div class="vocab-matching-container">
-        <div class="vocab-grid">
-            <div class="vocab-card-column">
-                <div id="vocabTermsSigFigRules">
-                    </div>
-            </div>
-            <div class="vocab-card-column">
-                <div id="vocabDefinitionsSigFigRules">
-                    </div>
-            </div>
+  <div class="vocab-matching-container">
+    <div class="vocab-grid">
+      <div class="vocab-card-column">
+        <div id="vocabTermsSigFigRules">
         </div>
-        <div id="vocabFeedbackSigFigRules"></div>
+      </div>
+      <div class="vocab-card-column">
+        <div id="vocabDefinitionsSigFigRules">
+        </div>
+      </div>
     </div>
-    <div class="button-controls">
-        <button id="vocabResetButtonSigFigRules" class="animator-button btn-default">Reset</button>
-    </div>
+    <div id="vocabFeedbackSigFigRules"></div>
+  </div>
+  <div class="button-controls">
+    <button id="vocabResetButtonSigFigRules" class="animator-button btn-default">Reset</button>
+  </div>
 </div>
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
@@ -134,10 +134,7 @@ Using significant figures is a common shortcut for reporting uncertainty in scie
 
 ---
 
-{% include quick-concept-question.html
-  question="How many significant figures are in the measurement 0.004050 meters?"
-  answer="There are **four** significant figures. The leading zeros (0.00) are not significant. The '4' and '5' are significant. The zero between '4' and '5' is a sandwich zero, so it's significant. The trailing zero after '5' is significant because there's a decimal point in the number."
-%}
+{% include quick-concept-question.html question="How many significant figures are in the measurement 0.004050 meters?" answer="There are four significant figures. The leading zeros (0.00) are not significant. The '4' and '5' are significant. The zero between '4' and '5' is a sandwich zero, so it's significant. The trailing zero after '5' is significant because there's a decimal point in the number." %}
 
 ---
 
@@ -146,8 +143,12 @@ Using significant figures is a common shortcut for reporting uncertainty in scie
 Ready to apply your understanding of significant figures? Check out these related skills:
 
 * <a href="{{ '/skills/intro/uncertainty/' | relative_url }}">Measuring Uncertainty</a>
-<hr>
 
-<h2>Practice Problems</h2>
+---
+
+## **Practice Problems**
 
 Test your understanding with these problems:
+<ul>
+  <li><a href="{{ '/problems/sig-fig-rules/' | relative_url }}">Significant Figures Problems</a></li>
+</ul>

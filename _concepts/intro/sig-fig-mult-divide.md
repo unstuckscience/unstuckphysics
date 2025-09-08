@@ -49,7 +49,7 @@ Let's see how this rule works with some examples.
 **Solution:**
 
 1.  **Do the Math:**
-    $$ 2.5 \times 4.15 = 10.375 $$
+    $$2.5 \times 4.15 = 10.375$$
     (raw answer)
 
 2.  **Count Sig Figs in Each Original Number:**
@@ -69,7 +69,7 @@ Let's see how this rule works with some examples.
 **Solution:**
 
 1.  **Do the Math:**
-    $$ \frac{125.0}{5.0} = 25 $$
+    $$\frac{125.0}{5.0} = 25$$
     (raw answer)
 
 2.  **Count Sig Figs in Each Original Number:**
@@ -100,10 +100,7 @@ This rule makes sure your answer doesn't look more exact than the numbers you st
 
 ---
 
-{% include quick-concept-question.html
-  question="When multiplying two measurements, one with 3 significant figures and one with 5 significant figures, how many significant figures should your final answer have, and why?"
-  answer="Your final answer should have 3 significant figures. In multiplication (and division), the result must be rounded to match the number of significant figures in the least precise measurement (the one with the fewest significant figures). In this case, 3 is fewer than 5."
-%}
+{% include quick-concept-question.html question="When multiplying two measurements, one with 3 significant figures and one with 5 significant figures, how many significant figures should your final answer have, and why?" answer="Your final answer should have 3 significant figures. In multiplication (and division), the result must be rounded to match the number of significant figures in the least precise measurement (the one with the fewest significant figures). In this case, 3 is fewer than 5." %}
 
 ---
 
@@ -126,17 +123,8 @@ Ready to apply these rules? Learn the steps and see worked examples on these rel
 
 <hr>
 
-<h2>Practice Problems</h2>
+## **Practice Problems**
 <p>Test your understanding with these problems:</p>
 <ul>
-  {%- assign related_problems = site.problems | where: "topic", page.topic | where: "related_concept", page.name | sort: "title" -%}
-  {%- if related_problems.size > 0 -%}
-    {%- for problem in related_problems -%}
-      <li><a href="{{- problem.url | relative_url -}}"><strong>{{- problem.title -}}</strong></a></li>
-    {%- endfor -%}
-  {%- else -%}
-    <li>No practice problems for this concept have been added yet.</li>
-    {# Example placeholder for a problem you might create: #}
-    <li><a href="/problems/sig-fig-mult-divide-practice/"><strong>Sig Fig Multiplication/Division Practice</strong></a></li>
-  {%- endif -%}
+  <li><a href="{{ '/problems/intro/sig-fig-mult-divide/' | relative_url }}"><strong>Sig Figs in Multiplication/Division Problems</strong></a></li>
 </ul>

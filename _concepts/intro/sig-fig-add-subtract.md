@@ -126,11 +126,11 @@ Ready to apply these rules? Learn the steps and see **worked examples** on these
   {%- assign related_problems = site.problems | where: "topic", page.topic | where: "related_concept", page.name | sort: "title" -%}
   {%- if related_problems.size > 0 -%}
     {%- for problem in related_problems -%}
-      <li><a href="{{- problem.url | relative_url -}}"><strong>{{- problem.title -}}</strong></a></li>
+      <li><a href="{{- problem.url | relative_url -}}">{{- problem.title -}}</a></li>
     {%- endfor -%}
   {%- else -%}
     <li>No practice problems for this concept have been added yet.</li>
     {# Example placeholder for a problem you might create: #}
-    <li><a href="/problems/sig-fig-add-subtract-practice/"><strong>Sig Fig Addition/Subtraction Practice</strong></a></li>
+    <li><a href="/problems/sig-fig-add-subtract-practice/">Sig Fig Addition/Subtraction Practice</a></li>
   {%- endif -%}
 </ul>
