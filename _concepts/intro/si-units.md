@@ -4,13 +4,12 @@ summary: Understanding the base units of the International System of Units used 
 layout: single
 collection: concepts
 permalink: /concepts/intro/si-units/
-topic: intro # Keep topic for categorization if needed, but permalink now dictates URL
+topic: intro
 tags: [units, SI, measurement]
-difficulty: beginner
 order: 2
 sidebar:
   nav: intro-concepts
-mathjax: true # Set to true if equations are used
+mathjax: true
 toc: true
 toc_label: "On This Page"
 toc_icon: "bars"
@@ -21,6 +20,16 @@ toc_levels: 2..3
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 Physics needs measurements that everyone understands, no matter where they are. That's where the SI system comes in. It's the standard way we measure things in science.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of SI Units and Base Quantities.</p>
+<audio controls class="audio-player" aria-label="Audio summary of SI Units and Base Quantities">
+  <source src="/assets/audio/intro/si-units-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 

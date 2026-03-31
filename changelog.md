@@ -1,8 +1,9 @@
 # Changelog
 
-## [Unreleased] - 2025-09-08
+## [Unreleased] - 2025-09-17
 
 ### Added
+- Added the initial `changelog.md` file (2025-09-17).
 - Created new problem sets for significant figures and removed older ones (2025-09-07).
 - Created the README.md file (2025-09-07).
 - Added an accessible "back-to-top" button and updated relevant styles (2025-09-07).

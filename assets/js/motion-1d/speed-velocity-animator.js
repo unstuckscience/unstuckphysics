@@ -1,106 +1,116 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const canvas = document.getElementById('circularMotionCanvas');
-    const ctx = canvas.getContext('2d');
-    const currentSpeedValueDisplay = document.getElementById('currentSpeedValue');
-    const currentVelocityValueDisplay = document.getElementById('currentVelocityValue');
-    const resetCircularMotionButton = document.getElementById('resetCircularMotionButton');
+    // Get references to DOM elements
+    const playBtn = document.getElementById('playBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const resetBtn = document.getElementById('resetAnimation');
+    const movingObject = document.getElementById('movingObject');
+    const velocityVector = document.getElementById('velocityVector');
+    const velocityLabel = document.getElementById('velocityLabel');
+    const currentSpeedLabel = document.getElementById('currentSpeedLabel');
+    const speedInput = document.getElementById('speedInput');
+    const radiusInput = document.getElementById('radiusInput');
 
-    // Canvas Dimensions
-    const CANVAS_WIDTH = canvas.width;
-    const CANVAS_HEIGHT = canvas.height;
+    // SVG coordinates for the center of the circle
+    const centerX = 300;
+    const centerY = 175;
 
-    // Animation Parameters
-    const CIRCLE_RADIUS = 100;
-    const OBJECT_RADIUS = 8;
-    const CENTER_X = CANVAS_WIDTH / 2;
-    const CENTER_Y = CANVAS_HEIGHT / 2;
-    const ANGULAR_SPEED = (2 * Math.PI) / 10;
-    const CONSTANT_SPEED_MAGNITUDE = (2 * Math.PI * CIRCLE_RADIUS) / 10;
-    const VELOCITY_ARROW_LENGTH = 30;
-
-    let animationTime = 0;
+    // Animation state variables
     let animationFrameId = null;
-    let lastTimestamp = 0;
+    let angle = 0; // Current angle in radians
+    let lastTimestamp = null;
+    let currentSpeed = parseFloat(speedInput.value);
+    let currentRadius = parseFloat(radiusInput.value);
 
-    function drawArrowhead(ctx, x, y, angle, color) {
-        ctx.save();
-        ctx.translate(x, y);
-        ctx.rotate(angle);
-        ctx.beginPath();
-        ctx.moveTo(0, 0);
-        ctx.lineTo(-10, -5);
-        ctx.lineTo(-10, 5);
-        ctx.closePath();
-        ctx.fillStyle = color;
-        ctx.fill();
-        ctx.restore();
-    }
-
+    // Function to get the cardinal direction from an angle
     function getCardinalDirection(angleRad) {
         let angleDeg = (angleRad * 180 / Math.PI + 360) % 360;
-        // Adjusted for canvas coordinates (y increases downward)
         const directions = ["Right", "Down-Right", "Down", "Down-Left", "Left", "Up-Left", "Up", "Up-Right"];
         const index = Math.round(angleDeg / 45) % 8;
         return directions[index];
     }
 
-    function draw() {
-        ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-
-        ctx.beginPath();
-        ctx.arc(CENTER_X, CENTER_Y, CIRCLE_RADIUS, 0, Math.PI * 2);
-        ctx.strokeStyle = '#607D8B';
-        ctx.lineWidth = 2;
-        ctx.stroke();
-
-        const currentAngle = (ANGULAR_SPEED * animationTime) % (2 * Math.PI);
-        const objectX = CENTER_X + CIRCLE_RADIUS * Math.cos(currentAngle);
-        const objectY = CENTER_Y + CIRCLE_RADIUS * Math.sin(currentAngle);
-
-        ctx.beginPath();
-        ctx.arc(objectX, objectY, OBJECT_RADIUS, 0, Math.PI * 2);
-        ctx.fillStyle = '#FF5722';
-        ctx.fill();
-        ctx.strokeStyle = '#D84315';
-        ctx.lineWidth = 1;
-        ctx.stroke();
-
-        const velocityAngle = currentAngle + Math.PI / 2;
-        const arrowEndX = objectX + VELOCITY_ARROW_LENGTH * Math.cos(velocityAngle);
-        const arrowEndY = objectY + VELOCITY_ARROW_LENGTH * Math.sin(velocityAngle);
-
-        ctx.beginPath();
-        ctx.moveTo(objectX, objectY);
-        ctx.lineTo(arrowEndX, arrowEndY);
-        ctx.strokeStyle = '#007bff';
-        ctx.lineWidth = 3;
-        ctx.stroke();
-        drawArrowhead(ctx, arrowEndX, arrowEndY, velocityAngle, '#007bff');
-
-        currentSpeedValueDisplay.textContent = `${CONSTANT_SPEED_MAGNITUDE.toFixed(1)} m/s`;
-        const velocityDirection = getCardinalDirection(velocityAngle);
-        currentVelocityValueDisplay.textContent = `${CONSTANT_SPEED_MAGNITUDE.toFixed(1)} m/s (${velocityDirection})`;
-    }
-
+    // The main animation loop
     function animate(timestamp) {
-        if (!lastTimestamp) lastTimestamp = timestamp;
-        const deltaTime = timestamp - lastTimestamp;
+        if (!lastTimestamp) {
+            lastTimestamp = timestamp;
+        }
+        const deltaTime = (timestamp - lastTimestamp) / 1000;
         lastTimestamp = timestamp;
 
-        animationTime += deltaTime / 1000;
+        // Calculate the angular speed
+        const angularSpeed = currentSpeed / currentRadius;
+        
+        // Update the angle based on time and speed
+        angle += angularSpeed * deltaTime;
+        
+        // Calculate the object's new position
+        const objectX = centerX + currentRadius * Math.cos(angle);
+        const objectY = centerY + currentRadius * Math.sin(angle);
+        
+        // Calculate velocity vector direction (tangent to the circle)
+        const velocityAngle = angle + Math.PI / 2;
+        const vectorLength = 50;
+        const velocityVectorEndX = objectX + vectorLength * Math.cos(velocityAngle);
+        const velocityVectorEndY = objectY + vectorLength * Math.sin(velocityAngle);
 
-        draw();
+        // Update SVG element positions and values
+        movingObject.setAttribute('cx', objectX);
+        movingObject.setAttribute('cy', objectY);
+
+        velocityVector.setAttribute('x1', objectX);
+        velocityVector.setAttribute('y1', objectY);
+        velocityVector.setAttribute('x2', velocityVectorEndX);
+        velocityVector.setAttribute('y2', velocityVectorEndY);
+        velocityVector.setAttribute('opacity', 1);
+
+        // Move the velocity label next to the vector
+        velocityLabel.setAttribute('x', velocityVectorEndX + (15 * Math.cos(velocityAngle)));
+        velocityLabel.setAttribute('y', velocityVectorEndY + (15 * Math.sin(velocityAngle)));
+
+        // Update the display labels
+        currentSpeedLabel.textContent = `Speed: ${currentSpeed.toFixed(1)} m/s`;
+        const velocityDirection = getCardinalDirection(velocityAngle);
+        velocityLabel.textContent = `Velocity: ${currentSpeed.toFixed(1)} m/s (${velocityDirection})`;
+
         animationFrameId = requestAnimationFrame(animate);
     }
 
-    function resetAnimation() {
+    // Play button functionality
+    playBtn.addEventListener('click', () => {
+        if (!animationFrameId) {
+            lastTimestamp = null; // Reset timestamp to prevent a jump
+            animationFrameId = requestAnimationFrame(animate);
+        }
+    });
+
+    // Pause button functionality
+    pauseBtn.addEventListener('click', () => {
         cancelAnimationFrame(animationFrameId);
-        animationTime = 0;
-        lastTimestamp = 0;
-        draw();
-        animationFrameId = requestAnimationFrame(animate);
-    }
+        animationFrameId = null;
+    });
 
-    resetCircularMotionButton.addEventListener('click', resetAnimation);
-    resetAnimation();
+    // Reset button functionality
+    resetBtn.addEventListener('click', () => {
+        cancelAnimationFrame(animationFrameId);
+        animationFrameId = null;
+        angle = 0; // Reset angle to the starting point
+        movingObject.setAttribute('cx', centerX + currentRadius);
+        movingObject.setAttribute('cy', centerY);
+        velocityVector.setAttribute('opacity', 0); // Hide velocity vector
+        currentSpeedLabel.textContent = `Speed: 0.0 m/s`;
+        velocityLabel.textContent = `Velocity: 0.0 m/s`;
+    });
+
+    // Event listeners for input fields to update parameters
+    speedInput.addEventListener('change', () => {
+        currentSpeed = parseFloat(speedInput.value);
+    });
+
+    radiusInput.addEventListener('change', () => {
+        currentRadius = parseFloat(radiusInput.value);
+        resetBtn.click(); // Reset the animation to reflect the new radius
+    });
+
+    // Initial setup
+    resetBtn.click();
 });

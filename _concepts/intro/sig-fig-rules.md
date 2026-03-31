@@ -6,7 +6,6 @@ collection: concepts
 permalink: /concepts/intro/sig-fig-rules/
 topic: intro
 tags: [measurement, precision, accuracy, calculations]
-difficulty: beginner
 order: 6
 sidebar:
   nav: intro-concepts
@@ -21,6 +20,16 @@ toc_levels: 2..3
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 Significant figures are a way to show how precise a measurement is. Knowing which digits are "significant" helps us avoid pretending our measurements are more accurate than they really are.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of significant figures rules.</p>
+<audio controls class="audio-player" aria-label="Audio summary of significant figures rules">
+  <source src="/assets/audio/intro/sig-fig-rules-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -121,16 +130,6 @@ At its core, the reason we use significant figures is to show the **uncertainty*
 For example, a measurement of $12.3 \text{ cm}$ (with 3 sig figs) suggests your ruler was precise to about $0.1 \text{ cm}$. The last digit, the `3`, is the one you estimated. It's really a quick way to say the measurement is $12.3 \pm 0.1 \text{ cm}$. .
 
 Using significant figures is a common shortcut for reporting uncertainty in science.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of significant figures rules.</p>
-<audio controls class="audio-player" aria-label="Audio summary of significant figures rules">
-  <source src="/assets/audio/intro/sig-fig-rules-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

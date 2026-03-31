@@ -15,7 +15,7 @@ physics:
         url: /motion-2d/
       - title: Forces & Newton’s Laws
         url: /forces/
-      - title: Gravitation
+      - title: Gravitation & Planetary Motion
         url: /gravitation/
       - title: Work & Energy
         url: /work-energy/
@@ -117,6 +117,23 @@ forces-concepts:
         url: /concepts/forces/systems-of-objects/
       - title: "Centripetal Force"
         url: /concepts/forces/centripetal-force/
+
+gravitation-concepts:
+  - title: "Gravitation & Planetary Motion"
+    url: /gravitation/
+    children:
+      - title: "Kepler's First Law"
+        url: /concepts/gravitation/keplers-first-law/
+      - title: "Kepler's Second Law"
+        url: /concepts/gravitation/keplers-second-law/
+      - title: "Kepler's Third Law"
+        url: /concepts/gravitation/keplers-third-law/
+      - title: "Newton's Law of Universal Gravitation"
+        url: /concepts/gravitation/universal-gravitation/
+      - title: "Gravitational Field Strength"
+        url: /concepts/gravitation/gravitational-field-strength
+      - title: "Orbital Speed & Period"
+        url: /concepts/gravitation/orbital-speed-period/
 
 unit-conversions:
   - title: "Unit Conversions (Skill)"

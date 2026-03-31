@@ -68,7 +68,7 @@ Observe how an object moving in a circle maintains a constant speed but has a co
     </div>
     <div style="margin-bottom: 0.8rem;">
         <button id="playBtn" class="animator-button btn-green" aria-label="Play animation">Play</button>
-        <button id="pauseBtn" class="animator-button btn-yellow-orange" aria-label="Pause animation">Pause</button>
+        <button id="pauseBtn" class="animator-button btn-blue" aria-label="Pause animation">Pause</button>
         <button id="resetAnimation" class="animator-button btn-red" aria-label="Reset simulation">Reset</button>
     </div>
 
@@ -173,13 +173,3 @@ Test your understanding of key terms related to speed and velocity by matching t
 ---
 
 {% include quick-concept-question.html question="A car's speedometer reads 60 km/h. Is this measuring the car's speed or its velocity?" answer='The speedometer measures the car\'s speed. It tells you how fast you are going (magnitude) but not the direction.' %}
-
----
-
-## **Suggested Visuals & Animations:**
-
-To make this concept truly "unstuck" and visual:
-
-1.  **Circular Track Animation:** An object moving around a circular track at a constant speed. Show its speed value remaining constant, but its velocity vector (an arrow) constantly changing direction.
-2.  **Number Line Motion with Direction:** An animated dot moving on a number line. When it moves right, show positive velocity. When it moves left, show negative velocity. Always show speed as the absolute value of velocity.
-3.  **GPS vs. Speedometer:** A visual comparing a car's speedometer (speed) to a GPS display that shows both current speed and direction of travel (velocity).

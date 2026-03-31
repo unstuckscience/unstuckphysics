@@ -6,7 +6,6 @@ collection: concepts
 permalink: /concepts/intro/physics-symbols/
 topic: intro
 tags: [symbols, notation, equations]
-difficulty: beginner
 order: 1
 sidebar:
   nav: intro-concepts
@@ -21,6 +20,16 @@ toc_levels: 2..3
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 Physics uses a special language of symbols (like single letters) and short ways of writing (notation) to stand for things we measure and how they connect. Learning these is your first step to understanding physics ideas.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of physics symbols and notation.</p>
+<audio controls class="audio-player" aria-label="Audio summary of physics symbols and notation">
+  <source src="/assets/audio/intro/physics-symbols-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -103,16 +112,6 @@ Test your understanding of common physics symbols and notation by matching them 
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/intro/physics-symbols-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of physics symbols and notation.</p>
-<audio controls class="audio-player" aria-label="Audio summary of physics symbols and notation">
-  <source src="/assets/audio/intro/physics-symbols-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

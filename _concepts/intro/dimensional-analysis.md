@@ -6,7 +6,6 @@ collection: concepts
 permalink: /concepts/intro/dimensional-analysis/
 topic: intro
 tags: [units, dimensions, consistency, problem-solving]
-difficulty: beginner
 order: 3
 sidebar:
   nav: intro-concepts
@@ -16,12 +15,21 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
-subtitle: Conceptual Understanding
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 Dimensional analysis is a powerful tool in physics that goes beyond just converting units. It's a fundamental way to understand and check equations by focusing on the 'dimensions' or types of physical quantities involved.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of dimensional analysis and its conceptual importance.</p>
+<audio controls class="audio-player" aria-label="Audio summary of dimensional analysis and unit conversions">
+    <source src="/assets/audio/intro/dimensional-analysis-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -130,16 +138,6 @@ Select a physics equation to see its dimensional breakdown and verify if it's di
 One of the most famous and costly examples of a unit conversion error is the loss of NASA's Mars Climate Orbiter in 1999. A simple failure to convert between imperial (pound-force) and metric (Newton) units in the spacecraft's navigation software led to it entering the Martian atmosphere at too low an altitude, causing its destruction. This incident highlights the critical importance of dimensional consistency in all scientific and engineering endeavors.
 
 {% include video_embed.html id="IWHTyibmB7U" source="youtube" %}
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of dimensional analysis and its conceptual importance.</p>
-<audio controls class="audio-player" aria-label="Audio summary of dimensional analysis and unit conversions">
-    <source src="/assets/audio/intro/dimensional-analysis-audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
 
 ---
 

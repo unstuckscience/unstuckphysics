@@ -23,6 +23,16 @@ In physics, graphs are powerful tools. They help us see patterns, understand rel
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of graphing data and relationships.</p>
+<audio controls class="audio-player" aria-label="Audio summary of graphing data and relationships">
+  <source src="/assets/audio/intro/graphing-data-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **Why We Use Graphs in Physics**
 
 Graphs make complex data easy to understand. They allow us to:
@@ -167,16 +177,6 @@ Test your understanding of key terms related to graphing data and relationships 
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/intro/graphing-data-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of graphing data and relationships.</p>
-<audio controls class="audio-player" aria-label="Audio summary of graphing data and relationships">
-  <source src="/assets/audio/intro/graphing-data-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

@@ -114,13 +114,11 @@ Test your understanding of key terms in kinematics by matching them with their m
         <div class="vocab-grid">
             <div class="vocab-card-column">
                 <div id="vocabTermsKinematics">
-                    <!-- Terms will be rendered here by JS -->
-                </div>
+                    </div>
             </div>
             <div class="vocab-card-column">
                 <div id="vocabDefinitionsKinematics">
-                    <!-- Definitions will be rendered here by JS -->
-                </div>
+                    </div>
             </div>
         </div>
         <div id="vocabFeedbackKinematics"></div>
@@ -139,3 +137,12 @@ Test your understanding of key terms in kinematics by matching them with their m
   question="You know the starting velocity ($v_i$), the final velocity ($v_f$), and the time ($t$). You want to know how far something moved. Which equation should you use?"
   answer="You should use: $$\Delta x = \frac{1}{2}(v_i + v_f)t$$ It uses the average velocity to find the displacement."
 %}
+
+---
+
+<div>
+  <h3>Related Skills</h3>
+  <ul>
+    <li><a href="{{ '/skills/motion-1d/kinematics-equations/' | relative_url }}"><strong>Solving Kinematics Equations (Skill)</strong></a></li>
+  </ul>
+</div>

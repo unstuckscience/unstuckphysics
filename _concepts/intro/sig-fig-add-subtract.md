@@ -23,6 +23,16 @@ When you add or subtract measurements, significant figures follow a different ru
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of significant figures in addition and subtraction.</p>
+<audio controls class="audio-player" aria-label="Audio summary of significant figures in addition and subtraction">
+  <source src="/assets/audio/intro/sig-fig-add-subtract-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Rule for Adding and Subtracting**
 
 When you add or subtract numbers from measurements, your final answer can only be as exact as the measurement that has the *least* number of decimal places.
@@ -82,15 +92,6 @@ Here's how to apply it:
 
 This rule makes sure your answer doesn't look more exact than the numbers you started with. When you add or subtract, your answer can only be as exact as the number that had the **fewest decimal places** to begin with.
 
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of significant figures in addition and subtraction.</p>
-<audio controls class="audio-player" aria-label="Audio summary of significant figures in addition and subtraction">
-  <source src="/assets/audio/intro/sig-fig-add-subtract-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

@@ -21,6 +21,18 @@ toc_levels: 2..3
 When you multiply or divide measurements, the rules for significant figures are different from adding or subtracting. Here, we focus on the total number of significant figures in your starting numbers.
 </p>
 
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of significant figures in multiplication and division.</p>
+<audio controls class="audio-player" aria-label="Audio summary of significant figures in multiplication and division">
+  <source src="/assets/audio/intro/sig-fig-mult-divide-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Rule for Multiplying and Dividing**
 
 When you multiply or divide numbers from measurements, your final answer can only be as exact as your least exact starting number.
@@ -87,16 +99,6 @@ Let's see how this rule works with some examples.
 ## **Why This Rule Matters**
 
 This rule makes sure your answer doesn't look more exact than the numbers you started with. You can't magically get more precision just by multiplying or dividing! Your answer should always reflect the precision of your least precise starting measurement.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of significant figures in multiplication and division.</p>
-<audio controls class="audio-player" aria-label="Audio summary of significant figures in multiplication and division">
-  <source src="/assets/audio/intro/sig-fig-mult-divide-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

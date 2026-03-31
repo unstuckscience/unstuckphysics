@@ -21,6 +21,16 @@ toc_levels: 2..3
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of accuracy vs. precision.</p>
+<audio controls class="audio-player" aria-label="Audio summary of accuracy vs. precision">
+    <source src="/assets/audio/intro/accuracy-precision-audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **What is Accuracy?**
 
 **Accuracy** is how close a measurement is to the **true** or **actual** value. Think of it like hitting the bullseye on a dartboard. If your dart hits the very center, you are accurate. 
@@ -157,16 +167,6 @@ Test your understanding of key terms related to accuracy and precision by matchi
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/intro/accuracy-precision-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of accuracy vs. precision.</p>
-<audio controls class="audio-player" aria-label="Audio summary of accuracy vs. precision">
-    <source src="/assets/audio/intro/accuracy-precision-audio.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
 
 ---
 

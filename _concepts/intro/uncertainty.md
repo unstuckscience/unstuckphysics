@@ -5,12 +5,7 @@ permalink: /concepts/intro/uncertainty/
 layout: single
 collection: concepts
 topic: intro
-tags:
-  - uncertainty
-  - precision
-  - data-analysis
-  - error
-  - measurements
+tags: [uncertainty, precision, data-analysis, error, measurements]
 order: 4
 sidebar:
   nav: intro-concepts
@@ -25,6 +20,16 @@ toc_levels: 2..3
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 Every measurement you make has some amount of **uncertainty**. This is a fundamental concept in science and engineering, as it reminds us that no tool is perfect and no measurement can ever be exactly "true." Scientists use absolute and relative uncertainty to quantify this doubt and describe the possible range of a measurement's true value.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of uncertainty.</p>
+<audio controls class="audio-player" aria-label="Audio summary of uncertainty">
+  <source src="/assets/audio/intro/uncertainty-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
