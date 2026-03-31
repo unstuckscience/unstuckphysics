@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 **Distance** is the **total path traveled**, a scalar quantity. **Displacement** is the **change in position from start to end**, a vector quantity.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of distance and displacement.</p>
+<audio controls class="audio-player" aria-label="Audio summary of distance and displacement">
+  <source src="/assets/audio/motion-1d/distance-displacement-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -135,15 +146,6 @@ Understanding distance and displacement is crucial because:
 * **Foundation for other concepts:** These ideas are the building blocks for understanding speed, velocity, and acceleration.
 * **Real-world applications:** When navigating, you might care about the distance (how much fuel you need), but also displacement (your final destination relative to your start).
 
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of distance and displacement.</p>
-<audio controls class="audio-player" aria-label="Audio summary of distance and displacement">
-  <source src="/assets/audio/motion-1d/distance-displacement-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

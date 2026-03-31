@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 A **position-time graph** is a powerful tool that shows an object's location over time, allowing you to quickly determine its velocity and direction of motion.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of position-time graphs.</p>
+<audio controls class="audio-player" aria-label="Audio summary of position-time graphs">
+  <source src="/assets/audio/motion-1d/position-vs-time-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -166,16 +177,6 @@ The **slope** (steepness) of the line on a position-time graph tells you about t
     * **Upward slope:** Moving in the **positive direction**.
     * **Downward slope:** Moving in the **negative direction**.
 * **Curved line:** The object's velocity is **changing**, meaning it is **accelerating**.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of position-time graphs.</p>
-<audio controls class="audio-player" aria-label="Audio summary of position-time graphs">
-  <source src="/assets/audio/motion-1d/position-time-graphs-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 **Acceleration** is the **rate at which an object's velocity changes**. If you are speeding up, slowing down, or changing direction, you are accelerating. It is the "how quickly?" question for velocity.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of acceleration .</p>
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1em auto;">
+  <source src="/assets/audio/motion-1d/acceleration-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 

@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 **Kinematics** is the study of how objects move, focusing on their **position, velocity, and acceleration** without considering the forces that cause the motion.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of kinematics.</p>
+<audio controls class="audio-player" aria-label="Audio summary of distance and displacement">
+  <source src="/assets/audio/motion-1d/kinematics-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 

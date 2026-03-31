@@ -15,6 +15,7 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
@@ -22,6 +23,17 @@ toc_levels: 2..3
 </p>
 
 ---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of speed and velocity.</p>
+<audio controls class="audio-player" aria-label="Audio summary of speed and velocity">
+  <source src="/assets/audio/motion-1d/speed-and-velocity-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 
 ## **What are Speed and Velocity?**
 

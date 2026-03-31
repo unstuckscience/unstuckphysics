@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 A **velocity-time graph** shows an object's velocity over time. The **slope** of the line represents its acceleration, and the **area under the curve** represents its displacement.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of velocity-time graphs.</p>
+<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1em auto;">
+  <source src="/assets/audio/motion-1d/velocity-time-graphs-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -235,16 +246,6 @@ Velocity-time graphs are fundamental because:
 * They provide a direct visual representation of an object's acceleration.
 * They allow for the calculation of displacement, even for complex motions, by finding the area under the curve.
 * They are a crucial step in understanding kinematics and solving motion problems.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of velocity-time graphs.</p>
-<audio controls style="width: 100%; max-width: 600px; display: block; margin: 1em auto;">
-  <source src="/assets/audio/motion-1d/velocity-time-graphs-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 
