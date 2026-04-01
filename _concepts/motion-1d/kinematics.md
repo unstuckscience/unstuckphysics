@@ -34,6 +34,119 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="280"
+    viewBox="0 0 600 280"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <title id="title">Kinematics: Acceleration Visualization with Time</title>
+  <desc id="desc">
+    A visual summary of kinematics in one-dimensional motion. Shows a car at three positions spaced quadratically in time with velocity arrows that increase in length to reflect acceleration, acceleration arrows, and a dashed line for displacement.
+  </desc>
+
+  <rect x="0" y="0" width="600" height="280" fill="white"/>
+
+  <!-- Displacement arrow -->
+  <line x1="70" y1="90" x2="430" y2="90"
+        stroke="#000000"
+        stroke-width="3"
+        stroke-dasharray="5,5"
+        marker-end="url(#arrowhead)"/>
+  <text x="250" y="65"
+        font-size="13"
+        fill="#000000"
+        text-anchor="middle">Displacement</text>
+
+  <!-- Path of motion -->
+  <line x1="50" y1="170" x2="470" y2="170"
+        stroke="#000000"
+        stroke-width="3"/>
+
+  <!-- Start car -->
+  <rect x="50" y="155" width="40" height="20" rx="4" fill="#1f77b4"/>
+  <circle cx="60" cy="175" r="5" fill="#000000"/>
+  <circle cx="80" cy="175" r="5" fill="#000000"/>
+  <text x="70" y="135"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">Start</text>
+  <text x="70" y="225"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">1 s</text>
+
+  <!-- Middle car -->
+  <rect x="170" y="155" width="40" height="20" rx="4" fill="#1f77b4"/>
+  <circle cx="180" cy="175" r="5" fill="#000000"/>
+  <circle cx="200" cy="175" r="5" fill="#000000"/>
+
+  <!-- Velocity arrow -->
+  <line x1="205" y1="150" x2="260" y2="150"
+        stroke="#000000"
+        stroke-width="4"
+        marker-end="url(#arrowhead)"/>
+  <text x="232" y="135"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">Velocity</text>
+
+  <!-- Acceleration arrow -->
+  <line x1="205" y1="185" x2="245" y2="185"
+        stroke="#000000"
+        stroke-width="4"
+        marker-end="url(#arrowhead)"/>
+  <text x="225" y="210"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">Acceleration</text>
+
+  <text x="190" y="225"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">2 s</text>
+
+  <!-- End car -->
+  <rect x="410" y="155" width="40" height="20" rx="4" fill="#1f77b4"/>
+  <circle cx="420" cy="175" r="5" fill="#000000"/>
+  <circle cx="440" cy="175" r="5" fill="#000000"/>
+
+  <!-- Velocity arrow -->
+  <line x1="455" y1="150" x2="520" y2="150"
+        stroke="#000000"
+        stroke-width="4"
+        marker-end="url(#arrowhead)"/>
+  <text x="487" y="135"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">Velocity</text>
+
+  <text x="430" y="225"
+        font-size="12"
+        fill="#000000"
+        text-anchor="middle">3 s</text>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead"
+            markerWidth="4"
+            markerHeight="4"
+            refX="3"
+            refY="2"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <polygon points="0 0, 4 2, 0 4" fill="#000000"/>
+    </marker>
+  </defs>
+
+</svg>
+
+---
+
 ## **What is Kinematics?**
 
 **Kinematics** is the part of physics that talks about motion. That means how things move: how far they go, how fast they go, and how their speed changes.

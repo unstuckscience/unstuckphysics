@@ -34,6 +34,95 @@ A **velocity-time graph** shows an object's velocity over time. The **slope** of
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="380"
+    viewBox="0 0 600 380"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <title id="title">Velocity-Time Graph Examples</title>
+  <desc id="desc">
+    A velocity-time graph with velocity on the vertical axis and time on the horizontal axis.
+    The graph shows a flat line for constant velocity, an upward slanted line for positive acceleration,
+    a downward slanted line for negative acceleration, and a curved line for changing acceleration.
+    Shaded regions above and below the time axis show positive and negative displacement.
+  </desc>
+
+  <style>
+    text::selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+
+    text::-moz-selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="380" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="70" y1="300" x2="540" y2="300" stroke="#000000" stroke-width="3"/>
+  <line x1="70" y1="340" x2="70" y2="40" stroke="#000000" stroke-width="3"/>
+
+  <!-- Arrowheads -->
+  <polygon points="540,300 528,294 528,306" fill="#000000"/>
+  <polygon points="70,40 64,52 76,52" fill="#000000"/>
+
+  <!-- Axis labels -->
+  <text x="550" y="306" font-size="18" fill="#000000">Time</text>
+  <text x="30" y="190" font-size="18" fill="#000000" transform="rotate(-90 30,190)">Velocity</text>
+
+  <!-- Horizontal axis through zero velocity -->
+  <line x1="70" y1="190" x2="540" y2="190" stroke="#888888" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="45" y="195" font-size="14" fill="#000000">0</text>
+
+  <!-- Constant velocity -->
+  <line x1="100" y1="120" x2="180" y2="120" stroke="#1f77b4" stroke-width="4"/>
+  <text x="90" y="105" font-size="13" fill="#000000">Constant velocity</text>
+
+  <!-- Positive acceleration -->
+  <line x1="220" y1="240" x2="300" y2="100" stroke="#2ca02c" stroke-width="4"/>
+  <polygon points="220,240 300,100 300,190 220,190"
+           fill="#2ca02c"
+           opacity="0.15"/>
+  <text x="205" y="85" font-size="13" fill="#000000">Positive acceleration</text>
+
+  <!-- Negative acceleration -->
+  <line x1="340" y1="100" x2="420" y2="240" stroke="#d62728" stroke-width="4"/>
+  <polygon points="340,100 420,240 420,190 340,190"
+           fill="#d62728"
+           opacity="0.15"/>
+  <text x="325" y="100" font-size="13" fill="#000000">Negative acceleration</text>
+
+  <!-- Changing acceleration -->
+  <path d="M450,250 Q470,220 490,180 T530,80"
+        fill="none"
+        stroke="#9467bd"
+        stroke-width="4"/>
+  <text x="410" y="65" font-size="13" fill="#000000">Changing acceleration</text>
+
+  <!-- Displacement explanation -->
+  <rect x="90" y="320" width="15" height="15" fill="#2ca02c" opacity="0.2"/>
+  <text x="115" y="333" font-size="13" fill="#000000">
+    Area above axis = positive displacement
+  </text>
+
+  <rect x="90" y="340" width="15" height="15" fill="#d62728" opacity="0.2"/>
+  <text x="115" y="353" font-size="13" fill="#000000">
+    Area below axis = negative displacement
+  </text>
+
+</svg>
+
+---
+
 ## **What are Velocity-Time Graphs?**
 
 A **velocity-time graph** plots an object's velocity on the vertical (y) axis against time on the horizontal (x) axis. Each point on the graph represents the object's velocity at a specific instant in time.

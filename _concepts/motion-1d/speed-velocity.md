@@ -34,6 +34,76 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="300"
+    viewBox="0 0 600 300"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <title id="title">Speed vs. Velocity</title>
+  <desc id="desc">
+    A comparison of speed and velocity. On the left, a car is labeled with a speed of 60 miles per hour,
+    showing only how fast it is moving. On the right, a car is labeled with a velocity of 60 miles per hour north,
+    showing both speed and direction. An arrow pointing north emphasizes the directional component of velocity.
+  </desc>
+
+  <style>
+    text::selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+
+    text::-moz-selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="300" fill="white"/>
+
+  <!-- Divider -->
+  <line x1="300" y1="30" x2="300" y2="270" stroke="#999999" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- Left side: Speed -->
+  <text x="150" y="40" font-size="22" text-anchor="middle" fill="#000000">Speed</text>
+  <text x="150" y="65" font-size="14" text-anchor="middle" fill="#000000">How fast something moves</text>
+
+  <!-- Car body -->
+  <rect x="90" y="120" width="120" height="40" rx="8" fill="#4C78A8"/>
+  <rect x="115" y="95" width="70" height="35" rx="8" fill="#4C78A8"/>
+
+  <!-- Wheels -->
+  <circle cx="115" cy="165" r="12" fill="#333333"/>
+  <circle cx="185" cy="165" r="12" fill="#333333"/>
+
+  <!-- Speed label -->
+  <text x="150" y="210" font-size="18" text-anchor="middle" fill="#000000">60 mph</text>
+  <text x="150" y="235" font-size="14" text-anchor="middle" fill="#000000">No direction given</text>
+
+  <!-- Right side: Velocity -->
+  <text x="450" y="40" font-size="22" text-anchor="middle" fill="#000000">Velocity</text>
+  <text x="450" y="65" font-size="14" text-anchor="middle" fill="#000000">How fast and in what direction</text>
+
+  <!-- Car body -->
+  <rect x="390" y="120" width="120" height="40" rx="8" fill="#59A14F"/>
+  <rect x="415" y="95" width="70" height="35" rx="8" fill="#59A14F"/>
+
+  <!-- Wheels -->
+  <circle cx="415" cy="165" r="12" fill="#333333"/>
+  <circle cx="485" cy="165" r="12" fill="#333333"/>
+
+  <!-- Velocity label -->
+  <text x="450" y="210" font-size="18" text-anchor="middle" fill="#000000">60 mph north</text>
+  <text x="450" y="235" font-size="14" text-anchor="middle" fill="#000000">Includes direction</text>
+
+</svg>
+
+---
 
 ## **What are Speed and Velocity?**
 

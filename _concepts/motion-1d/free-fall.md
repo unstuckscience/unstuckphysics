@@ -14,6 +14,7 @@ toc: true
 toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
+toc_levels: 2..3
 
 ---
 
@@ -29,7 +30,102 @@ toc_sticky: true
 <audio controls class="audio-player" aria-label="Audio summary of distance and displacement">
   <source src="/assets/audio/motion-1d/free-fall-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
-</audio>toc_levels: 2..3
+</audio>
+
+---
+
+## **Visual Representation**
+
+
+<svg
+    width="480"
+    height="320"
+    viewBox="0 0 480 320"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <desc id="desc">
+    A free fall diagram showing a ball dropping from rest with increasing velocity downward and constant downward acceleration due to gravity.
+  </desc>
+
+  <rect x="0" y="0" width="480" height="320" fill="white"/>
+
+  <!-- Dashed vertical path -->
+  <line x1="120" y1="70" x2="120" y2="255"
+        stroke="#000000"
+        stroke-width="2"
+        stroke-dasharray="6,6"/>
+
+  <!-- Ball positions -->
+  <circle cx="120" cy="85" r="12" fill="#1f77b4"/>
+  <circle cx="120" cy="145" r="12" fill="#1f77b4"/>
+  <circle cx="120" cy="235" r="12" fill="#1f77b4"/>
+
+  <!-- Time labels -->
+  <text x="75" y="90"
+        font-size="13"
+        fill="#000000"
+        text-anchor="end">0 s</text>
+
+  <text x="75" y="150"
+        font-size="13"
+        fill="#000000"
+        text-anchor="end">1 s</text>
+
+  <text x="75" y="240"
+        font-size="13"
+        fill="#000000"
+        text-anchor="end">2 s</text>
+
+  <!-- Velocity arrows -->
+  <line x1="155" y1="85" x2="155" y2="110"
+        stroke="#000000"
+        stroke-width="3"
+        marker-end="url(#arrowhead)"/>
+  <text x="175" y="100"
+        font-size="13"
+        fill="#000000">v</text>
+
+  <line x1="155" y1="145" x2="155" y2="190"
+        stroke="#000000"
+        stroke-width="3"
+        marker-end="url(#arrowhead)"/>
+  <text x="175" y="172"
+        font-size="13"
+        fill="#000000">greater v</text>
+
+  <line x1="155" y1="235" x2="155" y2="295"
+        stroke="#000000"
+        stroke-width="3"
+        marker-end="url(#arrowhead)"/>
+  <text x="175" y="270"
+        font-size="13"
+        fill="#000000">greatest v</text>
+
+  <!-- Acceleration arrow -->
+  <line x1="300" y1="90" x2="300" y2="220"
+        stroke="#000000"
+        stroke-width="4"
+        marker-end="url(#arrowhead)"/>
+  <text x="320" y="160"
+        font-size="14"
+        fill="#000000">9.8 m/s² downward</text>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead"
+            markerWidth="5"
+            markerHeight="5"
+            refX="3.5"
+            refY="2.5"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <polygon points="0 0, 5 2.5, 0 5" fill="#000000"/>
+    </marker>
+  </defs>
+
+</svg>
 
 ---
 

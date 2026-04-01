@@ -34,6 +34,85 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="240"
+    viewBox="0 0 600 240"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <title id="title">Acceleration and Velocity Examples with Stick-Figure Cars</title>
+  <desc id="desc">
+    Three examples of acceleration using stick-figure cars. 
+    Left: speeding up with velocity and acceleration in motion direction. 
+    Center: slowing down with velocity along motion and acceleration opposite. 
+    Right: circular motion with car on circle, velocity tangent, acceleration toward center.
+  </desc>
+
+  <style>
+    text::selection { background: #cfe8ff; fill: #000000; }
+    text::-moz-selection { background: #cfe8ff; fill: #000000; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="380" fill="white"/>
+
+  <!-- Speeding up -->
+  <text x="120" y="40" font-size="18" text-anchor="middle" fill="#000000">Speeding up</text>
+  <rect x="100" y="100" width="40" height="20" rx="4" fill="#1f77b4"/>
+  <circle cx="110" cy="125" r="5" fill="#000000"/>
+  <circle cx="130" cy="125" r="5" fill="#000000"/>
+  <!-- Velocity -->
+  <line x1="150" y1="110" x2="190" y2="110" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="170" y="95" font-size="13" fill="#000000" text-anchor="middle">Velocity</text>
+  <!-- Acceleration -->
+  <line x1="150" y1="130" x2="190" y2="130" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="170" y="145" font-size="13" fill="#000000" text-anchor="middle">Acceleration</text>
+
+  <!-- Slowing down -->
+  <text x="300" y="40" font-size="18" text-anchor="middle" fill="#000000">Slowing down</text>
+  <rect x="280" y="100" width="40" height="20" rx="4" fill="#d62728"/>
+  <circle cx="290" cy="125" r="5" fill="#000000"/>
+  <circle cx="310" cy="125" r="5" fill="#000000"/>
+  <!-- Velocity -->
+  <line x1="330" y1="110" x2="370" y2="110" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="350" y="95" font-size="13" fill="#000000" text-anchor="middle">Velocity</text>
+  <!-- Acceleration (opposite) -->
+  <line x1="370" y1="130" x2="330" y2="130" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="350" y="145" font-size="13" fill="#000000" text-anchor="middle">Acceleration</text>
+
+  <!-- Circular motion -->
+  <text x="480" y="40" font-size="18" text-anchor="middle" fill="#000000">Changing direction</text>
+  <!-- Circle path dashed -->
+  <circle cx="480" cy="140" r="40" stroke="#ff7f0e" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <!-- Car on top of circle (rotated, same size as others) -->
+  <g transform="translate(480,100) rotate(180)">
+    <rect x="-20" y="-10" width="40" height="20" rx="4" fill="#ff7f0e"/>
+    <circle cx="-10" cy="-10" r="5" fill="#000000"/>
+    <circle cx="10" cy="-10" r="5" fill="#000000"/>
+  </g>
+  <!-- Tangent velocity arrow -->
+  <line x1="520" y1="110" x2="560" y2="110" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="540" y="100" font-size="13" fill="#000000" text-anchor="middle">Velocity</text>
+  <!-- Radial acceleration arrow -->
+  <line x1="480" y1="100" x2="480" y2="140" stroke="#000000" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="480" y="155" font-size="13" fill="#000000" text-anchor="middle">Acceleration</text>
+
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="3" markerHeight="3" 
+            refX="2.5" refY="1.5" orient="auto" markerUnits="strokeWidth">
+      <polygon points="0 0, 3 1.5, 0 3" fill="currentColor"/>
+    </marker>
+  </defs>
+
+</svg>
+
+---
+
 ## **What is Acceleration?**
 
 **Acceleration** is the **rate at which an object's velocity changes**. This change can be in:

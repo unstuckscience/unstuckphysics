@@ -34,6 +34,77 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="150"
+    viewBox="0 125 600 75"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+  <title id="title">Distance vs. Displacement with Stick Figure</title>
+  <desc id="desc">
+    Illustration showing a stick figure at the start of a curved dashed path representing distance traveled from point A to point B. 
+    A straight solid arrow from A to B represents displacement. Labels use dashed and solid line swatches to match the lines.
+  </desc>
+
+<style>
+  text::selection {
+    background: #cfe8ff;
+    fill: #000000;
+  }
+
+  text::-moz-selection {
+    background: #cfe8ff;
+    fill: #000000;
+  }
+</style>
+
+  <!-- Ground line -->
+  <line x1="50" y1="200" x2="550" y2="200" stroke="#444444" stroke-width="2" />
+
+  <!-- Start and End points -->
+  <circle cx="100" cy="200" r="8" fill="#0072B2" />
+  <text x="80" y="190" font-size="14" fill="#000000">A</text>
+
+  <circle cx="500" cy="200" r="8" fill="#D55E00" />
+  <text x="510" y="190" font-size="14" fill="#000000">B</text>
+
+  <!-- Curved path (distance) with dashed line -->
+  <path d="M100,200 Q200,150 300,200 Q400,250 500,200" 
+        fill="none" stroke="#009E73" stroke-width="3" stroke-dasharray="8,5" />
+  <!-- Distance label with dashed swatch -->
+  <line x1="240" y1="130" x2="260" y2="130" stroke="#009E73" stroke-width="3" stroke-dasharray="8,5" />
+  <text x="270" y="134" font-size="14" fill="#000000">Distance (along path)</text>
+
+  <!-- Stick figure at start -->
+  <g stroke="#000000" stroke-width="2" fill="none">
+    <circle cx="100" cy="200" r="6" fill="#000000"/> <!-- head -->
+    <line x1="100" y1="206" x2="100" y2="220"/> <!-- body -->
+    <line x1="95" y1="210" x2="105" y2="210"/> <!-- arms -->
+    <line x1="100" y1="220" x2="95" y2="230"/> <!-- left leg -->
+    <line x1="100" y1="220" x2="105" y2="230"/> <!-- right leg -->
+  </g>
+
+  <!-- Straight line (displacement) solid line with arrowhead -->
+  <line x1="100" y1="200" x2="500" y2="200" 
+        stroke="#E69F00" stroke-width="4" marker-end="url(#arrowhead)" />
+  <!-- Displacement label with solid swatch -->
+  <line x1="240" y1="150" x2="260" y2="150" stroke="#E69F00" stroke-width="3" />
+  <text x="270" y="154" font-size="14" fill="#000000">Displacement (straight line)</text>
+
+  <!-- Arrowhead definition for displacement -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E69F00"/>
+    </marker>
+  </defs>
+</svg>
+
+
+---
+
 ## **What is Distance?**
 
 **Distance** is the **total length of the path** an object travels. It doesn't matter what direction the object moves; you just add up all the ground it covered. Distance is a **scalar quantity**, meaning it only has magnitude (a number and a unit, like 10 meters) but no direction.

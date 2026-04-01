@@ -34,6 +34,88 @@ A **position-time graph** is a powerful tool that shows an object's location ove
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="600"
+    height="360"
+    viewBox="0 0 600 360"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+
+  <title id="title">Position-Time Graph Examples</title>
+  <desc id="desc">
+    A position-time graph with time on the horizontal axis and position on the vertical axis.
+    The graph shows four types of motion: a horizontal line for standing still, an upward sloped line
+    for moving forward at a constant speed, a downward sloped line for moving backward at a constant speed,
+    and a curved line for changing speed or acceleration.
+  </desc>
+
+<style>
+  text::selection {
+    background: #cfe8ff;
+    fill: #000000;
+  }
+
+  text::-moz-selection {
+    background: #cfe8ff;
+    fill: #000000;
+  }
+</style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="360" fill="white"/>
+
+  <!-- Axes -->
+  <line x1="70" y1="340" x2="530" y2="340" stroke="#000000" stroke-width="3"/>
+  <line x1="70" y1="340" x2="70" y2="50" stroke="#000000" stroke-width="3"/>
+
+  <!-- Arrowheads -->
+  <polygon points="530,340 518,334 518,346" fill="#000000"/>
+  <polygon points="70,50 64,62 76,62" fill="#000000"/>
+
+  <!-- Axis Labels -->
+  <text x="545" y="346" font-size="18" fill="#000000">Time</text>
+  <text x="30" y="210" font-size="18" fill="#000000" transform="rotate(-90 30,210)">Position</text>
+
+  <!-- Tick marks on x-axis -->
+  <line x1="140" y1="335" x2="140" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="210" y1="335" x2="210" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="280" y1="335" x2="280" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="350" y1="335" x2="350" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="420" y1="335" x2="420" y2="345" stroke="#000000" stroke-width="2"/>
+  <line x1="490" y1="335" x2="490" y2="345" stroke="#000000" stroke-width="2"/>
+
+  <!-- Tick marks on y-axis -->
+  <line x1="65" y1="280" x2="75" y2="280" stroke="#000000" stroke-width="2"/>
+  <line x1="65" y1="220" x2="75" y2="220" stroke="#000000" stroke-width="2"/>
+  <line x1="65" y1="160" x2="75" y2="160" stroke="#000000" stroke-width="2"/>
+  <line x1="65" y1="100" x2="75" y2="100" stroke="#000000" stroke-width="2"/>
+
+  <!-- Horizontal line: standing still -->
+  <line x1="100" y1="280" x2="180" y2="280" stroke="#1f77b4" stroke-width="4"/>
+  <text x="100" y="265" font-size="13" fill="#000000">Standing still</text>
+
+  <!-- Upward slope: moving forward -->
+  <line x1="220" y1="300" x2="300" y2="180" stroke="#2ca02c" stroke-width="4"/>
+  <text x="205" y="165" font-size="13" fill="#000000">Moving forward</text>
+
+  <!-- Downward slope: moving backward -->
+  <line x1="340" y1="140" x2="420" y2="260" stroke="#d62728" stroke-width="4"/>
+  <text x="325" y="125" font-size="13" fill="#000000">Moving backward</text>
+
+  <!-- Curved line: accelerating -->
+  <path d="M440,300 Q470,280 490,220 T530,100"
+        fill="none"
+        stroke="#9467bd"
+        stroke-width="4"/>
+  <text x="390" y="85" font-size="13" fill="#000000">Changing speed (acceleration)</text>
+
+</svg>
+
+---
+
 ## **What is a Position-Time Graph?**
 
 A position-time graph shows an object's **position** on the vertical (y) axis and **time** on the horizontal (x) axis.
