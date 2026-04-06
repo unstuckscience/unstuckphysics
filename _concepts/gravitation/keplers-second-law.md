@@ -25,7 +25,7 @@ Kepler's Second Law, the <strong>Law of Equal Areas</strong>, states that a line
 
 ## **Audio Explanation**
 
-<p>Prefer to listen? Here's a quick audio summary of Kepler's Second Law.</p>
+Prefer to listen? Here's a quick audio summary of Kepler's Second Law.
 <audio controls class="audio-player" aria-label="Audio summary of Kepler's Second Law">
   <source src="/assets/audio/gravitation/keplers-second-law-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.

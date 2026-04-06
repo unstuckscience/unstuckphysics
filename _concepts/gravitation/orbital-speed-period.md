@@ -25,7 +25,7 @@ For a satellite to maintain a stable circular orbit, the gravitational pull of t
 
 ## **Audio Explanation**
 
-<p>Prefer to listen? Here's a quick audio summary of Orbital Speed and Period.</p>
+Prefer to listen? Here's a quick audio summary of Orbital Speed and Period.
 <audio controls class="audio-player" aria-label="Audio summary of Orbital Speed and Period">
   <source src="/assets/audio/gravitation/orbital-speed-period-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.

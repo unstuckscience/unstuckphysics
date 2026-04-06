@@ -25,7 +25,7 @@ Newton's Law of Universal Gravitation states that every particle in the universe
 
 ## **Audio Explanation**
 
-<p>Prefer to listen? Here's a quick audio summary of Newton's Law of Universal Gravitation.</p>
+Prefer to listen? Here's a quick audio summary of Newton's Law of Universal Gravitation.
 <audio controls class="audio-player" aria-label="Audio summary of Newton's Law of Universal Gravitation">
   <source src="/assets/audio/gravitation/universal-gravitation-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.

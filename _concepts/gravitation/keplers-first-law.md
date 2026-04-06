@@ -25,7 +25,7 @@ toc_levels: 2..3
 
 ## **Audio Explanation**
 
-<p>Prefer to listen? Here's a quick audio summary of Kepler's First Law.</p>
+Prefer to listen? Here's a quick audio summary of Kepler's First Law.
 <audio controls class="audio-player" aria-label="Audio summary of Kepler's First Law">
   <source src="/assets/audio/gravitation/keplers-first-law-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.

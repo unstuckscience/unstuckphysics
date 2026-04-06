@@ -25,7 +25,7 @@ Kepler's Third Law, the <strong>Law of Harmonies</strong>, shows a precise mathe
 
 ## **Audio Explanation**
 
-<p>Prefer to listen? Here's a quick audio summary of Kepler's Third Law.</p>
+Prefer to listen? Here's a quick audio summary of Kepler's Third Law.
 <audio controls class="audio-player" aria-label="Audio summary of Kepler's Third Law">
   <source src="/assets/audio/gravitation/keplers-third-law-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
