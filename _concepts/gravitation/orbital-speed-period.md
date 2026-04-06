@@ -21,6 +21,18 @@ toc_levels: 2..3
 For a satellite to maintain a stable circular orbit, the gravitational pull of the planet must provide exactly enough centripetal force to keep the satellite moving in its curved path.
 </p>
 
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Orbital Speed and Period.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Orbital Speed and Period">
+  <source src="/assets/audio/gravitation/orbital-speed-period-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Physics of Circular Orbits**
 
 When an object orbits a planet, it is essentially in a state of constant free-fall. However, because it has enough horizontal (tangential) velocity, it constantly "misses" the ground, following the curvature of the planet.

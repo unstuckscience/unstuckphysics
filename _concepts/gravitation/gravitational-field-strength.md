@@ -23,6 +23,16 @@ toc_levels: 2..3
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Gravitational Field Strength.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Gravitational Field Strength">
+  <source src="/assets/audio/gravitation/gravitational-field-strength-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **What Is Gravitational Field Strength?**
 
 **Gravitational field strength**, symbolized by **$g$**, is defined as the **gravitational force acting on a 1-kilogram mass** at a specific point in space.

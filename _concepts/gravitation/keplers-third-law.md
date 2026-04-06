@@ -23,6 +23,16 @@ Kepler's Third Law, the <strong>Law of Harmonies</strong>, shows a precise mathe
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Kepler's Third Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Kepler's Third Law">
+  <source src="/assets/audio/gravitation/keplers-third-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Law of Harmonies**
 
 While Kepler's First and Second Laws describe the motion of a single planet, the Third Law **compares different planets**. It shows that a planet’s "year" is determined by its distance from the Sun.

@@ -23,6 +23,16 @@ Kepler's Second Law, the <strong>Law of Equal Areas</strong>, states that a line
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Kepler's Second Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Kepler's Second Law">
+  <source src="/assets/audio/gravitation/keplers-second-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Law of Equal Areas**
 
 While Kepler's First Law describes the **shape** of planetary orbits, the Second Law explains **how orbital speed changes** along that path.

@@ -21,8 +21,18 @@ toc_levels: 2..3
 **Kepler’s First Law**, also called the **Law of Ellipses**, states that every planet moves in an **elliptical orbit**, with the **Sun located at one focus** of the ellipse.
 </p>
 
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Kepler's First Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Kepler's First Law">
+  <source src="/assets/audio/gravitation/keplers-first-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
+
 
 ## **What Is Kepler’s First Law?**
 

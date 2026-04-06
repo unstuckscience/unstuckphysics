@@ -21,6 +21,18 @@ toc_levels: 2..3
 Newton's Law of Universal Gravitation states that every particle in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
 </p>
 
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Newton's Law of Universal Gravitation.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Newton's Law of Universal Gravitation">
+  <source src="/assets/audio/gravitation/universal-gravitation-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **The Universal Attraction**
 
 Before Isaac Newton, scientists thought the rules for motion on Earth were different from the rules for motion in the heavens. Newton's great insight was that the same force causing an apple to fall to the ground is the force that keeps the Moon in orbit around the Earth.
