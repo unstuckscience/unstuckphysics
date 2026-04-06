@@ -6,18 +6,28 @@ layout: single
 collection: concepts
 topic: forces
 tags: [inclined plane, ramp, forces, components, normal force, friction, gravity, newtons laws]
-order: 9 # Adjust order as needed in your sidebar
+order: 9
 sidebar:
-  nav: forces-concepts # This page belongs to the Forces concepts sidebar
+  nav: forces-concepts
 mathjax: true
 toc: true
 toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> An **inclined plane** is a flat surface tilted at an angle, allowing objects to move up or down more easily than lifting them straight vertically. Studying forces on inclined planes helps us understand **gravity, friction, and acceleration along a slope**. </p>
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of inclined planes.</p>
+<audio controls class="audio-player" aria-label="Audio summary of inclined planes">
+  <source src="/assets/audio/forces/inclined-planes-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -178,16 +188,6 @@ Once you've resolved forces into components parallel and perpendicular to the in
 * **Real-World Application:** Ramps are everywhere – loading docks, wheelchair ramps, roller coasters, ski slopes. Understanding them is practical.
 * **Component Skills:** They are excellent problems for practicing resolving vectors into components and applying Newton's Laws in two dimensions.
 * **Challenging but Rewarding:** Mastering inclined planes often marks a significant step in a student's understanding of dynamics.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of inclined planes.</p>
-<audio controls class="audio-player" aria-label="Audio summary of inclined planes">
-  <source src="/assets/audio/forces/inclined-planes-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

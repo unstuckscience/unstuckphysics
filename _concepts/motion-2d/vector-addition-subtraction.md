@@ -23,6 +23,16 @@ Vector addition combines two or more vectors to find a single **resultant vector
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of vector addition and subtraction.</p>
+<audio controls class="audio-player" aria-label="Audio summary of vector addition and subtraction">
+  <source src="/assets/audio/motion-2d/vector-addition-subtraction-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **Adding Vectors: Head-to-Tail Method**
 
 The easiest way to add vectors graphically is the **head-to-tail method**.
@@ -163,16 +173,6 @@ Test your understanding of key terms and methods related to combining vectors.
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/motion-2d/vector-addition-subtraction-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of vector addition and subtraction.</p>
-<audio controls class="audio-player" aria-label="Audio summary of vector addition and subtraction">
-  <source src="/assets/audio/motion-2d/vector-addition-subtraction-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

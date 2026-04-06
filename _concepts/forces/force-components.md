@@ -17,7 +17,17 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> Sometimes a force isn’t acting straight up, down, or sideways. **Force components** break a force into parts that point along easier directions (like horizontal and vertical) so it’s easier to calculate how the object moves. </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of force components.</p>
+<audio controls class="audio-player" aria-label="Audio summary of force components">
+  <source src="/assets/audio/forces/force-components-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -140,16 +150,6 @@ This is automatically handled if you consistently measure your angle $\theta$ co
 * **Quadrant II (90° to 180°):** $F_x$ is negative, $F_y$ is positive.
 * **Quadrant III (180° to 270°):** Both $F_x$ and $F_y$ are negative.
 * **Quadrant IV (270° to 360°):** $F_x$ is positive, $F_y$ is negative.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of force components.</p>
-<audio controls class="audio-player" aria-label="Audio summary of force components">
-  <source src="/assets/audio/forces/force-components-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

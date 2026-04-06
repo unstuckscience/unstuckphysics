@@ -15,11 +15,22 @@ toc_label: "On This Page"
 toc_icon: "bars"
 toc_sticky: true
 toc_levels: 2..3
+
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 A **scalar** quantity is a measurement that only has magnitude (a size or amount), while a **vector** quantity has both magnitude and a specific direction.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of vectors and scalars.</p>
+<audio controls class="audio-player" aria-label="Audio summary of vectors and scalars">
+  <source src="/assets/audio/motion-2d/vectors-scalars-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -176,16 +187,6 @@ Test your understanding of the key terms associated with vectors and scalars.
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/motion-2d/vectors-scalars-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of vectors and scalars.</p>
-<audio controls class="audio-player" aria-label="Audio summary of vectors and scalars">
-  <source src="/assets/audio/motion-2d/vectors-scalars-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

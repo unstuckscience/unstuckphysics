@@ -17,7 +17,16 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> **Friction** is a force that tries to stop objects from sliding or moving when they touch each other. It’s why things slow down when you push them and why you don’t slip when you walk. </p>
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of friction.</p>
+<audio controls class="audio-player" aria-label="Audio summary of friction">
+  <source src="/assets/audio/forces/friction-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -141,16 +150,6 @@ Apply a force to a block and see how static and kinetic friction behave!
 * **Everyday Life:** Friction allows us to walk, drive cars (tires grip the road), stop vehicles (brakes), and light matches. Without it, everything would slide uncontrollably.
 * **Engineering:** Engineers must account for friction in designs, whether they want to maximize it (e.g., tire tread, braking systems) or minimize it (e.g., lubricants, bearings).
 * **Problem Solving:** Friction is a common force in physics problems, and correctly identifying its type and direction is crucial for applying Newton's Laws.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of friction.</p>
-<audio controls class="audio-player" aria-label="Audio summary of friction">
-  <source src="/assets/audio/forces/friction-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

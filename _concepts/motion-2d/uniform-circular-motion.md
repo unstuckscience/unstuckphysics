@@ -23,6 +23,16 @@ Uniform circular motion (UCM) describes an object moving in a circular path at a
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of uniform circular motion.</p>
+<audio controls class="audio-player" aria-label="Audio summary of uniform circular motion">
+  <source src="/assets/audio/motion-2d/uniform-circular-motion-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **What is Uniform Circular Motion?**
 
 **Uniform circular motion (UCM)** describes the movement of an object in a circular path at a **constant speed**.
@@ -157,16 +167,6 @@ Test your understanding of key terms related to uniform circular motion.
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/motion-2d/uniform-circular-motion-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of uniform circular motion.</p>
-<audio controls class="audio-player" aria-label="Audio summary of uniform circular motion">
-  <source src="/assets/audio/motion-2d/uniform-circular-motion-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

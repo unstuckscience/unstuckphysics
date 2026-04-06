@@ -17,7 +17,17 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> Every force comes with a partner. **Newton's Third Law** tells us that whenever one object exerts a force on another, the second object pushes back with an equal and opposite force. This principle explains why rockets launch, why you feel a push when you step off a boat, and why collisions always involve mutual interactions. </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Newton's Third Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Newton's Third Law">
+  <source src="/assets/audio/forces/newtons-third-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -110,16 +120,6 @@ Observe two objects interacting. When one pushes the other, see the equal and op
 * **Understanding Interactions:** This law explains how objects interact with each other, not just how a single force affects a single object.
 * **Propulsion:** It's the principle behind rockets, jet engines, and even walking (you push the Earth backward, and the Earth pushes you forward).
 * **Force Pairs:** It helps identify correct force pairs in complex systems, which is essential for solving problems in dynamics.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of Newton's Third Law.</p>
-<audio controls class="audio-player" aria-label="Audio summary of Newton's Third Law">
-  <source src="/assets/audio/forces/newtons-third-law-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

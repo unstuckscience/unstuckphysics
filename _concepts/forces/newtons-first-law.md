@@ -17,7 +17,17 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> **Newton's First Law**, often called the law of inertia, explains that objects **keep doing what they are doing** unless acted on by an external force. A stationary book stays at rest, and a rolling ball keeps moving, unless friction, a push, or another force changes its motion. </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Newton's First Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Newton's First Law">
+  <source src="/assets/audio/forces/newtons-first-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -110,16 +120,6 @@ See how an object resists changes to its motion!
 * **Foundation of Dynamics:** It's the starting point for understanding how forces affect motion.
 * **Understanding "Why Things Stop":** It helps us realize that objects don't just stop because they "run out of force." They stop because an unbalanced force (like friction or air resistance) acts on them.
 * **Everyday Examples:** Seatbelts in cars (your body's inertia keeps it moving forward when the car stops), shaking a ketchup bottle (ketchup's inertia keeps it moving when the bottle stops).
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of Newton's First Law.</p>
-<audio controls class="audio-player" aria-label="Audio summary of Newton's First Law">
-  <source src="/assets/audio/forces/newtons-first-law-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

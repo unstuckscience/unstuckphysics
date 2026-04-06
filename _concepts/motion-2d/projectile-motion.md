@@ -8,7 +8,7 @@ topic: motion-2d
 tags: [projectile motion, gravity, kinematics, trajectory, parabolic, range, height, time of flight]
 order: 3
 sidebar:
-  nav: motion-2d-concepts # This page belongs to the Motion in 2D concepts sidebar
+  nav: motion-2d-concepts
 mathjax: true
 toc: true
 toc_label: "On This Page"
@@ -20,6 +20,16 @@ toc_levels: 2..3
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
 **Projectile motion** describes the curved, **parabolic path** an object takes when launched into the air. It's analyzed by treating the motion as two independent components: a constant horizontal velocity and a vertical motion subject only to the acceleration of gravity.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of projectile motion.</p>
+<audio controls class="audio-player" aria-label="Audio summary of projectile motion">
+  <source src="/assets/audio/motion-2d/projectile-motion-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -151,16 +161,6 @@ Test your understanding of key terms related to projectile motion.
 
 <script src="/assets/js/common/interactive-match-base.js"></script>
 <script src="/assets/js/motion-2d/projectile-motion-interactive-match.js"></script>
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of projectile motion.</p>
-<audio controls class="audio-player" aria-label="Audio summary of projectile motion">
-  <source src="/assets/audio/motion-2d/projectile-motion-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

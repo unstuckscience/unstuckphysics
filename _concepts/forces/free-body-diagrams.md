@@ -17,7 +17,16 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> A **free-body diagram (FBD)** is a simple drawing that shows all the forces acting on an object. It helps you see what’s pushing, pulling, or lifting the object so you can figure out how it will move. </p>
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of free-body diagrams.</p>
+<audio controls class="audio-player" aria-label="Audio summary of free-body diagrams">
+  <source src="/assets/audio/forces/free-body-diagrams-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -121,16 +130,6 @@ Let's practice drawing FBDs for different scenarios. Identify the forces and see
 * **Organization:** They help you organize all the forces acting on an object, preventing you from missing any or including irrelevant ones.
 * **Problem-Solving Strategy:** Drawing an FBD is the essential first step in applying Newton's Laws to solve problems. Without a correct FBD, it's very difficult to set up the equations correctly.
 * **Vector Analysis:** They help you visualize the direction of forces, which is critical for resolving forces into components and summing them up to find the net force.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of free-body diagrams.</p>
-<audio controls class="audio-player" aria-label="Audio summary of free-body diagrams">
-  <source src="/assets/audio/forces/free-body-diagrams-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

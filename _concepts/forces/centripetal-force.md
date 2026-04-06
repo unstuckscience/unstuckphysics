@@ -17,7 +17,16 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> When something moves in a circle, it’s always changing direction. **Centripetal force** is the force that pulls an object toward the center of the circle to keep it moving along that curved path. </p>
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of centripetal force.</p>
+<audio controls class="audio-player" aria-label="Audio summary of centripetal force">
+  <source src="/assets/audio/forces/centripetal-force-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -131,16 +140,6 @@ Observe an object moving in a circle. Adjust its mass, speed, and radius, and se
 * **Explaining Circular Motion:** It's the fundamental concept that explains *why* objects move in circles rather than flying off in a straight line (due to inertia).
 * **Engineering Applications:** Critical for designing anything that spins or turns, from roller coasters and car tires to centrifuges and satellite orbits.
 * **Common Misconceptions:** Helps clarify that there is no "centrifugal force" pulling outwards; rather, it's inertia trying to make the object go straight, while the centripetal force pulls it inwards.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of centripetal force.</p>
-<audio controls class="audio-player" aria-label="Audio summary of centripetal force">
-  <source src="/assets/audio/forces/centripetal-force-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

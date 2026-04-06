@@ -17,7 +17,17 @@ toc_sticky: true
 toc_levels: 2..3
 ---
 
-<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
+<p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;"> **Newton's Second Law** explains how forces change the motion of objects. It tells us that the acceleration of an object depends directly on the net force applied and inversely on its mass. This law is why a light soccer ball speeds up quickly when kicked, while a heavy car barely budges with the same push. </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of Newton's Second Law.</p>
+<audio controls class="audio-player" aria-label="Audio summary of Newton's Second Law">
+  <source src="/assets/audio/forces/newtons-second-law-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 ---
 
@@ -124,16 +134,6 @@ Experiment with applying different forces to objects of varying masses and obser
 * **Predicting Motion:** This law is the cornerstone of dynamics. If you know the net force acting on an object and its mass, you can predict exactly how it will accelerate.
 * **Engineering Design:** Engineers use F=ma constantly to design everything from cars and airplanes to roller coasters and bridges, ensuring they can withstand forces or achieve desired accelerations.
 * **Problem Solving:** It's the most frequently used equation in introductory physics for problems involving forces and motion.
-
----
-
-## **Audio Explanation**
-
-<p>Prefer to listen? Here's a quick audio summary of Newton's Second Law.</p>
-<audio controls class="audio-player" aria-label="Audio summary of Newton's Second Law">
-  <source src="/assets/audio/forces/newtons-second-law-audio.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
 
 ---
 

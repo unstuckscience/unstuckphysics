@@ -1,6 +1,6 @@
 ---
 title: 📘 Types of Forces
-summary: Explore common types of forces including gravity, normal force, friction, tension, and applied force, and how they act on objects.
+summary: Explore common types of forces including gravity, normal force, friction, tension, and applied force.
 permalink: /concepts/forces/types-of-forces/
 layout: single
 collection: concepts
@@ -8,7 +8,7 @@ topic: forces
 tags: [forces, gravity, normal force, friction, tension, applied force, push, pull, newton]
 order: 1
 sidebar:
-nav: forces-concepts
+ nav: forces-concepts
 mathjax: true
 toc: true
 toc_label: "On This Page"
@@ -18,26 +18,83 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
-Different forces act in different ways. Some pull objects downward, some push upward, and others resist motion or pull through ropes and cables.
+Different forces act in different ways. Some forces pull objects downward, some push upward, and others resist motion or pull through ropes and cables.
 </p>
+
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick audio summary of the different types of forces.</p>
+<audio controls class="audio-player" aria-label="Audio summary of types of forces">
+  <source src="/assets/audio/forces/types-of-forces-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
+## **What is a Force?**
+
+A **force** is a push or a pull.
+
+Forces can:
+
+* Change an object's speed
+* Change an object's direction
+* Start motion
+* Stop motion
+
+Forces are measured in **newtons (N)**.
 
 ---
 
 ## **Common Types of Forces**
 
-There are many types of forces we encounter in physics and everyday life. Here are some of the most common:
+### **Gravitational Force (Weight)**
 
-1. **Gravitational Force (Weight):** The force of attraction between any two objects with mass. On Earth, this is the force pulling objects downwards towards the planet's center. We often call this an object's **weight**.
-2. **Normal Force:** The support force exerted by a surface on an object in contact with it. It always acts **perpendicular** (at a 90-degree angle) to the surface.
-3. **Friction Force:** A force that opposes motion (or attempted motion) between two surfaces in contact. It acts **parallel** to the surface.
-4. **Tension Force:** A pulling force transmitted axially by means of a string, cable, chain, or similar one-dimensional continuous object. It always acts along the length of the string or cable.
-5. **Applied Force:** A force that is applied to an object by a person or another object. This is a general term for any direct push or pull.
+Gravity pulls objects downward toward Earth.
+
+* Gravity acts on all objects with mass.
+* The force of gravity on an object is called its **weight**.
+* Gravity always acts downward.
+
+### **Normal Force**
+
+The normal force is the support force from a surface.
+
+* A table pushes up on a book.
+* The ground pushes up on your feet.
+* Normal force acts perpendicular to the surface.
+
+### **Friction Force**
+
+Friction opposes motion between two surfaces.
+
+* Friction slows things down.
+* Friction acts parallel to a surface.
+* Friction points opposite the direction of motion.
+
+### **Tension Force**
+
+Tension is the pulling force in a rope, cable, or string.
+
+* Tension always pulls.
+* Tension acts along the rope or string.
+* A hanging sign or tug-of-war rope has tension.
+
+### **Applied Force**
+
+An applied force is any push or pull from a person or another object.
+
+* Pushing a shopping cart is an applied force.
+* Pulling a wagon is an applied force.
+* Applied forces can point in any direction.
 
 ---
 
 ## **Interactive: Visualizing Forces**
 
-Click on different scenarios to see how various forces act on objects!
+Click on different scenarios to see how various forces act on objects.
 
 <div class="animator-container">
     <div style="margin-bottom: 0.8rem;">
@@ -97,10 +154,61 @@ Click on different scenarios to see how various forces act on objects!
 </svg>
 
 <div id="animationExplanation" class="animation-explanation" aria-live="polite">
-    <p>Click on different scenarios to see how various forces act on objects!</p>
+    <p>Click on different scenarios to see how various forces act on objects.</p>
 </div>
 ```
 
 </div>
 
 <script src="/assets/js/forces/types-of-forces-animator.js"></script>
+
+---
+
+## **Key Ideas About Forces**
+
+* Gravity pulls downward.
+* Normal force pushes upward from a surface.
+* Friction opposes motion.
+* Tension pulls through ropes and cables.
+* Applied forces can be pushes or pulls.
+
+---
+
+## **Interactive Match: Types of Forces**
+
+Test your understanding of the different types of forces.
+
+<div class="vocab-matching-interactive-wrapper types-of-forces">
+    <div class="animator-explanation">
+        <p>Click a term and then its matching meaning. Match all pairs to complete the activity.</p>
+    </div>
+
+```
+<div class="vocab-matching-container">
+    <div class="vocab-grid">
+        <div class="vocab-card-column">
+            <div id="typesOfForcesTerms"></div>
+        </div>
+        <div class="vocab-card-column">
+            <div id="typesOfForcesDefinitions"></div>
+        </div>
+    </div>
+    <div id="typesOfForcesFeedback"></div>
+</div>
+
+<div class="button-controls">
+    <button id="typesOfForcesResetButton" class="animator-button btn-default">Reset</button>
+</div>
+```
+
+</div>
+
+<script src="/assets/js/common/interactive-match-base.js"></script>
+
+<script src="/assets/js/forces/types-of-forces-interactive-match.js"></script>
+
+---
+
+{% capture forces_question %}What force pushes upward on a book sitting on a table?{% endcapture %}
+{% capture forces_answer %}The upward force is the normal force from the table.{% endcapture %}
+{% include quick-concept-question.html question=forces_question answer=forces_answer %}
