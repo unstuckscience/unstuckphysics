@@ -33,6 +33,60 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="100%" height="auto" viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-h" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#0072B2" />
+    </marker>
+    <marker id="arrow-v" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#D55E00" />
+    </marker>
+  </defs>
+
+  <rect width="780" height="400" fill="#ffffff" />
+
+  <!-- Elevated Horizontal Launch Panel -->
+  <g transform="translate(40, 40)">
+    <text x="0" y="-10" font-family="sans-serif" font-weight="bold" font-size="16">Elevated Horizontal Launch</text>
+    <line x1="0" y1="300" x2="320" y2="300" stroke="#333" stroke-width="2" />
+    <path d="M0,50 Q150,50 300,280" fill="none" stroke="#009E73" stroke-width="2" stroke-dasharray="4" opacity="0.6" />
+
+    <circle cx="0" cy="50" r="4" fill="#333" />
+    <line x1="0" y1="50" x2="50" y2="50" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+
+    <circle cx="120" cy="85" r="4" fill="#333" />
+    <line x1="120" y1="85" x2="170" y2="85" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+    <line x1="120" y1="85" x2="120" y2="135" stroke="#D55E00" stroke-width="2" marker-end="url(#arrow-v)" />
+
+    <circle cx="250" cy="210" r="4" fill="#333" />
+    <line x1="250" y1="210" x2="300" y2="210" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+    <line x1="250" y1="210" x2="250" y2="300" stroke="#D55E00" stroke-width="2" marker-end="url(#arrow-v)" />
+  </g>
+
+  <!-- Angled Launch Panel -->
+  <g transform="translate(440, 40)">
+    <text x="0" y="-10" font-family="sans-serif" font-weight="bold" font-size="16">Angled Launch</text>
+    <line x1="0" y1="300" x2="320" y2="300" stroke="#333" stroke-width="2" />
+    <path d="M20,300 Q160,-115 300,300" fill="none" stroke="#009E73" stroke-width="2" stroke-dasharray="4" opacity="0.6" />
+
+    <circle cx="65" cy="190" r="4" fill="#333" />
+    <line x1="65" y1="190" x2="105" y2="190" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+    <line x1="65" y1="190" x2="65" y2="130" stroke="#D55E00" stroke-width="2" marker-end="url(#arrow-v)" />
+
+    <circle cx="160" cy="90" r="4" fill="#333" />
+    <line x1="160" y1="90" x2="200" y2="90" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+
+    <circle cx="255" cy="190" r="4" fill="#333" />
+    <line x1="255" y1="190" x2="295" y2="190" stroke="#0072B2" stroke-width="2" marker-end="url(#arrow-h)" />
+    <line x1="255" y1="190" x2="255" y2="250" stroke="#D55E00" stroke-width="2" marker-end="url(#arrow-v)" />
+  </g>
+
+</svg>
+
+---
+
 ## **What is Projectile Motion?**
 
 **Projectile motion** is the motion of an object thrown or projected into the air, subject only to the acceleration of gravity. This means we usually ignore air resistance in basic physics problems, focusing purely on the effect of gravity.

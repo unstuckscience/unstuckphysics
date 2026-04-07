@@ -34,6 +34,94 @@ A **scalar** quantity is a measurement that only has magnitude (a size or amount
 
 ---
 
+## **Visual Representation**
+
+<svg
+    width="100%"
+    viewBox="0 0 600 260"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="title desc">
+  <title id="title">Vectors and Scalars Comparison</title>
+  <desc id="desc">
+    Side-by-side illustration comparing a scalar quantity and a vector quantity.
+    The scalar example shows a thermometer labeled 25 degrees Celsius to represent magnitude only.
+    The vector example shows an arrow pointing to the right labeled 20 meters per second east to represent both magnitude and direction.
+  </desc>
+
+  <style>
+    text::selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+
+    text::-moz-selection {
+      background: #cfe8ff;
+      fill: #000000;
+    }
+  </style>
+
+  <!-- Background panels -->
+  <rect x="30" y="30" width="240" height="190" rx="12" fill="#f4f4f4" stroke="#cccccc" stroke-width="2" />
+  <rect x="330" y="30" width="240" height="190" rx="12" fill="#f4f4f4" stroke="#cccccc" stroke-width="2" />
+
+  <!-- Scalar panel title -->
+  <text x="150" y="60" text-anchor="middle" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#000000">
+    Scalar
+  </text>
+
+  <!-- Thermometer for scalar example -->
+  <line x1="120" y1="90" x2="120" y2="165" stroke="#555555" stroke-width="10" stroke-linecap="round" />
+  <line x1="120" y1="120" x2="120" y2="165" stroke="#D55E00" stroke-width="10" stroke-linecap="round" />
+  <circle cx="120" cy="175" r="18" fill="#D55E00" stroke="#555555" stroke-width="3" />
+  <circle cx="120" cy="175" r="7" fill="#ffffff" opacity="0.4" />
+
+  <!-- Scalar labels -->
+  <text x="150" y="120" font-size="18" font-family="Arial, Helvetica, sans-serif" fill="#000000">
+    25 °C
+  </text>
+  <text x="150" y="145" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#444444">
+    Magnitude only
+  </text>
+  <text x="150" y="170" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#444444">
+    No direction
+  </text>
+
+  <!-- Vector panel title -->
+  <text x="450" y="60" text-anchor="middle" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#000000">
+    Vector
+  </text>
+
+  <!-- Arrow definition -->
+  <defs>
+      <marker id="arrowhead" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">    
+      <polygon points="0 0, 7 3, 0 6" fill="#0072B2" />    </marker>
+  </defs>
+
+  <!-- Vector arrow -->
+  <line
+    x1="370"
+    y1="130"
+    x2="510"
+    y2="130"
+    stroke="#0072B2"
+    stroke-width="6"
+    marker-end="url(#arrowhead)" />
+
+  <!-- Vector labels -->
+  <text x="390" y="105" font-size="18" font-family="Arial, Helvetica, sans-serif" fill="#000000">
+    20 m/s east
+  </text>
+  <text x="390" y="160" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#444444">
+    Magnitude + direction
+  </text>
+  <text x="390" y="185" font-size="14" font-family="Arial, Helvetica, sans-serif" fill="#444444">
+    Arrow shows direction
+  </text>
+</svg>
+
+---
+
 ## **What are Vectors and Scalars?**
 
 Imagine you're telling a friend about something you measured. Sometimes, just a number is enough. Other times, you need to say which way it's going.

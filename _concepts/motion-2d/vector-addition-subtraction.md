@@ -33,6 +33,95 @@ Vector addition combines two or more vectors to find a single **resultant vector
 
 ---
 
+## **Visual Representation**
+
+<svg
+ width="100%"
+ viewBox="0 0 600 350"
+ xmlns="http://www.w3.org/2000/svg"
+ role="img"
+ aria-labelledby="title desc">
+
+  <title id="title">Vector Addition and Subtraction Side by Side</title>
+  <desc id="desc">
+    Two panels illustrating vector addition and subtraction side by side. Left panel: Vector Addition (A + B). Right panel: Vector Subtraction (A - B) using triangle method.
+  </desc>
+
+  <defs>
+    <marker id="arrowhead-orange" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#E69F00" />
+    </marker>
+    <marker id="arrowhead-green" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#009E73" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#D55E00" />
+    </marker>
+    <marker id="arrowhead-purple" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#CC79A7" />
+    </marker>
+  </defs>
+
+  <!-- Vector Addition Panel -->
+
+  <g id="addition" transform="translate(0,0)">
+    <rect x="0" y="0" width="290" height="350" fill="#f9f9f9" stroke="#ccc" />
+    <text x="20" y="20" font-size="16" font-weight="bold" fill="#000">Vector Addition (A + B)</text>
+
+
+<!-- Axes -->
+<line x1="50" y1="250" x2="250" y2="250" stroke="#444" stroke-width="2" />
+<line x1="50" y1="50" x2="50" y2="250" stroke="#444" stroke-width="2" />
+
+<!-- Vector A -->
+<line x1="50" y1="200" x2="150" y2="100" stroke="#E69F00" stroke-width="4" marker-end="url(#arrowhead-orange)" />
+<text x="100" y="130" font-size="14" fill="#000">A</text>
+
+<!-- Vector B -->
+<line x1="150" y1="100" x2="220" y2="150" stroke="#009E73" stroke-width="4" marker-end="url(#arrowhead-green)" />
+<text x="190" y="120" font-size="14" fill="#000">B</text>
+
+<!-- Resultant A+B -->
+<line x1="50" y1="200" x2="220" y2="150" stroke="#D55E00" stroke-width="4" marker-end="url(#arrowhead-red)" />
+<text x="130" y="195" font-size="14" fill="#000">A + B</text>
+
+
+  </g>
+
+
+<!-- Vector Subtraction Panel -->
+
+<g id="subtraction" transform="translate(310,0)">
+  <rect x="0" y="0" width="290" height="350" fill="#f9f9f9" stroke="#ccc" />
+  <text x="20" y="20" font-size="16" font-weight="bold" fill="#000">Vector Subtraction (A - B)</text>
+
+  <!-- Axes -->
+
+  <line x1="50" y1="250" x2="250" y2="250" stroke="#444" stroke-width="2" />
+  <line x1="50" y1="50" x2="50" y2="250" stroke="#444" stroke-width="2" />
+
+  <!-- Vector A (same as addition) -->
+
+  <line x1="50" y1="200" x2="150" y2="100" stroke="#E69F00" stroke-width="4" marker-end="url(#arrowhead-orange)" />
+  <text x="120" y="150" font-size="14" fill="#000">A</text>
+
+  <!-- Vector -B (opposite direction of B) -->
+
+  <line x1="150" y1="100" x2="80" y2="50" stroke="#009E73" stroke-width="4" marker-end="url(#arrowhead-green)" />
+  <text x="115" y="70" font-size="14" fill="#000">-B</text>
+
+  <!-- Resultant A-B -->
+
+  <line x1="50" y1="200" x2="80" y2="50" stroke="#D55E00" stroke-width="4" marker-end="url(#arrowhead-red)" />
+  <text x="70" y="120" font-size="14" fill="#000">A - B</text>
+
+
+  </g>
+</svg>
+
+
+---
+
 ## **Adding Vectors: Head-to-Tail Method**
 
 The easiest way to add vectors graphically is the **head-to-tail method**.
