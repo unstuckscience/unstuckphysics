@@ -8,7 +8,7 @@ topic: motion-2d
 tags: [relative velocity, reference frame, vector addition, kinematics, motion]
 order: 4
 sidebar:
-  nav: motion-2d-concepts # This page belongs to the Motion in 2D concepts sidebar
+  nav: motion-2d-concepts
 mathjax: true
 toc: true
 toc_label: "On This Page"
@@ -34,6 +34,66 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+
+<svg width="100%" height="auto" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-blue" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#0072B2" />
+    </marker>
+    <marker id="arrow-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#009E73" />
+    </marker>
+  </defs>
+
+  <rect width="800" height="400" fill="#ffffff" />
+
+  <!-- Ground line -->
+  <line x1="50" y1="288" x2="750" y2="288" stroke="#444" stroke-width="2" />
+
+  <!-- Train -->
+  <rect x="120" y="180" width="260" height="80" rx="10" fill="#BFD7EA" stroke="#333" stroke-width="2" />
+  <rect x="145" y="200" width="40" height="25" fill="#ffffff" stroke="#333" />
+  <rect x="200" y="200" width="40" height="25" fill="#ffffff" stroke="#333" />
+  <rect x="255" y="200" width="40" height="25" fill="#ffffff" stroke="#333" />
+  <rect x="310" y="200" width="40" height="25" fill="#ffffff" stroke="#333" />
+
+  <circle cx="170" cy="270" r="18" fill="#555" />
+  <circle cx="330" cy="270" r="18" fill="#555" />
+
+  <!-- Person on train -->
+  <circle cx="250" cy="185" r="12" fill="#F4C28B" stroke="#333" />
+  <line x1="250" y1="197" x2="250" y2="230" stroke="#333" stroke-width="3" />
+  <line x1="250" y1="210" x2="235" y2="225" stroke="#333" stroke-width="3" />
+  <line x1="250" y1="210" x2="265" y2="225" stroke="#333" stroke-width="3" />
+  <line x1="250" y1="230" x2="238" y2="250" stroke="#333" stroke-width="3" />
+  <line x1="250" y1="230" x2="262" y2="250" stroke="#333" stroke-width="3" />
+
+  <!-- Train velocity -->
+  <line x1="120" y1="110" x2="260" y2="110" stroke="#0072B2" stroke-width="5" marker-end="url(#arrow-blue)" />
+  <text x="190" y="90" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#0072B2">
+    Train Velocity = 20 m/s
+  </text>
+
+  <!-- Person walking velocity relative to train -->
+  <line x1="250" y1="130" x2="320" y2="130" stroke="#D55E00" stroke-width="5" marker-end="url(#arrow-red)" />
+  <text x="340" y="135" font-family="sans-serif" font-size="16" fill="#D55E00">
+    Person Relative to Train = 5 m/s
+  </text>
+
+  <!-- Total relative to ground -->
+  <line x1="430" y1="220" x2="610" y2="220" stroke="#009E73" stroke-width="6" marker-end="url(#arrow-green)" />
+  <text x="520" y="200" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#009E73">
+    Person Relative to Ground = 25 m/s
+  </text>
+
+</svg>
+
+---
 
 ## **What is Relative Velocity?**
 
