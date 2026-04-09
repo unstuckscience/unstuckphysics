@@ -31,6 +31,73 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="100%" height="auto" viewBox="0 0 900 450" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-blue" markerWidth="4" markerHeight="4" refX="3.5" refY="2" orient="auto">
+      <path d="M0,0 L4,2 L0,4 Z" fill="#0072B2" />
+    </marker>
+    <marker id="arrow-red" markerWidth="4" markerHeight="4" refX="3.5" refY="2" orient="auto">
+      <path d="M0,0 L4,2 L0,4 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#009E73" />
+    </marker>
+  </defs>
+
+  <rect width="900" height="450" fill="#ffffff" />
+
+  <!-- Ground line -->
+  <line x1="60" y1="320" x2="840" y2="320" stroke="#444" stroke-width="2" />
+
+  <!-- Left panel: object at rest -->
+  <g transform="translate(90, 0)">
+    <text x="120" y="90" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">
+      Object at Rest
+    </text>
+
+    <rect x="70" y="180" width="100" height="100" fill="#BFD7EA" stroke="#333" stroke-width="2" rx="8" />
+
+    <line x1="65" y1="230" x2="25" y2="230" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+    <line x1="175" y1="230" x2="215" y2="230" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+
+    <text x="25" y="220" font-family="sans-serif" font-size="14" fill="#D55E00">Force</text>
+    <text x="185" y="220" font-family="sans-serif" font-size="14" fill="#D55E00">Force</text>
+
+    <text x="120" y="360" text-anchor="middle" font-family="sans-serif" font-size="15">
+      Balanced forces → remains at rest
+    </text>
+  </g>
+
+  <!-- Right panel: object in motion -->
+  <g transform="translate(470, 0)">
+    <text x="150" y="90" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">
+      Object in Motion
+    </text>
+
+    <rect x="90" y="180" width="100" height="100" fill="#CDECCF" stroke="#333" stroke-width="2" rx="8" />
+
+    <line x1="120" y1="150" x2="250" y2="150" stroke="#0072B2" stroke-width="5" marker-end="url(#arrow-blue)" />
+    <text x="185" y="135" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#0072B2">
+      Constant Velocity
+    </text>
+
+    <line x1="85" y1="230" x2="45" y2="230" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+    <line x1="195" y1="230" x2="235" y2="230" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+
+    <text x="45" y="220" font-family="sans-serif" font-size="14" fill="#D55E00">Force</text>
+    <text x="205" y="220" font-family="sans-serif" font-size="14" fill="#D55E00">Force</text>
+
+    <text x="150" y="360" text-anchor="middle" font-family="sans-serif" font-size="15">
+      Balanced forces → constant motion
+    </text>
+  </g>
+
+</svg>
+
+---
+
 ## **What is Newton's First Law?**
 
 Newton's First Law states:

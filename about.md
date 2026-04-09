@@ -2,6 +2,8 @@
 title: About Unstuck Physics
 permalink: /about/
 layout: single
+sidebar:
+  nav: physics
 toc: true
 toc_label: "On This Page"
 toc_icon: "bars"

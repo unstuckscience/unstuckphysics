@@ -30,6 +30,118 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#ffffff" />
+
+  <!-- Panel separators -->
+  <line x1="0" y1="300" x2="800" y2="300" stroke="#aaa" stroke-width="2" stroke-dasharray="5,5" />
+  <line x1="400" y1="0" x2="400" y2="600" stroke="#aaa" stroke-width="2" stroke-dasharray="5,5" />
+
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0072B2" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="green" />
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="red" />
+    </marker>
+  </defs>
+
+  <!-- Panel 1: Static -->
+  <g transform="translate(50,50)">
+    <text x="125" y="-10" font-family="Arial" font-size="16" font-weight="bold">Static</text>
+    <rect x="100" y="100" width="100" height="50" fill="#ddd" stroke="#000" stroke-width="2" />
+    
+    <!-- Applied & friction arrows -->
+    <line x1="200" y1="125" x2="230" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="225" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Applied</text>
+    
+    <line x1="100" y1="125" x2="70" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="75" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Friction</text>
+
+    <!-- Weight & Normal -->
+    <line x1="150" y1="150" x2="150" y2="190" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="160" y="170" font-family="Arial" font-size="12" fill="red">Weight</text>
+
+    <line x1="150" y1="100" x2="150" y2="60" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="160" y="90" font-family="Arial" font-size="12" fill="green">Normal</text>
+  </g>
+
+  <!-- Panel 2: Max Static -->
+  <g transform="translate(450,50)">
+    <text x="100" y="-10" font-family="Arial" font-size="16" font-weight="bold">Maximum Static</text>
+    <rect x="100" y="100" width="100" height="50" fill="#ddd" stroke="#000" stroke-width="2" />
+    
+    <!-- Applied & friction arrows -->
+    <line x1="200" y1="125" x2="260" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="230" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Applied</text>
+    
+    <line x1="100" y1="125" x2="40" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="70" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Friction</text>
+
+    <!-- Weight & Normal -->
+    <line x1="150" y1="150" x2="150" y2="190" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="160" y="170" font-family="Arial" font-size="12" fill="red">Weight</text>
+
+    <line x1="150" y1="100" x2="150" y2="60" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="160" y="90" font-family="Arial" font-size="12" fill="green">Normal</text>
+  </g>
+
+  <!-- Panel 3: Kinetic (Constant Velocity) -->
+  <g transform="translate(50,350)"> 
+    <text x="75" y="-10" font-family="Arial" font-size="16" font-weight="bold">Kinetic (Constant Velocity)</text>
+    <rect x="100" y="100" width="100" height="50" fill="#ddd" stroke="#000" stroke-width="2" />
+    
+    <!-- Applied & friction arrows -->
+    <line x1="200" y1="125" x2="270" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="235" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Applied</text>
+    
+    <line x1="100" y1="125" x2="30" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="65" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Friction</text>
+    
+    <!-- Motion arrow -->
+    <line x1="100" y1="30" x2="200" y2="30" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="150" y="20" font-family="Arial" font-size="12" fill="green" text-anchor="middle">Motion</text>
+
+    <!-- Weight & Normal -->
+    <line x1="150" y1="150" x2="150" y2="190" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="160" y="170" font-family="Arial" font-size="12" fill="red">Weight</text>
+
+    <line x1="150" y1="100" x2="150" y2="60" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="160" y="90" font-family="Arial" font-size="12" fill="green">Normal</text>
+  </g>
+
+  <!-- Panel 4: Kinetic (Accelerated) -->
+  <g transform="translate(450,350)">
+    <text x="80" y="-10" font-family="Arial" font-size="16" font-weight="bold">Kinetic (Accelerated Motion)</text>
+    <rect x="100" y="100" width="100" height="50" fill="#ddd" stroke="#000" stroke-width="2" />
+    
+    <!-- Applied & friction arrows -->
+    <line x1="200" y1="125" x2="320" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="270" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Applied</text>
+    
+    <line x1="100" y1="125" x2="30" y2="125" stroke="#0072B2" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="60" y="115" font-family="Arial" font-size="12" fill="#0072B2" text-anchor="middle">Friction</text>
+    
+    <!-- Motion arrow -->
+    <line x1="100" y1="30" x2="220" y2="30" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="160" y="20" font-family="Arial" font-size="12" fill="green" text-anchor="middle">Motion</text>
+
+    <!-- Weight & Normal -->
+    <line x1="150" y1="150" x2="150" y2="190" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="160" y="170" font-family="Arial" font-size="12" fill="red">Weight</text>
+
+    <line x1="150" y1="100" x2="150" y2="60" stroke="green" stroke-width="2" marker-end="url(#arrowGreen)" />
+    <text x="160" y="90" font-family="Arial" font-size="12" fill="green">Normal</text>
+  </g>
+</svg>
+
+---
+
 ## **What is Friction?**
 
 **Friction** is a force that opposes the relative motion (or tendency of motion) between two surfaces in contact. It always acts **parallel** to the surface and in the direction opposite to the motion (or impending motion).

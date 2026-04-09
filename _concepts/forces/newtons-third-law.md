@@ -31,6 +31,55 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="600" height="320" viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-red" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-blue" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#0072B2" />
+    </marker>
+  </defs>
+
+  <rect width="600" height="320" fill="#ffffff" />
+
+  <!-- Earth -->
+  <circle cx="170" cy="180" r="70" fill="#4A90E2" stroke="#1F4E79" stroke-width="3" />
+  <text x="170" y="275" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">
+    Earth
+  </text>
+
+  <!-- Moon -->
+  <circle cx="450" cy="180" r="28" fill="#D9D9D9" stroke="#888" stroke-width="2" />
+  <circle cx="440" cy="172" r="4" fill="#B0B0B0" />
+  <circle cx="460" cy="188" r="5" fill="#B0B0B0" />
+  <circle cx="448" cy="194" r="3" fill="#B0B0B0" />
+  <text x="450" y="275" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">
+    Moon
+  </text>
+
+  <!-- Force arrows -->
+  <line x1="260" y1="150" x2="390" y2="150" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+  <text x="325" y="135" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#D55E00">
+    Earth pulls on Moon
+  </text>
+
+  <line x1="390" y1="210" x2="260" y2="210" stroke="#0072B2" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <text x="325" y="230" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0072B2">
+    Moon pulls on Earth
+  </text>
+
+  <!-- Equal force statement -->
+  <rect x="115" y="290" width="370" height="22" rx="6" fill="#F3F3F3" stroke="#BBB" />
+  <text x="300" y="306" text-anchor="middle" font-family="sans-serif" font-size="13">
+    Equal force magnitudes despite very different masses
+  </text>
+</svg>
+
+---
+
 ## **What is Newton's Third Law?**
 
 Newton's Third Law states:

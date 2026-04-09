@@ -31,6 +31,70 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="600" height="360" viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-black" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#333333" />
+    </marker>
+    <marker id="arrow-red" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-blue" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#0072B2" />
+    </marker>
+  </defs>
+
+  <rect width="600" height="360" fill="#ffffff" />
+
+  <!-- Axes -->
+  <line x1="120" y1="290" x2="500" y2="290" stroke="#555" stroke-width="2" marker-end="url(#arrow-black)" />
+  <line x1="120" y1="290" x2="120" y2="80" stroke="#555" stroke-width="2" marker-end="url(#arrow-black)" />
+
+  <text x="510" y="296" font-family="sans-serif" font-size="14">x</text>
+  <text x="112" y="72" font-family="sans-serif" font-size="14">y</text>
+
+  <!-- Resultant force -->
+  <line x1="120" y1="290" x2="340" y2="130" stroke="#333333" stroke-width="4" marker-end="url(#arrow-black)" />
+  <text x="250" y="155" font-family="sans-serif" font-size="16" fill="#333333" font-weight="bold">
+    F
+  </text>
+
+  <!-- Horizontal component -->
+  <line x1="120" y1="290" x2="340" y2="290" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+  <text x="220" y="312" font-family="sans-serif" font-size="15" fill="#D55E00">
+    Fx
+  </text>
+
+  <!-- Vertical component -->
+  <line x1="340" y1="290" x2="340" y2="130" stroke="#0072B2" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <text x="350" y="215" font-family="sans-serif" font-size="15" fill="#0072B2">
+    Fy
+  </text>
+
+  <!-- Dashed guide lines -->
+  <line x1="340" y1="130" x2="340" y2="290" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4" />
+  <line x1="120" y1="290" x2="340" y2="290" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.4" />
+
+  <!-- Angle arc -->
+  <path d="M170 290 A50 50 0 0 0 158 260" fill="none" stroke="#666" stroke-width="2" />
+  <text x="170" y="275" font-family="sans-serif" font-size="14" fill="#666">
+    θ
+  </text>
+
+  <!-- Equation box -->
+  <rect x="390" y="95" width="150" height="70" rx="10" fill="#F5F5F5" stroke="#BBBBBB" />
+  <text x="465" y="122" text-anchor="middle" font-family="sans-serif" font-size="15">
+    Fx = F cosθ
+  </text>
+  <text x="465" y="147" text-anchor="middle" font-family="sans-serif" font-size="15">
+    Fy = F sinθ
+  </text>
+</svg>
+
+---
+
 ## **What are Force Components?**
 
 **Force components** are the perpendicular parts of a single force vector that, when added together, produce the original vector. Imagine a force pushing a lawnmower: part of the force pushes it forward (horizontal component), and part of it pushes it into the ground (vertical component).

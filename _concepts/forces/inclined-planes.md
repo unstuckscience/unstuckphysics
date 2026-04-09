@@ -31,6 +31,79 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1000" height="500" fill="white"/>
+
+  <!-- Divider -->
+  <line x1="500" y1="40" x2="500" y2="460" stroke="#cccccc" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <defs>
+    <marker id="redArrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#d62728"/>
+    </marker>
+
+    <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#2ca02c"/>
+    </marker>
+  </defs>
+
+  <!-- LEFT PANEL -->
+  <g>
+    <text x="250" y="40" font-size="24" font-family="Arial" font-weight="bold" text-anchor="middle">
+      Shallow Incline
+    </text>
+
+    <!-- Ramp -->
+    <line x1="100" y1="380" x2="380" y2="280" stroke="#444" stroke-width="6"/>
+
+    <!-- Block -->
+    <g transform="translate(250,306) rotate(-20)">
+      <rect x="-30" y="-20" width="60" height="40" fill="#dddddd" stroke="#000000" stroke-width="2"/>
+    </g>
+
+    <!-- Weight -->
+    <line x1="250" y1="306" x2="250" y2="396"
+          stroke="#d62728" stroke-width="3" marker-end="url(#redArrow)"/>
+    <text x="260" y="355" font-size="18" fill="#d62728" font-family="Arial">Weight</text>
+
+    <!-- Normal -->
+    <line x1="250" y1="306" x2="223.75" y2="234"
+          stroke="#2ca02c" stroke-width="3" marker-end="url(#greenArrow)"/>
+    <text x="170" y="225" font-size="18" fill="#2ca02c" font-family="Arial">Normal</text>
+  </g>
+
+  <!-- RIGHT PANEL -->
+  <g transform="translate(500,0)">
+    <text x="250" y="40" font-size="24" font-family="Arial" font-weight="bold" text-anchor="middle">
+      Steep Incline
+    </text>
+
+    <!-- Ramp -->
+    <line x1="117" y1="380" x2="347" y2="160" stroke="#444" stroke-width="6"/>
+
+    <!-- Block -->
+    <g transform="translate(233,245) rotate(-43)">
+      <rect x="-30" y="-20" width="60" height="40" fill="#dddddd" stroke="#000000" stroke-width="2"/>
+    </g>
+
+    <!-- Weight -->
+    <line x1="233" y1="245" x2="233" y2="335"
+          stroke="#d62728" stroke-width="3" marker-end="url(#redArrow)"/>
+    <text x="243" y="295" font-size="18" fill="#d62728" font-family="Arial">Weight</text>
+
+    <!-- Normal -->
+    <line x1="233" y1="245" x2="185.9" y2="193.2"
+          stroke="#2ca02c" stroke-width="3" marker-end="url(#greenArrow)"/>
+    <text x="128" y="185" font-size="18" fill="#2ca02c" font-family="Arial">Normal</text>
+  </g>
+
+</svg>
+
+---
+
 ## **What is an Inclined Plane?**
 
 An **inclined plane** is simply a flat surface tilted at an angle to the horizontal. Ramps, hills, and slides are all examples of inclined planes.

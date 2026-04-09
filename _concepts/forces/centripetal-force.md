@@ -8,7 +8,7 @@ topic: forces
 tags: [centripetal force, circular motion, net force, acceleration, tension, gravity, friction]
 order: 12 # Adjust order as needed in your sidebar
 sidebar:
-  nav: forces-concepts # This page belongs to the Forces concepts sidebar
+  nav: forces-concepts
 mathjax: true
 toc: true
 toc_label: "On This Page"
@@ -27,6 +27,45 @@ toc_levels: 2..3
   <source src="/assets/audio/forces/centripetal-force-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+---
+
+## **Visual Representation**
+
+<svg width="100%" height="auto" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow-blue" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#0072B2" />
+    </marker>
+    <marker id="arrow-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#009E73" />
+    </marker>
+  </defs>
+
+  <rect width="800" height="400" fill="#ffffff" />
+
+  <!-- Circular path -->
+  <circle cx="300" cy="260" r="140" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 4" />
+
+  <!-- Object on circle -->
+  <circle cx="440" cy="260" r="12" fill="#333" />
+
+  <!-- Velocity vector tangent -->
+  <line x1="440" y1="260" x2="440" y2="170" stroke="#0072B2" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <text x="450" y="190" font-family="sans-serif" font-size="16" fill="#0072B2">Velocity</text>
+
+  <!-- Centripetal acceleration vector -->
+  <line x1="440" y1="260" x2="340" y2="260" stroke="#D55E00" stroke-width="4" marker-end="url(#arrow-red)" />
+  <text x="345" y="285" font-family="sans-serif" font-size="16" fill="#D55E00">Centripetal Force</text>
+
+  <!-- Center point -->
+  <circle cx="300" cy="260" r="5" fill="#000" />
+  <text x="285" y="285" font-family="sans-serif" font-size="14">Center</text>
+
+</svg>
 
 ---
 

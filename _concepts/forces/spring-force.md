@@ -33,6 +33,61 @@ A spring exerts a force when it is stretched or compressed. This force, called t
 
 ---
 
+## **Visual Representation**
+
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#ffffff" />
+  
+  <line x1="400" y1="50" x2="400" y2="350" stroke="#ccc" stroke-width="2" stroke-dasharray="5,5" />
+
+  <g id="compression">
+    <text x="200" y="40" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Compression</text>
+    
+    <line x1="50" y1="100" x2="50" y2="250" stroke="black" stroke-width="4" />
+    <path d="M50,175 L70,175 L80,150 L100,200 L120,150 L140,200 L160,150 L180,175 L200,175" fill="none" stroke="#555" stroke-width="3" />
+    
+    <rect x="200" y="140" width="40" height="70" fill="#ddd" stroke="black" stroke-width="2" />
+
+    <line x1="250" y1="240" x2="210" y2="240" stroke="blue" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="165" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">x (squeeze)</text>
+    
+    <line x1="210" y1="120" x2="260" y2="120" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="165" y="110" text-anchor="middle" font-family="Arial" font-size="12" fill="red">Fs (restoring)</text>
+    
+    <line x1="250" y1="240" x2="250" y2="160" stroke="gray" stroke-width="2" stroke-dasharray="4" />
+    <text x="250" y="265" text-anchor="middle" font-family="Arial" font-size="14" fill="gray">Rest position</text>
+  </g>
+
+  <g id="stretching" transform="translate(400,0)">
+    <text x="200" y="40" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">Stretching</text>
+    
+    <line x1="50" y1="100" x2="50" y2="250" stroke="black" stroke-width="4" />
+    <path d="M50,175 L80,175 L110,150 L140,200 L170,150 L200,200 L230,150 L260,175 L290,175" fill="none" stroke="#555" stroke-width="3" />
+    
+    <rect x="290" y="140" width="40" height="70" fill="#ddd" stroke="black" stroke-width="2" />
+
+    <line x1="150" y1="240" x2="280" y2="240" stroke="blue" stroke-width="2" marker-end="url(#arrowBlue)" />
+    <text x="215" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="blue">x (stretch)</text>
+    
+    <line x1="300" y1="120" x2="160" y2="120" stroke="red" stroke-width="2" marker-end="url(#arrowRed)" />
+    <text x="230" y="110" text-anchor="middle" font-family="Arial" font-size="12" fill="red">Fs (restoring)</text>
+
+    <line x1="150" y1="240" x2="150" y2="160" stroke="gray" stroke-width="2" stroke-dasharray="4" />
+    <text x="150" y="265" text-anchor="middle" font-family="Arial" font-size="14" fill="gray">Rest position</text>
+  </g>
+
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="blue" />
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="red" />
+    </marker>
+  </defs>
+</svg>
+
+---
+
 ## **What is Spring Force?**
 
 A **spring force** is a restoring force exerted by a spring when it is displaced from its equilibrium position.  

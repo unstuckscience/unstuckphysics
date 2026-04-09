@@ -33,6 +33,12 @@ Different forces act in different ways. Some forces pull objects downward, some 
 
 ---
 
+## **Visual Representation**
+
+
+
+---
+
 ## **What is a Force?**
 
 A **force** is a push or a pull.

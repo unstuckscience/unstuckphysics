@@ -21,13 +21,85 @@ toc_levels: 2..3
 In physics, objects often interact. A system of objects lets us study multiple connected bodies, understanding how forces and motion affect each part and the whole.
 </p>
 
-## **Audio Summary**
+---
+
+## **Audio Explanation**
 
 <p>Prefer to listen? Here's a quick audio overview of systems of objects.</p>
 <audio controls class="audio-player" aria-label="Audio summary of systems of objects">
   <source src="/assets/audio/forces/systems-of-objects-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
+
+---
+
+## **Visual Representation**
+
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="500" fill="white"/>
+
+  <line x1="500" y1="40" x2="500" y2="460" stroke="#cccccc" stroke-width="2" stroke-dasharray="8,8"/>
+
+  <defs>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#1f77b4"/>
+    </marker>
+    <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#d62728"/>
+    </marker>
+    <marker id="greenArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#2ca02c"/>
+    </marker>
+  </defs>
+
+  <g>
+    <text x="250" y="50" font-size="24" font-family="Arial" font-weight="bold" text-anchor="middle">Analyze Objects Separately</text>
+
+    <line x1="50" y1="380" x2="450" y2="380" stroke="#444" stroke-width="4"/>
+
+    <rect x="80" y="280" width="100" height="100" fill="#d9e8ff" stroke="#000" stroke-width="2"/>
+    <text x="130" y="335" font-size="24" font-family="Arial" text-anchor="middle">A</text>
+
+    <rect x="280" y="280" width="100" height="100" fill="#ffe0cc" stroke="#000" stroke-width="2"/>
+    <text x="330" y="335" font-size="24" font-family="Arial" text-anchor="middle">B</text>
+
+    <line x1="180" y1="330" x2="280" y2="330" stroke="#999" stroke-width="2" stroke-dasharray="5,3"/>
+
+    <line x1="180" y1="240" x2="240" y2="240" stroke="#2ca02c" stroke-width="3" marker-end="url(#greenArrow)"/>
+    <text x="210" y="225" font-size="16" fill="#2ca02c" font-family="Arial" text-anchor="middle">Tension on A</text>
+
+    <line x1="280" y1="200" x2="220" y2="200" stroke="#d62728" stroke-width="3" marker-end="url(#redArrow)"/>
+    <text x="250" y="185" font-size="16" fill="#d62728" font-family="Arial" text-anchor="middle">Tension on B</text>
+
+    <line x1="380" y1="330" x2="460" y2="330" stroke="#1f77b4" stroke-width="4" marker-end="url(#blueArrow)"/>
+    <text x="425" y="315" font-size="18" fill="#1f77b4" font-family="Arial" font-weight="bold">Pull</text>
+  </g>
+
+  <g>
+    <text x="750" y="50" font-size="24" font-family="Arial" font-weight="bold" text-anchor="middle">Analyze as One System</text>
+
+    <line x1="550" y1="380" x2="950" y2="380" stroke="#444" stroke-width="4"/>
+
+    <rect x="570" y="160" width="350" height="240" fill="none" stroke="#888" stroke-width="2" stroke-dasharray="10,8"/>
+    <text x="745" y="425" font-size="18" font-family="Arial" text-anchor="middle" fill="#666">System Boundary</text>
+
+    <rect x="600" y="280" width="100" height="100" fill="#d9e8ff" stroke="#000" stroke-width="2"/>
+    <text x="650" y="335" font-size="24" font-family="Arial" text-anchor="middle">A</text>
+
+    <rect x="800" y="280" width="100" height="100" fill="#ffe0cc" stroke="#000" stroke-width="2"/>
+    <text x="850" y="335" font-size="24" font-family="Arial" text-anchor="middle">B</text>
+
+    <line x1="700" y1="330" x2="800" y2="330" stroke="#444" stroke-width="2"/>
+
+    <line x1="900" y1="330" x2="970" y2="330" stroke="#1f77b4" stroke-width="4" marker-end="url(#blueArrow)"/>
+    <text x="935" y="315" font-size="18" fill="#1f77b4" font-family="Arial" font-weight="bold">Pull</text>
+
+    <line x1="700" y1="120" x2="790" y2="120" stroke="#2ca02c" stroke-width="4" marker-end="url(#greenArrow)"/>
+    <text x="745" y="105" font-size="18" fill="#2ca02c" font-family="Arial" text-anchor="middle">System Motion</text>
+
+    <text x="745" y="220" font-size="18" font-family="Arial" text-anchor="middle" fill="#666">Internal Tension cancels</text>
+  </g>
+</svg>
 
 ---
 

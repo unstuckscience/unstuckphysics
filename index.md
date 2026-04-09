@@ -22,7 +22,7 @@ layout: splash
 
 <hr>
 
-<h2 class="text-center">Start Your Journey: Explore Physics Topics</h2>
+<h1 class="text-center">Start Your Journey: Explore Physics Topics</h1>
 <p class="text-center">Click on a topic below to find concepts, skills, and practice problems designed to help you get unstuck.</p>
 
 <div class="topic-grid">
@@ -30,7 +30,13 @@ layout: splash
   {% for topic in topics %}
     <div class="topic-card">
       <a href="/{{ topic.slug }}/" rel="permalink" aria-label="Explore {{ topic.title }}">
-        <div class="topic-icon">{% if topic.icon contains 'fa-' %}<i class="{{ topic.icon }}"></i>{% else %}{{ topic.icon }}{% endif %}</div>
+	<div class="topic-icon" aria-hidden="true">
+  {% if topic.icon contains 'fa-' %}
+    <i class="{{ topic.icon }}" aria-hidden="true"></i>
+  {% else %}
+    {{ topic.icon }}
+  {% endif %}
+</div>
         <strong>{{ topic.title }}</strong>
       </a>
     </div>

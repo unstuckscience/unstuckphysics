@@ -31,6 +31,67 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Arrowhead markers -->
+    <marker id="arrow-red" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#D55E00" />
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#009E73" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="#ffffff" />
+
+  <!-- Left Panel: Large Mass, Small Acceleration -->
+  <g transform="translate(20,40)">
+    <rect x="0" y="0" width="280" height="320" fill="#f9f9f9" stroke="#ccc" />
+    <text x="10" y="25" font-family="sans-serif" font-size="14" font-weight="bold">Large Mass → Small Acceleration</text>
+
+    <!-- Floor -->
+    <line x1="0" y1="280" x2="280" y2="280" stroke="#333" stroke-width="2" />
+
+    <!-- Mass block -->
+    <rect x="100" y="200" width="80" height="80" fill="#0072B2" />
+    <text x="135" y="245" font-family="sans-serif" font-size="12" fill="#ffffff">m</text>
+
+    <!-- Force arrow -->
+    <line x1="50" y1="240" x2="100" y2="240" stroke="#D55E00" stroke-width="3" marker-end="url(#arrow-red)" />
+    <text x="50" y="230" font-family="sans-serif" font-size="12" fill="#D55E00">F</text>
+
+    <!-- Acceleration arrow -->
+    <line x1="180" y1="240" x2="210" y2="240" stroke="#009E73" stroke-width="2" marker-end="url(#arrow-green)" />
+    <text x="215" y="245" font-family="sans-serif" font-size="12" fill="#009E73">a</text>
+  </g>
+
+  <!-- Right Panel: Small Mass, Large Acceleration -->
+  <g transform="translate(320,40)">
+    <rect x="0" y="0" width="280" height="320" fill="#f9f9f9" stroke="#ccc" />
+    <text x="10" y="25" font-family="sans-serif" font-size="14" font-weight="bold">Small Mass → Large Acceleration</text>
+
+    <!-- Floor -->
+    <line x1="0" y1="280" x2="280" y2="280" stroke="#333" stroke-width="2" />
+
+    <!-- Mass block -->
+    <rect x="110" y="220" width="60" height="60" fill="#0072B2" />
+    <text x="135" y="255" font-family="sans-serif" font-size="12" fill="#ffffff">m</text>
+
+    <!-- Force arrow -->
+    <line x1="60" y1="250" x2="110" y2="250" stroke="#D55E00" stroke-width="3" marker-end="url(#arrow-red)" />
+    <text x="60" y="240" font-family="sans-serif" font-size="12" fill="#D55E00">F</text>
+
+    <!-- Acceleration arrow -->
+    <line x1="170" y1="250" x2="230" y2="250" stroke="#009E73" stroke-width="3" marker-end="url(#arrow-green)" />
+    <text x="235" y="255" font-family="sans-serif" font-size="12" fill="#009E73">a</text>
+  </g>
+</svg>
+
+---
+
 ## **What is Newton's Second Law?**
 
 Newton's Second Law states:

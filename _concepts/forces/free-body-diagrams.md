@@ -30,6 +30,39 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg width="420" height="320" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <marker id="arrow" markerWidth="5" markerHeight="5" refX="4" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#333333" />
+    </marker>
+  </defs>
+
+  <rect width="420" height="320" fill="#ffffff" />
+
+  <!-- Center point -->
+  <circle cx="210" cy="160" r="5" fill="#222222" />
+
+  <!-- Upward normal force -->
+  <line x1="210" y1="160" x2="210" y2="80" stroke="#333333" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="222" y="88" font-family="sans-serif" font-size="15" fill="#333333">Normal Force</text>
+
+  <!-- Downward weight -->
+  <line x1="210" y1="160" x2="210" y2="245" stroke="#333333" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="222" y="242" font-family="sans-serif" font-size="15" fill="#333333">Weight</text>
+
+  <!-- Applied force -->
+  <line x1="210" y1="160" x2="300" y2="160" stroke="#333333" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="275" y="148" font-family="sans-serif" font-size="15" fill="#333333">Applied Force</text>
+
+  <!-- Friction force -->
+  <line x1="210" y1="160" x2="120" y2="160" stroke="#333333" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="90" y="148" font-family="sans-serif" font-size="15" fill="#333333">Friction</text>
+</svg>
+
+---
+
 ## **What is a Free-Body Diagram (FBD)?**
 
 A **free-body diagram (FBD)** is a visual representation that shows **all the forces acting *on a single object***. It simplifies a complex situation by isolating the object of interest and representing all forces as vectors originating from that object.
