@@ -10,6 +10,17 @@ sidebar:
 
 <p class="lead">Welcome to Motion in One Dimension! This section explores how objects move in a straight line, covering essential concepts like displacement, velocity, and acceleration.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/motion-1d/pexels-agang08-10652773.jpg"
+    alt="Passenger train moving along straight railroad tracks in an open landscape."
+    loading="lazy"
+  />
+  <figcaption>
+    A train’s motion along a straight track is a classic example of one-dimensional motion, where position, velocity, and acceleration all occur along a single line.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

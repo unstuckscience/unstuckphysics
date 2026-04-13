@@ -146,3 +146,23 @@
   padding: 0;
   max-width: 100%;
 }
+
+/* Right-justify figures with text wrapping */
+.concept-figure.small-image {
+  float: right;
+  width: 300px;         /* Adjust this width as needed */
+  margin-left: 20px;    /* Space between the text and the image */
+  margin-bottom: 10px;  /* Space between the image and text below it */
+}
+
+.concept-figure.small-image img {
+  width: 100%;          /* Makes the image fill the 300px container */
+  height: auto;
+  border-radius: 4px;   /* Optional: adds a nice soft corner */
+}
+
+.concept-figure figcaption {
+  font-size: 0.8em;     /* Optional: makes the caption slightly smaller */
+  line-height: 1.4;
+  color: #666;
+}

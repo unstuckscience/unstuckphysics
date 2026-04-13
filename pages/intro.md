@@ -10,6 +10,17 @@ sidebar:
 
 <p class="lead">Welcome to Introduction to Physics! This section covers foundational concepts, essential skills, and practice problems to get you started on your physics journey.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/intro/pexels-michael-orshan-2159363670-36003971.jpg"
+    alt="Caliper measuring the width of a steel beam to demonstrate precise length measurement in physics"
+    loading="lazy"
+  />
+  <figcaption>
+    Physics begins with precise measurement of physical quantities such as length, which must be defined consistently and accurately.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

@@ -135,6 +135,47 @@ gravitation-concepts:
       - title: "Orbital Speed & Period"
         url: /concepts/gravitation/orbital-speed-period/
 
+momentum-collisions-concepts:
+  - title: "Momentum & Collisions"
+    url: /momentum-collisions/
+    children:
+      - title: "Momentum"
+        url: /concepts/momentum-collisions/momentum/
+      - title: "Impulse"
+        url: /concepts/momentum-collisions/impulse/
+      - title: "Impulse Momentum Theorem"
+        url: /concepts/momentum-collisions/impulse-momentum-theorem/
+      - title: "Conservation of Momentum"
+        url: /concepts/momentum-collisions/conservation-of-momentum/
+
+work-energy-concepts:
+  - title: "Work & Energy"
+    url: /work-energy/
+    children:
+      - title: "Work"
+        url: /concepts/work-energy/work/
+      - title: "Energy"
+        url: /concepts/work-energy/energy/
+      - title: "Work Energy Theorem"
+        url: /concepts/work-energy/work-energy-theorem/
+      - title: "Conservation of Energy"
+        url: /concepts/work-energy/conservation-of-energy/
+      - title: "Power"
+        url: /concepts/work-energy/power/
+
+rotational-motion-concepts:
+  - title: "Rotational Motion & Torque"
+    url: /rotationl-motion/
+    children:
+      - title: "Angular Motion"
+        url: /concepts/rotational-motion/angular-motion/
+      - title: "Torque"
+        url: /concepts/rotational-motion/torque/
+      - title: "Rotational Inertia"
+        url: /concepts/rotational-motion/rotational-inertia/
+      - title: "Conservation of Angular Momentum"
+        url: /concepts/rotational-motion/conservation-of-angular-momentum/
+
 unit-conversions:
   - title: "Unit Conversions (Skill)"
     url: /skills/intro/unit-conversions/

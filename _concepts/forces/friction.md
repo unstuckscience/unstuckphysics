@@ -28,6 +28,13 @@ toc_levels: 2..3
   Your browser does not support the audio element.
 </audio>
 
+<details class="audio-transcript">
+  <summary>Read transcript</summary>
+  <p>
+    Friction is a force that tries to stop or slow down motion between two surfaces that touch. It always acts along the surface and in the direction opposite to the motion. Friction occurs because surfaces are slightly rough, and the tiny bumps catch on each other. The amount of friction depends on how rough the surfaces are and how hard they are pressed together. There are two main types of friction: static friction and kinetic friction. Static friction prevents an object from starting to move, and it adjusts to match the applied force until the object begins to slide. Kinetic friction acts on objects that are already sliding and is usually a little smaller than static friction. In short, it’s harder to start moving something than it is to keep it moving.
+  </p>
+</details>
+
 ---
 
 ## **Visual Representation**
