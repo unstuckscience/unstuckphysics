@@ -1,9 +1,11 @@
+# Main Site Navigation
 main:
   - title: "Home"
     url: "/"
   - title: "About"
     url: "/about/"
 
+# Main Topics List (Landing Pages)
 physics:
   - title: Topics
     children:
@@ -22,7 +24,7 @@ physics:
       - title: Momentum & Collisions
         url: /momentum-collisions/
       - title: Rotational Motion & Torque
-        url: /rotational-motion-torque/
+        url: /rotational-motion/
       - title: Waves & Sound
         url: /waves-sound/
       - title: Light & Optics
@@ -32,6 +34,7 @@ physics:
       - title: Magnetism
         url: /magnetism/
 
+# Sidebar Navigations
 intro-concepts:
   - title: Introduction to Physics
     url: /intro/
@@ -59,23 +62,23 @@ motion-1d-concepts:
   - title: Motion in 1D
     url: /motion-1d/
     children:
-          - title: Distance and Displacement
-            url: /concepts/motion-1d/distance-displacement/
-          - title: Position-Time Graphs
-            url: /concepts/motion-1d/position-time-graphs/
-          - title: Speed and Velocity
-            url: /concepts/motion-1d/speed-velocity/
-          - title: Velocity-Time Graphs
-            url: /concepts/motion-1d/velocity-time-graphs/
-          - title: Acceleration
-            url: /concepts/motion-1d/acceleration/
-          - title: Kinematics
-            url: /concepts/motion-1d/kinematics/
-          - title: Free Fall
-            url: /concepts/motion-1d/free-fall/
+      - title: Distance and Displacement
+        url: /concepts/motion-1d/distance-displacement/
+      - title: Position-Time Graphs
+        url: /concepts/motion-1d/position-time-graphs/
+      - title: Speed and Velocity
+        url: /concepts/motion-1d/speed-velocity/
+      - title: Velocity-Time Graphs
+        url: /concepts/motion-1d/velocity-time-graphs/
+      - title: Acceleration
+        url: /concepts/motion-1d/acceleration/
+      - title: Kinematics
+        url: /concepts/motion-1d/kinematics/
+      - title: Free Fall
+        url: /concepts/motion-1d/free-fall/
 
 motion-2d-concepts:
-  - title: Motion in Two Dimensions Concepts
+  - title: Motion in Two Dimensions
     url: /motion-2d/
     children:
       - title: Vectors and Scalars
@@ -131,7 +134,7 @@ gravitation-concepts:
       - title: "Newton's Law of Universal Gravitation"
         url: /concepts/gravitation/universal-gravitation/
       - title: "Gravitational Field Strength"
-        url: /concepts/gravitation/gravitational-field-strength
+        url: /concepts/gravitation/gravitational-field-strength/
       - title: "Orbital Speed & Period"
         url: /concepts/gravitation/orbital-speed-period/
 
@@ -165,7 +168,7 @@ work-energy-concepts:
 
 rotational-motion-concepts:
   - title: "Rotational Motion & Torque"
-    url: /rotationl-motion/
+    url: /rotational-motion/
     children:
       - title: "Angular Motion"
         url: /concepts/rotational-motion/angular-motion/
@@ -175,6 +178,40 @@ rotational-motion-concepts:
         url: /concepts/rotational-motion/rotational-inertia/
       - title: "Conservation of Angular Momentum"
         url: /concepts/rotational-motion/conservation-of-angular-momentum/
+
+waves-sound-concepts:
+  - title: "Waves & Sound"
+    url: /waves-sound/
+    children:
+      - title: "Periodic Motion"
+        url: /concepts/waves-sound/periodic-motion/
+      - title: "Simple Harmonic Motion"
+        url: /concepts/waves-sound/shm/
+      - title: "Wave Properties"
+        url: /concepts/waves-sound/wave-properties/
+      - title: "Wave Interference"
+        url: /concepts/waves-sound/wave-interference/
+      - title: "Standing Waves"
+        url: /concepts/waves-sound/standing-waves/
+      - title: "Sound Waves"
+        url: /concepts/waves-sound/sound-waves/
+      - title: "Doppler Effect"
+        url: /concepts/waves-sound/doppler-effect/
+
+magnetism-concepts:
+  - title: "Magnetism"
+    url: /magnetism/
+    children:
+      - title: "Magnetic Field"
+        url: /concepts/magnetism/magnetic-field/
+      - title: "Magnetic Force"
+        url: /concepts/magnetism/magnetic-force/
+      - title: "Electromagnets"
+        url: /concepts/magnetism/electromagnets/
+      - title: "Motors & Generators"
+        url: /concepts/magnetism/motors-generators/
+      - title: "Transformers"
+        url: /concepts/magnetism/transformers/
 
 unit-conversions:
   - title: "Unit Conversions (Skill)"

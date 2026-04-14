@@ -1,7 +1,7 @@
 ---
 title: Rotational Motion & Torque
 summary: Explore the physics of spinning objects, from angular displacement to the balancing act of torques.
-permalink: rotational-motion-torque/
+permalink: rotational-motion/
 layout: archive
 entries_layout: list
 classes: wide
