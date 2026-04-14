@@ -25,14 +25,22 @@ physics:
         url: /momentum-collisions/
       - title: Rotational Motion & Torque
         url: /rotational-motion/
+      - title: Fluids
+        url: /fluids/
+      - title: Thermodynamics
+        url: /thermodynamics/
       - title: Waves & Sound
         url: /waves-sound/
       - title: Light & Optics
         url: /light-optics/
-      - title: Electricity
-        url: /electricity/
+      - title: Electrostatics
+        url: /electrostatics/
+      - title: Circuits
+        url: /circuits/
       - title: Magnetism
         url: /magnetism/
+      - title: Modern Physics
+        url: /modern-physics/
 
 # Sidebar Navigations
 intro-concepts:

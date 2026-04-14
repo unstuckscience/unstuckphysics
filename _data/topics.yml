@@ -38,10 +38,26 @@
   title: Light & Optics
   icon: "💡"
 
-- slug: electricity
-  title: Electricity
+- slug: electrostatics
+  title: Electrostatics
   icon: "⚡"
+
+- slug: circuits
+  title: Circuits
+  icon: "🔌"
 
 - slug: magnetism
   title: Magnetism
   icon: "🧲"
+
+- slug: thermodynamics
+  title: Thermo
+  icon: "🌡️"
+
+- slug: fluids
+  title: Fluids
+  icon: "🚰"
+
+- slug: modern-physics
+  title: Modern Physics
+  icon: "⚛️"
