@@ -221,6 +221,34 @@ magnetism-concepts:
       - title: "Transformers"
         url: /concepts/magnetism/transformers/
 
+electrostatics-concepts:
+  - title: "Electrostatics"
+    url: /electrostatics/
+    children:
+      - title: "Electric Charge"
+        url: /concepts/electrostatics/electric-charge/
+      - title: "Conductors & Insulators"
+        url: /concepts/electrostatics/conductors-insulators/
+      - title: "Electric Force"
+        url: /concepts/electrostatics/electric-force/
+      - title: "Electric Field"
+        url: /concepts/electrostatics/electric-field/
+      - title: "Electric Potential"
+        url: /concepts/electrostatics/electric-potential/
+
+circuits-concepts:
+  - title: "Circuits"
+    url: /circuits/
+    children:
+      - title: "Ohm's Law"
+        url: /concepts/circuits/ohms-law/
+      - title: "Series Circuits"
+        url: /concepts/circuits/series-circuits/
+      - title: "Parallel Circuits"
+        url: /concepts/circuits/parallel-circuits/
+      - title: "Complex Circuits"
+        url: /concepts/circuits/complex-circuits/
+
 unit-conversions:
   - title: "Unit Conversions (Skill)"
     url: /skills/intro/unit-conversions/
