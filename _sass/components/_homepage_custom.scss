@@ -166,3 +166,13 @@
   line-height: 1.4;
   color: #666;
 }
+
+.coming-soon-banner {
+  background-color: #fff3cd;        /* soft warning yellow */
+  color: #664d03;                   /* high contrast text */
+  border-left: 6px solid #ffcc00;   /* visual emphasis */
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-weight: 500;
+  border-radius: 6px;
+}

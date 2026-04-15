@@ -10,6 +10,10 @@ sidebar:
 
 <p class="lead">Welcome to Thermodynamics! This section explores the laws governing heat, energy, and work, focusing on how thermal energy is transferred and transformed between systems and their surroundings.</p>
 
+<div class="coming-soon-banner" role="status">
+  🚧 Thermodynamics content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
+</div>
+
 <figure class="concept-figure small-image">
   <img
     src="/assets/images/thermodynamics/steam-engine-piston.jpg" 

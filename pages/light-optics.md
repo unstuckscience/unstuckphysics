@@ -11,6 +11,10 @@ sidebar:
 
 <p class="lead">How do we see the world? This section explores the dual nature of light and the mathematical principles of reflection and refraction that allow us to design everything from eyeglasses to telescopes.</p>
 
+<div class="coming-soon-banner" role="status">
+  🚧 Light & Optics content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
+</div>
+
 <hr>
 
 ## Core Concepts

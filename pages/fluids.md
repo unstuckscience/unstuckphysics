@@ -10,6 +10,10 @@ sidebar:
 
 <p class="lead">Welcome to Fluids! This section covers the mechanics of liquids and gases, focusing on how pressure, density, and flow govern everything from the buoyancy of a ship to the lift on an airplane wing.</p>
 
+<div class="coming-soon-banner" role="status">
+  🚧 Fluids content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
+</div>
+
 <figure class="concept-figure small-image">
   <img
     src="/assets/images/fluids/water-surface-tension.jpg" 

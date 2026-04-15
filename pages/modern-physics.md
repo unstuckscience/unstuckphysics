@@ -10,6 +10,10 @@ sidebar:
 
 <p class="lead">Welcome to Modern Physics! This section ventures beyond the classical world to explore the revolutionary ideas of the 20th century, including relativity, quantum mechanics, and the strange behavior of matter at the atomic and subatomic scales.</p>
 
+<div class="coming-soon-banner" role="status">
+  🚧 Modern Physics content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
+</div>
+
 <figure class="concept-figure small-image">
   <img
     src="/assets/images/modern/cloud-chamber-tracks.jpg" 
