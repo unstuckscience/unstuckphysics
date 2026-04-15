@@ -15,6 +15,17 @@ sidebar:
   🚧 Light & Optics content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
 </div>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/light-optics/light.jpg"
+    alt="A single vintage light bulb with a glowing filament hanging against a dark background."
+    loading="lazy"
+  />
+  <figcaption>
+    A light bulb turns electrical energy into two new forms of energy: light and heat. Inside the glass, a tiny wire gets so hot from the electricity that it glows, giving us light.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

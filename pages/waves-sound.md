@@ -11,6 +11,17 @@ sidebar:
 
 <p class="lead">How does energy travel through a medium? This section explores the mechanics of wave motion, from ripples on a pond to the complex harmonics of musical instruments and the Doppler effect.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/waves-sound/waves.jpg"
+    alt="A digital sound wave shown on a computer screen against a dark background."
+    loading="lazy"
+  />
+  <figcaption>
+    Sound travels in waves. This picture shows a sound wave on a screen. The tall parts show where the sound is loud, and the patterns show how fast the air is vibrating to make the noise you hear.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

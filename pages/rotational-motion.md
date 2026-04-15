@@ -11,6 +11,17 @@ sidebar:
 
 <p class="lead">Why is it easier to open a door from the handle than the hinge? This section translates the laws of linear motion into the world of rotation, covering angular kinematics, moment of inertia, and the turning forces known as torque.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/rotational-motion/rotation.jpg"
+    alt="A close-up of a car wheel spinning quickly while driving down a road."
+    loading="lazy"
+  />
+  <figcaption>
+    Rotational motion is when an object spins around a center point, like this car wheel. To make the wheel start spinning or stop, a twisting force called torque is used.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

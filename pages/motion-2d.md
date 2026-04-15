@@ -10,6 +10,17 @@ sidebar:
 
 <p class="lead">Welcome to Motion in Two Dimensions! This section explores how objects move in a plane, covering essential concepts like vectors, projectile motion, and uniform circular motion.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/motion-2d/two_dimensions.jpg"
+    alt="A close-up of a soccer player's legs kicking a ball into the air."
+    loading="lazy"
+  />
+  <figcaption>
+    When you kick a soccer ball into the air, it moves in two ways at the same time. It moves forward across the field and upward into the sky. This is called two-dimensional motion.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

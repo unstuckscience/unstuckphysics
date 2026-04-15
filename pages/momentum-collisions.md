@@ -11,6 +11,17 @@ sidebar:
 
 <p class="lead">What happens when things crash or explode? Momentum is the key. This section focuses on understanding collisions and impulses, providing clear methods to analyze interactions where objects push off or hit each other.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/momentum-collisions/billiards.jpg"
+    alt="A blue pool table with several numbered balls, a cue stick, and a triangle rack scattered across the surface."
+    loading="lazy"
+  />
+  <figcaption>
+    When one pool ball hits another, they trade their "oomph," which scientists call momentum. The first ball slows down or stops, while the second ball takes that energy and starts moving.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

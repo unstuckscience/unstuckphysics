@@ -10,7 +10,16 @@ sidebar:
 
 <p class="lead">Explore the fundamental forces that govern the cosmos! This section covers Newton's Law of Universal Gravitation, Kepler's Laws of Planetary Motion, and the dynamics of satellite orbits.</p>
 
-
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/gravitation/planetary-motion.jpg"
+    alt="A depiction of a solar system, with a glowing central star and several planets of different sizes and rings in orbit against a starry background."
+    loading="lazy"
+  />
+  <figcaption>
+    A force called gravity acts like an invisible string that keeps planets from floating away. This same force is responsible for the paths (or orbits) all the planets follow around their star.
+  </figcaption>
+</figure>
 
 <hr>
 

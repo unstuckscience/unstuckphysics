@@ -16,16 +16,14 @@ sidebar:
 
 <figure class="concept-figure small-image">
   <img
-    src="/assets/images/thermodynamics/steam-engine-piston.jpg" 
-    alt="A cross-section of a steam engine piston demonstrating the conversion of thermal energy into mechanical work"
+    src="/assets/images/thermodynamics/thermo.jpg"
+    alt="A glass thermometer showing a temperature reading against a bright blue background."
     loading="lazy"
   />
   <figcaption>
-    Thermodynamics provides the framework for understanding how heat energy can be harnessed to perform useful work and why some energy is always "lost" to the environment.
+    Thermodynamics is the study of heat and energy. A thermometer works because heat makes things expand. When the liquid inside gets warmer, it takes up more space and moves up the tube to show a higher temperature.
   </figcaption>
 </figure>
-
-
 
 <hr>
 

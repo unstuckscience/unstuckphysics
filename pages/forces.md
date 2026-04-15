@@ -1,16 +1,25 @@
 ---
 title: Forces
-layout: collection
 permalink: /forces/
-collection: concepts
+layout: archive
 entries_layout: list
-sort_by: order
-sort_order: asc
+classes: wide
 sidebar:
-  nav: physics # CORRECTED: To match top-level navigation like motion-1d.md
+  nav: physics
 ---
 
 <p class="lead">Forces are pushes or pulls that can change an object's motion. They are fundamental to understanding how everything in the universe interacts, from the smallest particles to the largest galaxies.</p>
+
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/forces/pexels-rock-balancer-2160737967-36958317.jpg"
+    alt="Four smooth rocks balanced perfectly on top of each other in a tall stack."
+    loading="lazy"
+  />
+  <figcaption>
+    These rocks stay still because the forces acting on them are balanced. Gravity pulls the rocks down, but the rocks underneath push back up with the same amount of strength.
+  </figcaption>
+</figure>
 
 ---
 

@@ -12,19 +12,14 @@ sidebar:
 
 <figure class="concept-figure small-image">
   <img
-    src="/assets/images/circuits/circuit-board-macro.jpg" 
-    alt="A close-up of a circuit board showing resistors, capacitors, and conductive traces"
+    src="/assets/images/circuits/circuit.jpg"
+    alt="A green computer board with many small parts and chips on it."
     loading="lazy"
   />
   <figcaption>
-    Electric circuits are the pathways that allow us to harness electrical energy to do work, from lighting a bulb to powering a supercomputer.
+    This is a circuit board, which is like a map for electricity. The tiny lines on the board act like roads that carry electricity to different parts, allowing your devices to turn on and work.
   </figcaption>
 </figure>
-
-
-
-[Image of a simple electric circuit with a battery, switch, and light bulb]
-
 
 <hr>
 

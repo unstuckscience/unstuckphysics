@@ -11,6 +11,17 @@ sidebar:
 
 <p class="lead">From the compass needle to the most advanced MRI machines, magnetism is a fundamental force that shapes our world. This section explores magnetic fields, the forces exerted on moving charges, and the fascinating relationship between electricity and magnetism.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/magnetism/magnetic.jpg"
+    alt="A refrigerator covered in many colorful souvenir magnets."
+    loading="lazy"
+  />
+  <figcaption>
+    Magnets are special objects that can pull on certain metals. Even though you cannot see it, magnets have an invisible force field that lets them stick to the refrigerator door and hold up your photos or notes.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

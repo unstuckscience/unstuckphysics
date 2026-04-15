@@ -11,6 +11,17 @@ sidebar:
 
 <p class="lead">Energy is the currency of the universe. This section covers the principles of work, mechanical energy, and power, providing the framework to analyze how systems change through interactions without always needing to track every individual force.</p>
 
+<figure class="concept-figure small-image">
+  <img
+    src="/assets/images/work-energy/energy.jpg"
+    alt="A person throwing a blue bowling ball down a lane toward pins."
+    loading="lazy"
+  />
+  <figcaption>
+    When you throw a bowling ball, you give it energy. This is called kinetic energy, or the energy of motion. The ball uses this energy to travel down the lane and knock over the pins.
+  </figcaption>
+</figure>
+
 <hr>
 
 ## Core Concepts

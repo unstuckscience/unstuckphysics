@@ -16,16 +16,14 @@ sidebar:
 
 <figure class="concept-figure small-image">
   <img
-    src="/assets/images/modern/cloud-chamber-tracks.jpg" 
-    alt="Subatomic particle tracks in a cloud chamber showing the paths of ionizing radiation"
+    src="/assets/images/modern-physics/pexels-piebat-806763.jpg"
+    alt="A giant, complex machine inside a laboratory used for physics experiments."
     loading="lazy"
   />
   <figcaption>
-    Modern Physics challenges our intuition, revealing a universe where time is relative, particles act like waves, and energy comes in discrete packets.
+    Modern physics uses giant machines called particle accelerators to study the smallest pieces of the universe. By crashing tiny particles together, scientists can learn how gravity, light, and matter all work together.
   </figcaption>
 </figure>
-
-
 
 <hr>
 

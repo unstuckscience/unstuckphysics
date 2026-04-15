@@ -16,16 +16,14 @@ sidebar:
 
 <figure class="concept-figure small-image">
   <img
-    src="/assets/images/fluids/water-surface-tension.jpg" 
-    alt="A water strider resting on the surface of a pond, demonstrating fluid properties and surface tension"
+    src="/assets/images/fluids/fluid.jpg"
+    alt="Blue liquid splashing out of a glass against a dark background."
     loading="lazy"
   />
   <figcaption>
-    Fluid mechanics bridges the gap between static forces and dynamic motion, exploring how substances that flow respond to external forces and internal pressure.
+    Fluids are materials that can flow and change shape, like the water in this splash. When an object moves through a fluid, or when a fluid moves around an object, it creates a force called pressure.
   </figcaption>
 </figure>
-
-
 
 <hr>
 

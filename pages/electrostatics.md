@@ -12,16 +12,14 @@ sidebar:
 
 <figure class="concept-figure small-image">
   <img
-    src="/assets/images/electrostatics/static-electricity-demo.jpg" 
-    alt="A Van de Graaff generator making hair stand up to demonstrate electrostatic repulsion"
+    src="/assets/images/electrostatics/static.jpg"
+    alt="A glass plasma globe with purple and blue light filaments reaching toward a person's hands."
     loading="lazy"
   />
   <figcaption>
-    Electrostatics investigates how excess charge creates forces of attraction and repulsion, fundamentally shaping the behavior of matter at the atomic level.
+    Electrostatics is the study of electric charges that stay in one place or move slowly. Inside this ball, electricity is trying to reach the ground. When you touch the glass, the colorful light beams move toward your fingers!
   </figcaption>
 </figure>
-
-
 
 <hr>
 
