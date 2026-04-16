@@ -1,7 +1,7 @@
 ---
 title: 📘 Kepler's Second Law
 summary: Understand how planets sweep out equal areas in equal times as they orbit the Sun.
-permalink: /gravitation/keplers-second-law/
+permalink: /concepts/gravitation/keplers-second-law/
 layout: single
 collection: concepts
 topic: gravitation

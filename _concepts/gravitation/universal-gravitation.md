@@ -1,7 +1,7 @@
 ---
 title: 📘 Newton's Law of Universal Gravitation
 summary: Explore the fundamental law that describes the gravitational attraction between all objects with mass.
-permalink: /gravitation/universal-gravitation/
+permalink: /concepts/gravitation/universal-gravitation/
 layout: single
 collection: concepts
 topic: gravitation

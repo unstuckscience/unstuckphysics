@@ -13,7 +13,7 @@ $button-min-width: 100px;
 
 // Base wrapper styles for all vocab matching interactives
 .vocab-matching-interactive-wrapper {
-    background-color: $color-background-light;
+    background-color: #0A3136;
     border: 1px solid $color-border-dark;
     border-radius: $animator-border-radius;
     box-shadow: $box-shadow-light;
@@ -27,7 +27,7 @@ $button-min-width: 100px;
 .vocab-matching-interactive-wrapper .animator-explanation {
     font-style: italic;
     margin-bottom: 1rem;
-    color: $color-text-dark;
+    color: #FFFFFF;
 }
 
 // Container for terms and definitions
@@ -36,7 +36,7 @@ $button-min-width: 100px;
     flex-direction: column;
     gap: 8px;
     padding: 8px;
-    background-color: $color-background-light;
+    background-color: #E6EBEC;
     border: 1px solid $color-border-dark;
     border-radius: $animator-border-radius;
     box-shadow: $box-shadow-light;

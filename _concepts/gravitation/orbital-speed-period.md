@@ -1,7 +1,7 @@
 ---
 title: 📘 Orbital Speed and Period
 summary: Explore the relationship between a satellite's altitude, its velocity, and the time it takes to orbit.
-permalink: /gravitation/orbital-speed-period/
+permalink: /concepts/gravitation/orbital-speed-period/
 layout: single
 collection: concepts
 topic: gravitation

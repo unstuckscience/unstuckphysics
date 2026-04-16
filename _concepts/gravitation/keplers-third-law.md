@@ -1,7 +1,7 @@
 ---
 title: 📘 Kepler's Third Law
 summary: Explore the mathematical relationship between a planet's distance from the Sun and its orbital period.
-permalink: /gravitation/keplers-third-law/
+permalink: /concepts/gravitation/keplers-third-law/
 layout: single
 collection: concepts
 topic: gravitation
