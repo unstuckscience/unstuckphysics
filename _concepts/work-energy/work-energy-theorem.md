@@ -28,7 +28,7 @@ The **Work-Energy Theorem** states that the net work done by all forces acting o
 
 <p>Prefer to listen? Here's a quick audio summary of the Work-Energy Theorem.</p>
 <audio controls class="audio-player" aria-label="Audio summary of the Work-Energy Theorem">
-  <source src="/assets/audio/energy/work-energy-theorem-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/work-energy/work-energy-theorem-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

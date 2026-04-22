@@ -11,6 +11,10 @@ sidebar:
 
 <p class="lead">Why is it easier to open a door from the handle than the hinge? This section translates the laws of linear motion into the world of rotation, covering angular kinematics, moment of inertia, and the turning forces known as torque.</p>
 
+<div class="coming-soon-banner" role="status">
+  🚧 Rotational motion content is currently in development. Full lessons, skills, and problems will roll out during the 2026–2027 school year.
+</div>
+
 <figure class="concept-figure small-image">
   <img
     src="/assets/images/rotational-motion/rotation.jpg"

@@ -23,6 +23,16 @@ Most real-world electronics aren't just series or parallel—they are **Combinat
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a simple explanation of how electricity flows in a complex circuit.</p>
+<audio controls class="audio-player" aria-label="Audio summary of complex circuits">
+  <source src="/assets/audio/circuits/complex-circuits-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **Visual Representation: Circuit Reduction**
 
 

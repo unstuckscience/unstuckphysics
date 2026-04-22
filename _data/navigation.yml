@@ -5,7 +5,7 @@ main:
   - title: "About"
     url: "/about/"
 
-# Main Topics List (Landing Pages)
+# Previous Page List (Landing Pages)
 physics:
   - title: Topics
     children:
@@ -45,8 +45,9 @@ physics:
 # Sidebar Navigations
 intro-concepts:
   - title: Introduction to Physics
-    url: /intro/
     children:
+      - title: "← Back to Previous Page"
+        url: /intro/
       - title: Physics Symbols and Notation
         url: /concepts/intro/physics-symbols/
       - title: SI Units and Base Quantities
@@ -68,8 +69,9 @@ intro-concepts:
 
 motion-1d-concepts:
   - title: Motion in 1D
-    url: /motion-1d/
     children:
+      - title: "← Back to Previous Page"
+        url: /motion-1d/
       - title: Distance and Displacement
         url: /concepts/motion-1d/distance-displacement/
       - title: Position-Time Graphs
@@ -87,8 +89,9 @@ motion-1d-concepts:
 
 motion-2d-concepts:
   - title: Motion in Two Dimensions
-    url: /motion-2d/
     children:
+      - title: "← Back to Previous Page"
+        url: /motion-2d/      
       - title: Vectors and Scalars
         url: /concepts/motion-2d/vectors-scalars/
       - title: Vector Addition and Subtraction
@@ -102,8 +105,9 @@ motion-2d-concepts:
 
 forces-concepts:
   - title: "Forces"
-    url: /forces/
     children:
+      - title: "← Back to Previous Page"
+        url: /forces/
       - title: "Types of Forces"
         url: /concepts/forces/types-of-forces/
       - title: "Newton's First Law (Inertia)"
@@ -131,8 +135,9 @@ forces-concepts:
 
 gravitation-concepts:
   - title: "Gravitation & Planetary Motion"
-    url: /gravitation/
     children:
+      - title: "← Back to Previous Page"
+        url: /gravitation/
       - title: "Kepler's First Law"
         url: /concepts/gravitation/keplers-first-law/
       - title: "Kepler's Second Law"
@@ -148,26 +153,28 @@ gravitation-concepts:
 
 momentum-collisions-concepts:
   - title: "Momentum & Collisions"
-    url: /momentum-collisions/
     children:
+      - title: "← Back to Previous Page"
+        url: /momentum-collisions/
       - title: "Momentum"
         url: /concepts/momentum-collisions/momentum/
       - title: "Impulse"
         url: /concepts/momentum-collisions/impulse/
-      - title: "Impulse Momentum Theorem"
+      - title: "Impulse-Momentum Theorem"
         url: /concepts/momentum-collisions/impulse-momentum-theorem/
       - title: "Conservation of Momentum"
         url: /concepts/momentum-collisions/conservation-of-momentum/
 
 work-energy-concepts:
   - title: "Work & Energy"
-    url: /work-energy/
     children:
+      - title: "← Back to Previous Page"
+        url: /work-energy/
       - title: "Work"
         url: /concepts/work-energy/work/
       - title: "Energy"
         url: /concepts/work-energy/energy/
-      - title: "Work Energy Theorem"
+      - title: "Work-Energy Theorem"
         url: /concepts/work-energy/work-energy-theorem/
       - title: "Conservation of Energy"
         url: /concepts/work-energy/conservation-of-energy/
@@ -176,8 +183,9 @@ work-energy-concepts:
 
 rotational-motion-concepts:
   - title: "Rotational Motion & Torque"
-    url: /rotational-motion/
     children:
+      - title: "← Back to Previous Page"
+        url: /rotational-motion/
       - title: "Angular Motion"
         url: /concepts/rotational-motion/angular-motion/
       - title: "Torque"
@@ -189,8 +197,9 @@ rotational-motion-concepts:
 
 waves-sound-concepts:
   - title: "Waves & Sound"
-    url: /waves-sound/
     children:
+      - title: "← Back to Previous Page"
+        url: /waves-sound/
       - title: "Periodic Motion"
         url: /concepts/waves-sound/periodic-motion/
       - title: "Simple Harmonic Motion"
@@ -208,8 +217,9 @@ waves-sound-concepts:
 
 magnetism-concepts:
   - title: "Magnetism"
-    url: /magnetism/
     children:
+      - title: "← Back to Previous Page"
+        url: /magnetism/
       - title: "Magnetic Field"
         url: /concepts/magnetism/magnetic-field/
       - title: "Magnetic Force"
@@ -223,8 +233,9 @@ magnetism-concepts:
 
 electrostatics-concepts:
   - title: "Electrostatics"
-    url: /electrostatics/
     children:
+      - title: "← Back to Previous Page"
+        url: /electrostatics/
       - title: "Electric Charge"
         url: /concepts/electrostatics/electric-charge/
       - title: "Conductors & Insulators"
@@ -238,10 +249,13 @@ electrostatics-concepts:
 
 circuits-concepts:
   - title: "Circuits"
-    url: /circuits/
     children:
+      - title: "← Back to Previous Page"
+        url: /circuits/
       - title: "Ohm's Law"
         url: /concepts/circuits/ohms-law/
+      - title: "Power & Energy in Circuits"
+        url: /concepts/circuits/power-energy/
       - title: "Series Circuits"
         url: /concepts/circuits/series-circuits/
       - title: "Parallel Circuits"

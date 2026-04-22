@@ -28,7 +28,7 @@ toc_levels: 2..3
 
 <p>Prefer to listen? Here's a quick audio summary of the concept of power.</p>
 <audio controls class="audio-player" aria-label="Audio summary of power">
-  <source src="/assets/audio/energy/power-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/work-energy/power-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

@@ -18,9 +18,18 @@ toc_levels: 2..3
 ---
 
 <p class="lead" markdown="1" style="border-left: 4px solid #2A52BE; padding-left: 1rem;">
-In a **series circuit**, components are connected end-to-end, forming a single loop. There is only one path for the current to take—if that path is broken, the entire circuit fails.
+In a **series circuit**, components are connected end-to-end, forming a single loop. There is only one path for the current to take. If that path is broken, the entire circuit fails.
 </p>
 
+---
+
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a simple explanation of how electricity flows in a series circuit.</p>
+<audio controls class="audio-player" aria-label="Audio summary of series circuits">
+  <source src="/assets/audio/circuits/series-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 ---
 
 ## **Visual Representation**

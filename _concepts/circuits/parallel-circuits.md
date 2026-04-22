@@ -23,6 +23,16 @@ In a **parallel circuit**, components are connected across the same two points, 
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a simple explanation of how electricity flows in a parallel circuit.</p>
+<audio controls class="audio-player" aria-label="Audio summary of parallel circuits">
+  <source src="/assets/audio/circuits/parallel-audio.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+---
+
 ## **Visual Representation**
 
 

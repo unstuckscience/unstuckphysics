@@ -28,7 +28,7 @@ The **Law of Conservation of Energy** states that the total energy of an isolate
 
 <p>Prefer to listen? Here's a quick audio summary of the conservation of energy.</p>
 <audio controls class="audio-player" aria-label="Audio summary of conservation of energy">
-  <source src="/assets/audio/energy/conservation-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/work-energy/conservation-of-energy-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
