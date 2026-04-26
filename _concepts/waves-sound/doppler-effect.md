@@ -6,7 +6,7 @@ layout: single
 collection: concepts
 topic: waves-sound
 tags: [doppler effect, frequency shift, sound, waves, redshift, physics]
-order: 7
+order: 8
 sidebar:
   nav: waves-sound-concepts
 mathjax: true
@@ -28,7 +28,7 @@ The **Doppler Effect** is the change in the observed frequency of a wave when th
 
 <p>Prefer to listen? Here's a breakdown of how motion "bunches up" or "stretches out" wave cycles.</p>
 <audio controls class="audio-player" aria-label="Audio summary of the Doppler effect">
-  <source src="/assets/audio/waves-sound/doppler-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/waves-sound/doppler-effect-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

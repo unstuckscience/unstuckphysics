@@ -28,7 +28,7 @@ toc_levels: 2..3
 
 <p>Prefer to listen? Here's a quick audio summary of how angular momentum stays balanced.</p>
 <audio controls class="audio-player" aria-label="Audio summary of conservation of angular momentum">
-  <source src="/assets/audio/rotational-motion/angular-momentum-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/rotational-motion/conservation-angular-momentum-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

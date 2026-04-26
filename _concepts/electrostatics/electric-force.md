@@ -23,6 +23,12 @@ The **Electric Force** is the interaction between two charged objects. Like grav
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick summary of electric force in electrostatics.</p> <audio controls class="audio-player" aria-label="Audio summary of electric force"> <source src="/assets/audio/electrostatics/electric-force-audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+
+---
+
 ## **Coulomb's Law**
 
 The magnitude of the force between two point charges is given by:

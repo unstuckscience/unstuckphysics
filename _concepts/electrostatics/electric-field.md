@@ -23,6 +23,12 @@ An **Electric Field** is a map of the force that a "test charge" would feel at a
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick summary of electric fields in electrostatics.</p> <audio controls class="audio-player" aria-label="Audio summary of electric field"> <source src="/assets/audio/electrostatics/electric-field-audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+
+---
+
 ## **Field Lines**
 
 

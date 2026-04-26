@@ -28,7 +28,7 @@ Unlike solid objects, two waves can exist in the exact same place at the exact s
 
 <p>Prefer to listen? Here's a quick explanation of how waves add up and cancel out.</p>
 <audio controls class="audio-player" aria-label="Audio summary of wave interference">
-  <source src="/assets/audio/waves-sound/interference-audio.mp3" type="audio/mpeg">
+  <source src="/assets/audio/waves-sound/wave-interference-audio.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 

@@ -23,6 +23,11 @@ toc_levels: 2..3
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick summary of electric potential in electrostatics.</p> <audio controls class="audio-player" aria-label="Audio summary of electric potential"> <source src="/assets/audio/electrostatics/electric-potential-audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+---
+
 ## **Potential vs. Potential Energy**
 
 Think of electric potential like "height" in a gravitational field. A high potential doesn't mean there is energy unless you actually place a charge there to feel it.

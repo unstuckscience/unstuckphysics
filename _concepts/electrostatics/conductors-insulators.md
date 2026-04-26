@@ -22,6 +22,12 @@ Materials are classified by how easily they allow electrons to move through them
 
 ---
 
+## **Audio Explanation**
+
+<p>Prefer to listen? Here's a quick summary of conductors and insulators in electrostatics.</p> <audio controls class="audio-player" aria-label="Audio summary of conductors and insulators in electrostatics"> <source src="/assets/audio/electrostatics/conductors-insulators-audio.mp3" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+
+---
+
 ## **Visual Representation**
 
 
