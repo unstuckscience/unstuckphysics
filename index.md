@@ -9,14 +9,14 @@ layout: splash
   <div class="hero-content">
     <img src="/assets/images/logo.png" alt="Unstuck Physics Logo" class="hero-logo">
     <div>
-      <p class="lead">Feeling lost or overwhelmed by physics? You're not alone, and you're in the right place.</p>
-      <p>Unstuck Physics is designed to cut through the confusion and provide you with clear, direct, and actionable resources. We break down complex topics, build essential problem-solving skills, and offer targeted practice to help you truly understand physics, one step at a time.</p>
+      <p class="lead">Physics is tough, but it shouldn't feel impossible.</p>
+      <p>Unstuck Physics cuts through the noise by separating topics into distinct concepts and skills. We break every core concept down until it takes no more than one or two images to completely understand the idea.</p>
     </div>
   </div>
 </div>
 
 <div class="work-in-progress-banner" style="background-color: #ffc107; color: #333; padding: 10px 20px; text-align: center; font-weight: bold; margin-bottom: 20px; border-radius: 5px;">
-  This website is under active development! It's being collaboratively built and enhanced by a small group of physics classes in a Massachusetts high school throughout the 2025-2026 school year. Expect regular updates! 🚀
+  This website is under active development in preparation for the 2026-2027 school year.
 </div>
 
 
