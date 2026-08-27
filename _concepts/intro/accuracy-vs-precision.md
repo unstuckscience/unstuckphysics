@@ -31,6 +31,99 @@ toc_levels: 2..3
 
 ---
 
+## **Visual Representation**
+
+<svg viewBox="0 0 1000 600" width="100%" height="100%" style="width: 100%; height: auto; max-width: 100%;" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-title svg-desc">
+    <title id="svg-title">Accuracy vs. Precision Targets Infographic</title>
+    <desc id="svg-desc">A high-contrast black and white diagram comparing accuracy and precision across four target displays. The targets show different groupings of white hit marks with black outlines: Target 1 is accurate but not precise, with marks widely and evenly scattered around the bullseye. Target 2 is precise but not accurate, with a tight cluster far to the upper right. Target 3 is neither accurate nor precise, with a wide, chaotic scatter biased heavily to the lower right. Target 4 is both accurate and precise, with all marks tightly clustered directly on the center bullseye.</desc>
+
+    <style>
+        .target-outline { fill: none; stroke: #000000; stroke-width: 3; }
+        .bullseye-center { fill: #000000; }
+        
+        /* High-contrast accessible hit markers */
+        .hit-bg { fill: #FFFFFF; stroke: #000000; stroke-width: 2; }
+        
+        /* Typography */
+        .main-title { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 38px; font-weight: 800; fill: #000000; letter-spacing: 2px; }
+        .sub-label { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #000000; }
+    </style>
+
+    <defs>
+        <!-- Reusable high-contrast Target Template -->
+        <g id="target">
+            <circle cx="0" cy="0" r="105" class="target-outline"/>
+            <circle cx="0" cy="0" r="75" class="target-outline"/>
+            <circle cx="0" cy="0" r="45" class="target-outline"/>
+            <circle cx="0" cy="0" r="22" class="bullseye-center"/>
+        </g>
+
+        <!-- Reusable high-contrast Hit (Plain white circle with black outline) -->
+        <g id="hit">
+            <circle cx="0" cy="0" r="9" class="hit-bg" />
+        </g>
+    </defs>
+
+    <!-- Background (Explicitly white for clean printing) -->
+    <rect width="1000" height="600" fill="#FFFFFF"/>
+
+    <!-- ================= TARGET 1: ACCURATE, NOT PRECISE ================= -->
+    <g transform="translate(160, 290)" aria-label="Target 1: Accurate, Not Precise. Highly scattered hits balanced evenly around the center.">
+        <use href="#target"/>
+        <!-- Widely and evenly scattered around the bullseye. Center of mass = (0,0) -->
+        <use href="#hit" x="0" y="-80"/>   <!-- Top -->
+        <use href="#hit" x="0" y="80"/>    <!-- Bottom -->
+        <use href="#hit" x="-80" y="0"/>   <!-- Left -->
+        <use href="#hit" x="80" y="0"/>    <!-- Right -->
+        <use href="#hit" x="-55" y="-55"/> <!-- Top-Left -->
+        <use href="#hit" x="55" y="55"/>   <!-- Bottom-Right -->
+    </g>
+    <text x="160" y="460" text-anchor="middle" class="sub-label" aria-hidden="true">Accurate,</text>
+    <text x="160" y="495" text-anchor="middle" class="sub-label" aria-hidden="true">Not Precise</text>
+
+    <!-- ================= TARGET 2: PRECISE, NOT ACCURATE ================= -->
+    <g transform="translate(385, 290)" aria-label="Target 2: Precise, Not Accurate. A tight cluster of hits positioned far off-center in the upper-right ring.">
+        <use href="#target"/>
+        <!-- Tightly clustered together but highly off-center (Top-Right edge) -->
+        <use href="#hit" x="65" y="-65"/>
+        <use href="#hit" x="78" y="-55"/>
+        <use href="#hit" x="58" y="-78"/>
+        <use href="#hit" x="78" y="-75"/>
+        <use href="#hit" x="60" y="-58"/>
+    </g>
+    <text x="385" y="460" text-anchor="middle" class="sub-label" aria-hidden="true">Precise,</text>
+    <text x="385" y="495" text-anchor="middle" class="sub-label" aria-hidden="true">Not Accurate</text>
+
+    <!-- ================= TARGET 3: NOT ACCURATE, NOT PRECISE ================= -->
+    <g transform="translate(615, 290)" aria-label="Target 3: Not Accurate, Not Precise. Hits scattered widely and chaotically with a clear bias to the lower right.">
+        <use href="#target"/>
+        <!-- Scattered with high entropy, heavily biased towards the lower-right sector -->
+        <use href="#hit" x="15" y="25"/>
+        <use href="#hit" x="45" y="65"/>
+        <use href="#hit" x="80" y="30"/>
+        <use href="#hit" x="25" y="85"/>
+        <use href="#hit" x="-15" y="50"/>
+        <use href="#hit" x="55" y="5"/>
+    </g>
+    <text x="615" y="460" text-anchor="middle" class="sub-label" aria-hidden="true">Not Accurate,</text>
+    <text x="615" y="495" text-anchor="middle" class="sub-label" aria-hidden="true">Not Precise</text>
+
+    <!-- ================= TARGET 4: ACCURATE, PRECISE ================= -->
+    <g transform="translate(840, 290)" aria-label="Target 4: Accurate, Precise. All hits tightly grouped together directly on the central black bullseye.">
+        <use href="#target"/>
+        <!-- All tightly clustered directly on the center bullseye -->
+        <use href="#hit" x="0" y="0"/>
+        <use href="#hit" x="8" y="-8"/>
+        <use href="#hit" x="-8" y="8"/>
+        <use href="#hit" x="8" y="8"/>
+        <use href="#hit" x="-8" y="-8"/>
+    </g>
+    <text x="840" y="460" text-anchor="middle" class="sub-label" aria-hidden="true">Accurate,</text>
+    <text x="840" y="495" text-anchor="middle" class="sub-label" aria-hidden="true">Precise</text>
+</svg>
+
+---
+
 ## **What is Accuracy?**
 
 **Accuracy** is how close a measurement is to the **true** or **actual** value. Think of it like hitting the bullseye on a dartboard. If your dart hits the very center, you are accurate. 
